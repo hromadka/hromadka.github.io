@@ -1,0 +1,2170 @@
+Name,Age,Position,Lifeboat,Survived,Class,HomeNation,PositionDetailed
+"Allen, Miss Elizabeth Walton",29,P,2,1,1,USA,Passenger
+"Allison, Mr. Hudson Joshua Creighton",30,P,,0,1,Canada,Passenger
+"Swane, Mr. George Swane",19,P,,0,1,Canada,Passenger
+"Brown, Miss Amelia Mary ""Mildred""",18,P,11,1,1,England,Passenger
+"Allison, Mrs. Bessie Waldo (née Daniels)",25,P,,0,1,Canada,Passenger
+"Daniels, Miss Sarah ",33,P,8,1,1,Canada,Passenger
+"Allison, Miss Helen Loraine",2,P,,0,1,Canada,Passenger
+"Allison, Master Hudson Trevor",1,P,11,1,1,Canada,Passenger
+"Cleaver, Miss Alice Catherine ",22,P,11,1,1,England,Passenger
+"Anderson, Mr. Harry",47,P,3,1,1,USA,Passenger
+"Andrews, Miss Kornelia Theodosia",62,P,10,1,1,USA,Passenger
+"Andrews, Mr. Thomas",39,P,,0,1,Ireland,Passenger
+"Appleton, Mrs. Charlotte Lane (née Lamson)",53,P,2,1,1,USA,Passenger
+"Artagaveytia, Mr. Ramon",71,P,,0,1,Argentina,Passenger
+"Astor, Colonel John Jacob IV",47,P,,0,1,USA,Passenger
+"Astor, Mrs. Madeleine Talmage (née Force)",18,P,4,1,1,USA,Passenger
+"Bidois, Miss Rosalie ",46,P,4,1,1,USA,Passenger
+"Endres, Miss Caroline Louise ",39,P,4,1,1,USA,Passenger
+"Aubart, Mrs. Léontine Pauline[50]",24,P,9,1,1,France,Passenger
+"Sägesser, Miss Emma ",24,P,9,1,1,France,Passenger
+"Barkworth, Mr. Algernon Henry Wilson",47,P,B,1,1,England,Passenger
+"Baumann, Mr. John D.",60,P,,0,1,USA,Passenger
+"Baxter, Mrs. Hélène (née de Lanaudière-Chaput)",50,P,6,1,1,Canada,Passenger
+"Baxter, Mr. Quigg Edmond",24,P,,0,1,Canada,Passenger
+"Beattie, Mr. Thomson",36,P,A[51],1,1,Canada,Passenger
+"Beckwith, Mr. Richard Leonard",37,P,5,1,1,USA,Passenger
+"Beckwith, Mrs. Sallie (née Monypeny)",46,P,5,1,1,USA,Passenger
+"Behr, Mr. Karl Howell",26,P,5,1,1,USA,Passenger
+"Birnbaum, Mr. Jakob",24,P,--,0,1,Belgium,Passenger
+"Bishop, Mr. Dickinson H. ""Dick""",25,P,7,1,1,USA,Passenger
+"Bishop, Mrs. Helen (née Walton)[52][53]",19,P,7,1,1,USA,Passenger
+"Björnström-Steffanson, Mr. Mauritz Håkan",28,P,D,1,1,Sweden,Passenger
+"Blackwell, Mr. Stephen Weart",45,P,,0,1,USA,Passenger
+"Blank, Mr. Henry",39,P,7,1,1,USA,Passenger
+"Bonnell, Miss Elizabeth",61,P,8,1,1,USA,Passenger
+"Bonnell, Miss Caroline",30,P,8,1,1,USA,Passenger
+"Borebank, Mr. John James",42,P,,0,1,England,Passenger
+"Bowerman, Miss Elsie Edith",22,P,6,1,1,England,Passenger
+"Brady, Mr. John Bertram",41,P,,0,1,USA,Passenger
+"Brandeis, Mr. Emil",48,P,,0,1,USA,Passenger
+"Brereton, Mr. George Andrew (alias George A. Brayton)",37,P,9,1,1,USA,Passenger
+"Brewe, Dr. Arthur Jackson",45,P,,0,1,USA,Passenger
+"Brown, Mrs. Caroline Lane (née Lamson)",59,P,D,1,1,USA,Passenger
+"Brown, Mrs. Margaret (née Tobin)",44,P,6,1,1,USA,Passenger
+"Bucknell, Mrs. Emma Eliza (née Ward)",59,P,8,1,1,USA,Passenger
+"Bazzani, Miss Albina ",36,P,8,1,1,USA,Passenger
+"Butt, Major Archibald Willingham",46,P,,0,1,USA,Passenger
+"Calderhead, Mr. Edward Pennington",42,P,5,1,1,USA,Passenger
+"Candee, Mrs. Helen Churchill (née Hungerford)",53,P,6,1,1,USA,Passenger
+"Cardeza, Mrs. Charlotte Wardle (née Drake)",58,P,3,1,1,USA,Passenger
+"Ward, Miss Annie Moore ",38,P,3,1,1,USA,Passenger
+"Cardeza, Mr. Thomas Drake Martinez",36,P,3,1,1,USA,Passenger
+"Lesueur, Mr. Gustave J. ",35,P,3,1,1,USA,Passenger
+"Carlsson, Mr. Frans Olof",33,P,,0,1,USA,Passenger
+"Carrau, Mr. Francisco M.",31,P,,0,1,Uruguay,Passenger
+"Carrau, Mr. José Pedro",17,P,,0,1,Uruguay,Passenger
+"Carter, Mr. William Ernest",36,P,C,1,1,USA,Passenger
+"Cairns, Mr. Alexander ",28,P,,0,1,USA,Passenger
+"Aldworth, Mr. Charles Augustus",30,P,,0,1,USA,Passenger
+"Carter, Mrs. Lucile (née Polk)",36,P,4,1,1,USA,Passenger
+"Serreplan, Miss Auguste ",30,P,4,1,1,USA,Passenger
+"Carter, Miss Lucile Polk",13,P,4,1,1,USA,Passenger
+"Carter, Master William Thornton II",11,P,4,1,1,USA,Passenger
+"Case, Mr. Howard Brown",49,P,,0,1,England,Passenger
+"Cassebeer, Mrs. Eleanor Genevieve (née Fosdick)",36,P,5,1,1,USA,Passenger
+"Cavendish, Mr. Tyrell William",36,P,,0,1,England,Passenger
+"Cavendish, Mrs. Julia Florence (née Siegel)",25,P,6,1,1,England,Passenger
+"Barber, Miss Ellen ""Nellie"" ",26,P,6,1,1,England,Passenger
+"Chaffee, Mr. Hubert Fuller",46,P,,0,1,USA,Passenger
+"Chaffee, Mrs. Carrie Constance (née Toogood)",47,P,4,1,1,USA,Passenger
+"Chambers, Mr. Norman Campbell",27,P,5,1,1,USA,Passenger
+"Chambers, Mrs. Bertha (née Griggs)",32,P,5,1,1,USA,Passenger
+"Cherry, Miss Gladys",30,P,8,1,1,England,Passenger
+"Chevré, Mr. Paul Romaine Marie Léonce",45,P,7,1,1,France,Passenger
+"Chibnall, Mrs. Edith Martha Bowerman (née Barber)",48,P,6,1,1,England,Passenger
+"Chisholm, Mr. Roderick Robert Crispin[54]",40,P,,0,1,Ireland,Passenger
+"Clark, Mr. Walter Miller",27,P,,0,1,USA,Passenger
+"Clark, Mrs. Virginia Estelle (née McDowell)",26,P,4,1,1,USA,Passenger
+"Clifford, Mr. George Quincy",40,P,,0,1,USA,Passenger
+"Colley, Mr. Edward Pomeroy",37,P,,0,1,Ireland,Passenger
+"Compton, Mrs. Mary Eliza (née Ingersoll)",64,P,14,1,1,USA,Passenger
+"Compton, Miss Sara Rebecca",39,P,14,1,1,USA,Passenger
+"Compton, Mr. Alexander Taylor Jr.",37,P,,0,1,USA,Passenger
+"Cornell, Mrs. Malvina Helen (née Lamson)",55,P,2,1,1,USA,Passenger
+"Crafton, Mr. John Bertram",59,P,,0,1,USA,Passenger
+"Crosby, Captain Edward",70,P,,0,1,USA,Passenger
+"Crosby, Mrs. Catherine Elizabeth (née Halstead)",64,P,7,1,1,USA,Passenger
+"Crosby, Miss Harriette Rebecca",39,P,7,1,1,USA,Passenger
+"Cumings, Mr. John Bradley",39,P,,0,1,USA,Passenger
+"Cumings, Mrs. Florence Briggs (née Thayer)",35,P,4,1,1,USA,Passenger
+"Daly, Mr. Peter Dennis",51,P,A,1,1,Peru,Passenger
+"Daniel, Mr. Robert Williams",27,P,3,1,1,USA,Passenger
+"Davidson, Mr. Thornton",31,P,,0,1,Canada,Passenger
+"Davidson, Mrs. Orian (née Hays)",27,P,3,1,1,Canada,Passenger
+"Dick, Mr. Albert Adrian",31,P,3,1,1,Canada,Passenger
+"Dick, Mrs. Vera (née Gillespie)",17,P,3,1,1,Canada,Passenger
+"Dodge, Dr. Washington",52,P,13,1,1,USA,Passenger
+"Dodge, Mrs. Ruth (née Vidaver)",34,P,5,1,1,USA,Passenger
+"Dodge, Master Washington, Jr.",4,P,5,1,1,USA,Passenger
+"Douglas, Mr. Walter Donald",50,P,,0,1,USA,Passenger
+"Douglas, Mrs. Mahala (née Dutton)",48,P,2,1,1,USA,Passenger
+"Leroy, Miss Berthe ",27,P,2,1,1,USA,Passenger
+"Douglas, Mrs. Mary Hélène (née Baxter)",27,P,6,1,1,Canada,Passenger
+"Duff Gordon, Sir Cosmo Edmund",49,P,1,1,1,England,Passenger
+"Duff Gordon, Lucy Christiana, Lady (née Sutherland)",48,P,1,1,1,England,Passenger
+"Francatelli, Miss Laura Mabel ",31,P,1,1,1,England,Passenger
+"Dulles, Mr. William Crothers",39,P,,0,1,USA,Passenger
+"Edward, Mr. John Samuel",27,P,5,1,1,Belarus,Passenger
+"Eustis, Miss Elizabeth Mussey",54,P,4,1,1,USA,Passenger
+"Evans, Miss Edith Corse",36,P,,0,1,USA,Passenger
+"Flegenheim, Mrs. Antoinette (née Liche)",48,P,7,1,1,USA,Passenger
+"Flynn, Mr. John Irwin",36,P,5,1,1,USA,Passenger
+"Foreman, Mr. Benjamin Laventall",30,P,,0,1,USA,Passenger
+"Fortune, Mr. Mark",64,P,,0,1,Canada,Passenger
+"Fortune, Mrs. Mary (née McDougald)",60,P,10,1,1,Canada,Passenger
+"Fortune, Miss Ethel Flora",28,P,10,1,1,Canada,Passenger
+"Fortune, Miss Alice Elizabeth",24,P,10,1,1,Canada,Passenger
+"Fortune, Miss Mabel Helen",23,P,10,1,1,Canada,Passenger
+"Fortune, Mr. Charles Alexander",19,P,,0,1,Canada,Passenger
+"Franklin, Mr. Thomas Parnham",37,P,,0,1,England,Passenger
+"Frauenthal, Dr. Henry William",49,P,5,1,1,England,Passenger
+"Frauenthal, Mrs. Clara (née Heinsheimer)",42,P,5,1,1,England,Passenger
+"Frauenthal, Mr. Isaac Gerald",43,P,5,1,1,England,Passenger
+"Frölicher, Mr. Maximilian Josef",60,P,5,1,1,Switzerland,Passenger
+"Frölicher, Mrs. Margaretha Emerentia (née Stehli)",48,P,5,1,1,Switzerland,Passenger
+"Frölicher-Stehli, Miss Hedwig Margaritha",22,P,5,1,1,Switzerland,Passenger
+"Futrelle, Mr. Jacques Heath",37,P,,0,1,USA,Passenger
+"Futrelle, Mrs. Lily May (née Peel)",35,P,D,1,1,USA,Passenger
+"Gee, Mr. Arthur H.",47,P,,0,1,England,Passenger
+"Gibson, Mrs. Pauline Caroline (née Boeson)",44,P,7,1,1,USA,Passenger
+"Gibson, Miss Dorothy Winifred",22,P,7,1,1,USA,Passenger
+"Goldenberg, Mr. Samuel L.",47,P,5,1,1,France,Passenger
+"Goldenberg, Mrs. Nella (née Wiggins)",40,P,5,1,1,France,Passenger
+"Goldschmidt, Mr. George B.",71,P,,0,1,USA,Passenger
+"Gracie IV, Archibald",53,P,B,1,1,USA,Passenger
+"Graham, Mr. George Edward",38,P,,0,1,Canada,Passenger
+"Graham, Mrs. Edith Ware (née Junkins)",59,P,3,1,1,USA,Passenger
+"Graham, Miss Margaret Edith",19,P,3,1,1,USA,Passenger
+"Shutes, Miss Elizabeth Weed ",40,P,3,1,1,USA,Passenger
+"Greenfield, Mrs. Blanche (née Strouse)",45,P,7,1,1,USA,Passenger
+"Greenfield, Mr. William Bertram",23,P,7,1,1,USA,Passenger
+"Guggenheim, Mr. Benjamin",46,P,,0,1,France,Passenger
+"Giglio, Mr. Victor ",24,P,,0,1,France,Passenger
+"Pernot, Mr. René",39,P,,0,1,France,Passenger
+"Harder, Mr. George Achilles",25,P,5,1,1,USA,Passenger
+"Harder, Mrs. Dorothy (née Annan)",21,P,5,1,1,USA,Passenger
+"Harper, Mr. Henry Sleeper",48,P,3,1,1,USA,Passenger
+"Hassab, Mr. Hammad ",27,P,3,1,1,Egypt,Passenger
+"Harper, Mrs. Myna (née Haxtun)",49,P,3,1,1,USA,Passenger
+"Harris, Mr. Henry Birkhardt",45,P,,0,1,USA,Passenger
+"Harris, Mrs. Irene (née Wallach)",35,P,D,1,1,USA,Passenger
+"Hawksford, Mr. Walter James",45,P,3,1,1,England,Passenger
+"Hays, Mr. Charles Melville",55,P,,0,1,Canada,Passenger
+"Payne, Mr. Vivian Ponsonby ",22,P,,0,1,Canada,Passenger
+"Hays, Mrs. Clara Jennings (née Grigg)",52,P,3,1,1,Canada,Passenger
+"Perreault, Miss Mary Anne ",33,P,3,1,1,Canada,Passenger
+"Hays, Miss Margaret Bechstein",24,P,7,1,1,USA,Passenger
+"Head, Mr. Christopher",42,P,,0,1,England,Passenger
+"Hilliard, Mr. Herbert Henry",44,P,,0,1,USA,Passenger
+"Hipkins, Mr. William Edward",55,P,,0,1,England,Passenger
+"Hippach, Mrs. Ida Sophia (née Fischer)",44,P,4,1,1,USA,Passenger
+"Hippach, Miss Jean Gertrude",17,P,4,1,1,USA,Passenger
+"Hogeboom, Mrs. Anna Louisa (née Andrews)",51,P,10,1,1,USA,Passenger
+"Holverson, Mr. Alexander Oskar",42,P,,0,1,USA,Passenger
+"Holverson, Mrs. Mary Aline (née Towner)",35,P,8,1,1,USA,Passenger
+"Homer, Mr. Harry (alias E. Haven)",40,P,15,1,1,USA,Passenger
+"Hoyt, Mr. Frederick Maxfield",35,P,D,1,1,USA,Passenger
+"Hoyt, Mrs. Jane Anne (née Forby)",31,P,D,1,1,USA,Passenger
+"Hoyt, Mr. William Fisher",42,P,14,1,1,USA,Passenger
+"Isham, Miss Ann Elizabeth",50,P,,0,1,USA,Passenger
+"Ismay, Mr. Joseph Bruce",49,P,C,1,1,England,Passenger
+"Fry, Mr. John Richard ",39,P,,0,1,England,Passenger
+"Harrison, Mr. William Henry ",45,P,,0,1,England,Passenger
+"Jones, Mr. Charles Cresson",46,P,,0,1,USA,Passenger
+"Julian, Mr. Henry Forbes",50,P,,0,1,England,Passenger
+"Kent, Mr. Edward Austin",58,P,,0,1,USA,Passenger
+"Kenyon, Mr. Frederick R.",41,P,,0,1,USA,Passenger
+"Kenyon, Mrs. Marion (née Stauffer)[52][57]",31,P,8,1,1,USA,Passenger
+"Kimball, Mr. Edwin Nelson Jr.",42,P,5,1,1,USA,Passenger
+"Kimball, Mrs. Gertrude (née Parsons)",45,P,5,1,1,USA,Passenger
+"Klaber, Mr. Herman",--,P,,0,1,USA,Passenger
+"Lambert-Williams, Mr. Fletcher Fellows",--,P,,0,1,England,Passenger
+"Leader, Dr. Alice (née Farnham)",49,P,8,1,1,USA,Passenger
+"Leslie, Lucy Noël Martha, Countess of Rothes (née Dyer-Edwardes)",27,P,8,1,1,Canada,Passenger
+"Maioni, Miss Roberta Elizabeth Mary ""Cissy""",20,P,8,1,1,Canada,Passenger
+"Lewy, Mr. Ervin G.",31,P,,0,1,USA,Passenger
+"Lindeberg-Lind, Mr. Erik Gustav (alias Edward Lingrey)",42,P,,0,1,Sweden,Passenger
+"Lindström, Mrs. Sigrid (née Posse)",55,P,6,1,1,Sweden,Passenger
+"Lines, Mrs. Elizabeth Lindsey (née James)",50,P,9,1,1,France,Passenger
+"Lines, Miss Mary Conover",16,P,9,1,1,France,Passenger
+"Long, Mr. Milton Clyde",29,P,,0,1,USA,Passenger
+"Longley, Miss Gretchen Fiske",21,P,10,1,1,USA,Passenger
+"Loring, Mr. Joseph Holland",30,P,,0,1,England,Passenger
+"Madill, Miss Georgette Alexandra",16,P,2,1,1,USA,Passenger
+"Maguire, Mr. John Edward",30,P,,0,1,USA,Passenger
+"Maréchal, Mr. Pierre, Sr.",28,P,7,1,1,France,Passenger
+"Marvin, Mr. Daniel Warner",18,P,,0,1,USA,Passenger
+"Marvin, Mrs. Mary Graham Carmichael (née Farquarson)[52][59]",18,P,10,1,1,USA,Passenger
+"Mayné, Miss Bertha Antonine",24,P,6,1,1,Belgium,Passenger
+"McCaffry, Mr. Thomas Francis",46,P,,0,1,Canada,Passenger
+"McCarthy, Mr. Timothy J.",54,P,,0,1,USA,Passenger
+"McGough, Mr. James Robert",35,P,7,1,1,USA,Passenger
+"Meyer, Mr. Edgar Joseph",28,P,,0,1,USA,Passenger
+"Meyer, Mrs. Leila (née Saks)",25,P,6,1,1,USA,Passenger
+"Millet, Mr. Francis Davis",65,P,,0,1,USA,Passenger
+"Minahan, Dr. William Edward",44,P,,0,1,USA,Passenger
+"Minahan, Mrs. Lillian E. (née Thorpe)",37,P,14,1,1,USA,Passenger
+"Minahan, Miss Daisy E.",33,P,14,1,1,USA,Passenger
+"Mock, Mr. Philipp Edmund",30,P,11,1,1,USA,Passenger
+"Molson, Mr. Harry Markland",55,P,,0,1,Canada,Passenger
+"Moore, Mr. Clarence Bloomfield",47,P,,0,1,USA,Passenger
+"Harrington, Mr. Charles Henry ",37,P,,0,1,USA,Passenger
+"Natsch, Mr. Charles",36,P,,0,1,USA,Passenger
+"Newell, Mr. Arthur Webster",58,P,,0,1,USA,Passenger
+"Newell, Miss Madeleine",31,P,6,1,1,USA,Passenger
+"Newell, Miss Marjorie Anne",23,P,6,1,1,USA,Passenger
+"Newsom, Miss Helen Monypeny",19,P,5,1,1,USA,Passenger
+"Nicholson, Mr. Arthur Ernest",64,P,,0,1,England,Passenger
+"Nourney, Mr. Alfred",20,P,7,1,1,Germany,Passenger
+"Omont, Mr. Alfred Fernand",29,P,7,1,1,France,Passenger
+"Ostby, Mr. Engelhart Cornelius",64,P,,0,1,USA,Passenger
+"Ostby, Miss Helene Ragnhild",22,P,5,1,1,USA,Passenger
+"Ovies y Rodriguez, Mr. Servando José Florentino",36,P,,0,1,Cuba,Passenger
+"Parr, Mr. William Henry Marsh[54]",29,P,,0,1,Ireland,Passenger
+"Partner, Mr. Austin",40,P,,0,1,England,Passenger
+"Pears, Mr. Thomas Clinton",29,P,,0,1,England,Passenger
+"Pears, Mrs. Edith (née Wearne)",22,P,8,1,1,England,Passenger
+"Peñasco y Castellana, Mr. Victor",24,P,,0,1,Spain,Passenger
+"Peñasco y Castellana, Mrs. Maria Josefa (née Perez de Soto y Vallejo)",22,P,8,1,1,Spain,Passenger
+"Oliva y Ocana, Doña Fermina ",39,P,8,1,1,Spain,Passenger
+"Peuchen, Major Arthur Godfrey",52,P,6,1,1,Canada,Passenger
+"Porter, Mr. Walter Chamberlain",46,P,,0,1,USA,Passenger
+"Potter, Mrs. Lily Alexenia (née Wilson)",56,P,7,1,1,USA,Passenger
+"Reuchlin, The Honourable Mr. Johan George",38,P,,0,1,The Netherlands,Passenger
+"Rheims, Mr. George Alexander Lucien",36,P,A,1,1,France,Passenger
+"Robert, Mrs. Elisabeth Walton (née McMillan)",43,P,2,1,1,USA,Passenger
+"Kreuchen, Miss Emilie ",29,P,2,1,1,USA,Passenger
+"Roebling, Mr. Washington Augustus II",31,P,,0,1,USA,Passenger
+"Romaine, Mr. Charles Hallance (alias C. Rolmane)",45,P,9,1,1,USA,Passenger
+"Rood, Mr. Hugh Roscoe",38,P,,0,1,USA,Passenger
+"Rosenbaum, Miss Edith Louise",34,P,11,1,1,France,Passenger
+"Rosenshine, Mr. George (alias George Thorne)",46,P,,0,1,USA,Passenger
+"Ross, Mr. John Hugo",36,P,,0,1,Canada,Passenger
+"Rothschild, Mr. Martin",46,P,,0,1,USA,Passenger
+"Rothschild, Mrs. Elizabeth Jane Anne (née Barrett)",54,P,6,1,1,USA,Passenger
+"Rowe, Mr. Alfred G.",59,P,,0,1,England,Passenger
+"Ryerson, Mr. Arthur Larned",61,P,,0,1,USA,Passenger
+"Ryerson, Mrs. Emily Maria (née Borie)",48,P,4,1,1,USA,Passenger
+"Chaudanson, Miss Victorine ",36,P,4,1,1,USA,Passenger
+"Ryerson, Miss Susan Parker ""Suzette""",21,P,4,1,1,USA,Passenger
+"Ryerson, Miss Emily Borie",18,P,4,1,1,USA,Passenger
+"Ryerson, Master John Borie ""Jack""",13,P,4,1,1,USA,Passenger
+"Bowen, Miss Grace Scott ",45,P,4,1,1,USA,Passenger
+"Saalfeld, Mr. Adolphe",47,P,3,1,1,England,Passenger
+"Salomon, Mr. Abraham Lincoln",43,P,1,1,1,USA,Passenger
+"Schabert, Mrs. Emma (née Mock)",35,P,11,1,1,Germany,Passenger
+"Seward, Mr. Frederic Kimber",34,P,7,1,1,USA,Passenger
+"Silverthorne, Mr. Spencer Victor",35,P,5,1,1,USA,Passenger
+"Silvey, Mr. William Baird",50,P,,0,1,USA,Passenger
+"Silvey, Mrs. Alice (née Munger)",39,P,11,1,1,USA,Passenger
+"Simonius-Blumer, Colonel Alfons",56,P,3,1,1,Switzerland,Passenger
+"Sloper, Mr. William Thompson",28,P,7,1,1,USA,Passenger
+"Smart, Mr. John Montgomery",56,P,,0,1,England,Passenger
+"Smith, Mr. James Clinch",56,P,,0,1,France,Passenger
+"Smith, Mr. Lucien Philip",24,P,,0,1,USA,Passenger
+"Smith, Mrs. Mary Eloise (née Hughes)",18,P,6,1,1,USA,Passenger
+"Smith, Mr. Richard William",57,P,,0,1,England,Passenger
+"Snyder, Mr. John Pillsbury",24,P,7,1,1,USA,Passenger
+"Snyder, Mrs. Nellie (née Stevenson)",23,P,7,1,1,USA,Passenger
+"Spedden, Mr. Frederic Oakley",45,P,3,1,1,USA,Passenger
+"Spedden, Mrs. Margaretta Corning (née Stone)",39,P,3,1,1,USA,Passenger
+"Wilson, Miss Helen Alice ",31,P,3,1,1,USA,Passenger
+"Spedden, Master Robert Douglas",6,P,3,1,1,USA,Passenger
+"Burns, Miss Elizabeth Margaret ",41,P,3,1,1,USA,Passenger
+"Spencer, Mr. William Augustus",57,P,,0,1,USA,Passenger
+"Spencer, Mrs. Marie Eugenie",45,P,6,1,1,USA,Passenger
+"Lurette, Miss Eugenie Elise ",59,P,6,1,1,USA,Passenger
+"Stähelin-Maeglin, Dr. Max",32,P,3,1,1,Switzerland,Passenger
+"Stead, Mr. William Thomas",62,P,,0,1,England,Passenger
+"Stengel, Mr. Charles Emil Henry",54,P,1,1,1,USA,Passenger
+"Stengel, Mrs. Annie May (née Morris)",44,P,5,1,1,USA,Passenger
+"Stephenson, Mrs. Martha (née Eustis)",52,P,4,1,1,France,Passenger
+"Stewart, Mr. Albert A.",54,P,,0,1,USA,Passenger
+"Stone, Mrs. Martha Evelyn (née Stevens)",62,P,6,1,1,USA,Passenger
+"Icard, Miss Amelie ""Amelia"" ",38,P,6,1,1,USA,Passenger
+"Straus, Mr. Isidor",67,P,,0,1,USA,Passenger
+"Farthing, Mr. John ",57,P,,0,1,USA,Passenger
+"Straus, Mrs. Rosalie Ida (née Blun)",63,P,,0,1,USA,Passenger
+"Bird, Miss Ellen ",31,P,8,1,1,USA,Passenger
+"Sutton, Mr. Frederick",61,P,,0,1,USA,Passenger
+"Swift, Mrs. Margaret Welles (née Barron)",46,P,8,1,1,USA,Passenger
+"Taussig, Mr. Emil",52,P,,0,1,USA,Passenger
+"Taussig, Mrs. Tillie (née Mandelbaum)",39,P,8,1,1,USA,Passenger
+"Taussig, Miss Ruth",18,P,8,1,1,USA,Passenger
+"Taylor, Mr. Elmer Zebley",48,P,5,1,1,England,Passenger
+"Taylor, Mrs. Juliet Cummins (née Wright)",48,P,5,1,1,England,Passenger
+"Thayer, Mr. John Borland II",49,P,,0,1,USA,Passenger
+"Thayer, Mrs. Marian Longsteth (née Morris)",39,P,4,1,1,USA,Passenger
+"Fleming, Miss Margaret ",42,P,4,1,1,USA,Passenger
+"Thayer, Mr. John Borland ""Jack"" III",17,P,B,1,1,USA,Passenger
+"Thorne, Miss Gertrude Maybelle",38,P,D,1,1,USA,Passenger
+"Tucker, Mr. Gilbert Milligan Jr.",31,P,7,1,1,USA,Passenger
+"Uruchurtu, Don Manuel E.",40,P,,0,1,Mexico,Passenger
+"Van der Hoef, Mr. Wyckoff",61,P,,0,1,USA,Passenger
+"Walker, Mr. William Anderson",48,P,,0,1,USA,Passenger
+"Warren, Mr. Frank Manley",63,P,,0,1,USA,Passenger
+"Warren, Mrs. Anna Sophia (née Atkinson)",60,P,5,1,1,USA,Passenger
+"Weir, Colonel John",59,P,,0,1,USA,Passenger
+"White, Mr. Percival Wayland",54,P,,0,1,USA,Passenger
+"White, Mr. Richard Frasar",21,P,,0,1,USA,Passenger
+"White, Mrs. Ella (née Holmes)",55,P,8,1,1,USA,Passenger
+"Bessette, Miss Amelia Mayo ""Nellie"" ",39,P,8,1,1,USA,Passenger
+"Righini, Mr. Sante ",22,P,,0,1,USA,Passenger
+"Wick, Colonel George Dennick",58,P,,0,1,USA,Passenger
+"Wick, Mrs. Mary (née Hitchcock)",45,P,8,1,1,USA,Passenger
+"Wick, Miss Mary Natalie",31,P,8,1,1,USA,Passenger
+"Widener, Mr. George Dunton",50,P,,0,1,USA,Passenger
+"Keeping, Mr. Edwin Herbert ",33,P,,0,1,USA,Passenger
+"Widener, Mrs. Eleanor (née Elkins)",50,P,4,1,1,USA,Passenger
+"Gieger, Miss Amalie Henriette ""Emily"" ",35,P,4,1,1,USA,Passenger
+"Widener, Mr. Harry Elkins",27,P,,0,1,USA,Passenger
+"Willard, Miss Constance",21,P,8,1,1,USA,Passenger
+"Williams, Mr. Charles Duane",51,P,,0,1,Switzerland,Passenger
+"Williams, Mr. Richard Norris II",21,P,A,1,1,Switzerland,Passenger
+"Woolner, Mr. Hugh",45,P,D,1,1,England,Passenger
+"Wright, Mr. George",62,P,,0,1,Canada,Passenger
+"Young, Miss Marie Grice",36,P,8,1,1,USA,Passenger
+"Abelson, Mr Samuel",30,P,,0,2,France,Passenger
+"Abelson, Mrs Hannah",28,P,10,1,2,France,Passenger
+"Andrew, Mr. Edgar Samuel",17,P,,0,2,Argentina,Passenger
+"Andrew, Mr. Frank Thomas",30,P,,0,2,England,Passenger
+"Angle, Mr. William A.",32,P,,0,2,England,Passenger
+"Angle, Mrs. Florence Agnes ""Mary"" (née Hughes)",36,P,11,1,2,England,Passenger
+"Ashby, Mr. John",57,P,,0,2,USA,Passenger
+"Bailey, Mr. Percy Andrew",18,P,,0,2,England,Passenger
+"Bainbrigge, Mr. Charles Robert",23,P,,0,2,Channel Islands,Passenger
+"Ball, Mrs. Ada E. (née Hall)",36,P,10,1,2,England,Passenger
+"Banfield, Mr. Frederick James",28,P,,0,2,England,Passenger
+"Bateman, Father Robert James",51,P,,0,2,USA,Passenger
+"Beane, Mr. Edward",32,P,13,1,2,USA,Passenger
+Beane. Mrs. Ethel (née Clarke),19,P,13,1,2,England,Passenger
+"Beauchamp, Mr. Henry James",28,P,,0,2,England,Passenger
+"Becker, Mrs. Nellie E. (née Baumgardner)",35,P,11,1,2,India,Passenger
+"Becker, Miss Ruth Elizabeth",12,P,13,1,2,India,Passenger
+"Becker, Miss Marion Louise",4,P,11,1,2,India,Passenger
+"Becker, Master Richard Frederick",1.5,P,11,1,2,India,Passenger
+"Beesley, Mr. Lawrence",34,P,13,1,2,England,Passenger
+"Bentham, Miss Lillian W.",19,P,12,1,2,USA,Passenger
+"Berriman, Mr. William John",23,P,,0,2,England,Passenger
+"Botsford, Mr. William Hull",25,P,,0,2,USA,Passenger
+"Bowenur, Mr. Solomon",42,P,,0,2,England,Passenger
+"Bracken, Mr. James H.",29,P,,0,2,USA,Passenger
+"Brito, Mr. José Joaquim",32,P,,0,2,Portugal,Passenger
+"Brown, Mr. Thomas William Solomon",60,P,,0,2,South Africa,Passenger
+"Brown, Mrs. Elizabeth Catherine (née Ford)",40,P,14,1,2,South Africa,Passenger
+"Brown, Miss Edith Eileen",15,P,14,1,2,South Africa,Passenger
+"Bryhl, Mr. Kurt Arnold Gottfrid",25,P,,0,2,Sweden,Passenger
+"Bryhl, Miss Dagmar Jenny Ingeborg",20,P,12,1,2,Sweden,Passenger
+"Buss, Miss Kate",36,P,9,1,2,England,Passenger
+"Butler, Mr. Reginald Fenton",25,P,,0,2,England,Passenger
+"Byles, Father Thomas Roussel Davids",42,P,,0,2,England,Passenger
+"Byström, Miss Karolina",42,P,?,1,2,USA,Passenger
+"Caldwell, Mr. Albert Francis",26,P,13,1,2, Siam,Passenger
+"Caldwell, Mrs. Sylvia Mae (née Harbaugh)",28,P,13,1,2,Siam,Passenger
+"Caldwell, Master Alden Gates",1,P,13,1,2,Siam,Passenger
+"Cameron, Miss Clear Annie",35,P,14,1,2,England,Passenger
+"Campbell, Mr. William Henry[54]",21,P,,0,2,Ireland,Passenger
+"Carbines, Mr. William",19,P,,0,2,England,Passenger
+"Carter, Father Ernest Courtenay",54,P,,0,2,England,Passenger
+"Carter, Mrs. Lilian (née Hughes)",45,P,,0,2,England,Passenger
+"Chapman, Mr. Charles Henry",52,P,,0,2,USA,Passenger
+"Chapman, Mr. John Henry",36,P,,0,2,England,Passenger
+"Chapman, Mrs. Sara Elizabeth (née Lawry)",28,P,,0,2,England,Passenger
+"Christy, Mrs. Alice Frances",45,P,12,1,2,England,Passenger
+"Christy, Miss Rachel Julie Cohen",25,P,12,1,2,England,Passenger
+"Clarke, Mr. Charles Valentine",29,P,,0,2,England,Passenger
+"Clarke, Mrs. Ada Maria",28,P,14,1,2,England,Passenger
+"Coleridge, Mr. Reginald Charles",29,P,,0,2,England,Passenger
+"Collander, Mr. Erik Gustaf",27,P,,0,2,Finland,Passenger
+"Collett, Mr. Sidney Clarence Stuart",25,P,9,1,2,England,Passenger
+"Collyer, Mr. Harvey",31,P,,0,2,England,Passenger
+"Collyer, Mrs. Charlotte Annie (née Tate)",31,P,14,1,2,England,Passenger
+"Collyer, Miss Marjorie Charlotte ""Lottie""",8,P,14,1,2,England,Passenger
+"Cook, Mrs. Selena (née Rogers)",22,P,14,1,2,England,Passenger
+"Corbett, Mrs. Irene (née Colvin)",30,P,,0,2,USA,Passenger
+"Corey, Mrs. Mary Phyllis Elizabeth (née Miller)",30,P,,0,2,USA,Passenger
+"Cotterill, Mr. Henry ""Harry""",20,P,,0,2,England,Passenger
+"Cunningham, Mr. Alfred Fleming[54]",21,P,,0,2,Ireland,Passenger
+"Davies, Mr. Charles Henry",21,P,,0,2,England,Passenger
+"Davies, Mrs. Elizabeth Agnes Mary (née White)",48,P,14,1,2,England,Passenger
+"Davies, Master John Morgan Jr.",8,P,14,1,2,England,Passenger
+"Davis, Miss Mary",28,P,13,1,2,England,Passenger
+"Deacon, Mr. Percy William",20,P,,0,2,England,Passenger
+"del Carlo, Mr. Sebastiano",29,P,,0,2,Italy,Passenger
+"del Carlo, Mrs. Argene (née Genovesi)[52][61]",24,P,11,1,2,Italy,Passenger
+"Denbuoy, Mr. Albert ""Herbert""",25,P,,0,2,Channel Islands,Passenger
+"Dibden, Mr. William",18,P,,0,2,England,Passenger
+"Doling, Mrs. Ada Julia (née Bone)",34,P,?,1,2,England,Passenger
+"Doling, Miss Elsie",19,P,?,1,2,England,Passenger
+"Douton, Mr. William Joseph",55,P,,0,2,USA,Passenger
+"Drew, Mr. James Vivian",42,P,,0,2,USA,Passenger
+"Drew, Mrs. Lulu Thorne (née Christian)",34,P,10,1,2,USA,Passenger
+"Drew, Master Marshall Brines",8,P,10,1,2,USA,Passenger
+"Duran y More, Miss Florentina",30,P,12,1,2,Spain,Passenger
+"Duran y More, Miss Asunción",27,P,12,1,2,Spain,Passenger
+"Eitemiller, Mr. George Floyd",23,P,,0,2,England,Passenger
+"Enander, Mr. Ingvar",21,P,,0,2,Sweden,Passenger
+"Fahlstrøm, Mr. Arne Joma",18,P,,0,2,Norway,Passenger
+"Faunthorpe, Mr. Harry Bartram",40,P,,0,2,England,Passenger
+"Fillbrook, Mr. Joseph Charles",18,P,,0,2,England,Passenger
+"Fox, Mr. Stanley Hubert",38,P,,0,2,USA,Passenger
+"Frost, Mr. Anthony Wood ""Archie""[54]",37,P,,0,2,Ireland,Passenger
+"Funk, Miss Annie Clemmer",38,P,,0,2,India,Passenger
+"Fynney, Mr. Joseph J.",35,P,,0,2,England,Passenger
+"Gale, Mr. Harry",38,P,,0,2,England,Passenger
+"Gale, Mr. Shadrach",33,P,,0,2,England,Passenger
+"Garside, Miss Ethel",34,P,12,1,2,England,Passenger
+"Gaskell, Mr. Alfred",16,P,,0,2,England,Passenger
+"Gavey, Mr. Laurence",26,P,,0,2,Channel Islands,Passenger
+"Gilbert, Mr. William",47,P,,0,2,England,Passenger
+"Giles, Mr. Edgar",21,P,,0,2,England,Passenger
+"Giles, Mr. Frederick Edward",20,P,,0,2,England,Passenger
+"Giles, Mr. Ralph",25,P,,0,2,England,Passenger
+"Gill, Mr. John William",24,P,,0,2,England,Passenger
+"Gillespie, Mr. William Henry",34,P,,0,2,Ireland,Passenger
+"Givard, Mr. Hans Kristensen",30,P,,0,2,Denmark,Passenger
+"Greenberg, Mr. Samuel",52,P,,0,2,USA,Passenger
+"Hale, Mr. Reginald",30,P,,0,2,USA,Passenger
+"Hämäläinen, Mrs. Anna (Anna Hamlin)",24,P,4,1,2,USA,Passenger
+"Hämäläinen, Master Viljo Unto Johannes (William Hamlin)",1,P,4,1,2,USA,Passenger
+"Harbeck, Mr. William H.",44,P,,0,2,USA,Passenger
+"Harper, The Reverend John",39,P,,0,2,England,Passenger
+"Harper, Miss Annie Jessie ""Nina""",6,P,11,1,2,England,Passenger
+"Harris, Mr. George",62,P,15,1,2,England,Passenger
+"Harris, Mr. Walter",30,P,,0,2,England,Passenger
+"Hart, Mr. Benjamin",47,P,,0,2,England,Passenger
+"Hart, Mrs. Esther Ada (née Bloomfield)",48,P,14,1,2,England,Passenger
+"Hart, Miss Eva Miriam",7,P,14,1,2,England,Passenger
+"Herman, Mr. Samuel",49,P,,0,2,England,Passenger
+"Herman, Mrs. Jane (née Laver)",48,P,9,1,2,England,Passenger
+"Herman, Miss Alice",24,P,9,1,2,England,Passenger
+"Herman, Miss Kate",24,P,9,1,2,England,Passenger
+"Hewlett, Mrs. Mary Dunbar (née Kingcome)",56,P,13,1,2,India,Passenger
+"Hickman, Mr. Lewis",30,P,,0,2,England,Passenger
+"Hickman, Mr. Leonard Mark",24,P,,0,2,England,Passenger
+"Hickman, Mr. Stanley George",20,P,,0,2,England,Passenger
+"Hiltunen, Miss Marta",18,P,,0,2,Finland,Passenger
+"Hocking, Mrs. Elizabeth ""Eliza"" (née Neads)",54,P,4,1,2,England,Passenger
+"Hocking, Mr. Richard George",23,P,,0,2,USA,Passenger
+"Hocking, Miss Ellen ""Nellie""",20,P,4,1,2,England,Passenger
+"Hocking, Mr. Samuel James Metcalfe",36,P,,0,2,England,Passenger
+"Hodges, Mr. Henry Price",50,P,,0,2,England,Passenger
+"Hold, Mr. Stephen",44,P,,0,2,England,Passenger
+"Hold, Mrs. Annie Margaret (née Hill)",29,P,10,1,2,England,Passenger
+"Hood, Mr. Ambrose Jr.",21,P,,0,2,England,Passenger
+"Hosono, Mr. Masabumi",41,P,10,1,2,Japan,Passenger
+"Howard, Mr. Benjamin",63,P,,0,2,England,Passenger
+"Howard, Mrs. Ellen Truelove (née Arman)",60,P,,0,2,England,Passenger
+"Hunt, Mr. George Henry",33,P,,0,2,USA,Passenger
+"Ilett, Miss Bertha",17,P,?,1,2,Channel Islands,Passenger
+"Jacobsohn, Mr. Sidney Samuel",40,P,,0,2,England,Passenger
+"Jacobsohn, Mrs. Amy Frances Christy (née Cohen)",24,P,12,1,2,England,Passenger
+"Jarvis, Mr. Denzil John",47,P,,0,2,England,Passenger
+"Jefferys, Mr. Clifford Thomas",24,P,,0,2,Channel Islands,Passenger
+"Jefferys, Mr. Ernest Wilifred",22,P,,0,2,Channel Islands,Passenger
+"Jenkin, Mr. Stephen Curnow",32,P,,0,2,England,Passenger
+"Jerwan, Mrs. Marie Marthe (née Thuillard)",23,P,11,1,2,USA,Passenger
+"Kantor, Mr. Sinai",34,P,,0,2,Russia,Passenger
+"Kantor, Mrs. Miriam (née Sternin)",24,P,12,1,2,Russia,Passenger
+"Karnes, Mrs. Claire (née Bennett)",28,P,,0,2,USA,Passenger
+"Keane, Mr. Daniel",35,P,,0,2,Ireland,Passenger
+"Keane, Miss Nora Agnes",46,P,10,1,2,Ireland,Passenger
+"Kelly, Miss Florence ""Fannie""",45,P,9,1,2,England,Passenger
+"Kirkland, Father Charles Leonard",52,P,,0,2,Scotland,Passenger
+"Knight, Mr. Robert J.[54]",39,P,,0,2,Ireland,Passenger
+"Kvillner, Mr. Johan Henrik Johannesson",31,P,,0,2,Sweden,Passenger
+"Lahtinen, Reverend William",35,P,,0,2,USA,Passenger
+"Lahtinen, Mrs. Anna Amelia (née Sylfvén)",26,P,,0,2,USA,Passenger
+"Lamb, Mr. John Joseph",30,P,,0,2,Ireland,Passenger
+"Laroche, Mr. Joseph Philippe Lemercier",25,P,--,0,2,France,Passenger
+"Laroche, Mrs. Juliette Marie Louise (née Lafargue)[52][62]",22,P,14,1,2,France,Passenger
+"Laroche, Miss Simoné Marie Anne Andrée",3,P,14,1,2,France,Passenger
+"Laroche, Miss Louise Marguerite",1,P,14,1,2,France,Passenger
+"Lehmann, Miss Bertha",17,P,12,1,2,Switzerland,Passenger
+"Leitch, Miss Jessie Wills",31,P,11,1,2,England,Passenger
+"Lemore, Mrs. Amelia ""Milley"" (née Hunt)",34,P,14,1,2,USA,Passenger
+"Levy, Mr. René Jacques",36,P,,0,2,Canada,Passenger
+"Leyson, Mr. Robert William Norman",25,P,,0,2,England,Passenger
+"Linnane, Mr. John",61,P,,0,2,USA,Passenger
+"Louch, Mr. Charles Alexander",50,P,,0,2,England,Passenger
+"Louch, Mrs. Alice Adelaide (née Slow)",42,P,14,1,2,England,Passenger
+"Mack, Mrs. Mary (née Lacy)",57,P,,0,2,England,Passenger
+"Malachard, Mr. Jean-Noël",25,P,,0,2,France,Passenger
+"Mallet, Mr. Albert",31,P,,0,2,Canada,Passenger
+"Mallet, Mrs. Antoinette Marie (née Magnin)",24,P,10,1,2,Canada,Passenger
+"Mallet, Master André Clément",1.5,P,10,1,2,Canada,Passenger
+"Mangiavacchi, Mr. Serafino Emilio",30,P,,0,2,France,Passenger
+"Matthews, Mr. William John",30,P,,0,2,England,Passenger
+"Maybery, Mr. Frank Hubert",36,P,,0,2,England,Passenger
+"McCrae, Mr. Arthur Gordon",32,P,,0,2,Australia,Passenger
+"McCrie, Mr. James Matthew",32,P,,0,2,Canada,Passenger
+"McKane, Mr. Peter David",46,P,,0,2,Channel Islands,Passenger
+"Mellinger, Mrs. Elizabeth Anne (née Maidment)",41,P,14,1,2,England,Passenger
+"Mellinger, Miss Madeleine Violet",13,P,14,1,2,England,Passenger
+"Mellors, Mr. William John",19,P,B,1,2,England,Passenger
+"Meyer, Mr. August",31,P,,0,2,England,Passenger
+"Milling, Mr. Jacob Christian",48,P,,0,2,Denmark,Passenger
+"Mitchell, Mr. Henry Michael",71,P,,0,2,Channel Islands,Passenger
+"Montvila, Father Juozas",27,P,,0,2,England,Passenger
+"Moraweck, Dr. Ernest",54,P,,0,2,USA,Passenger
+"Morley, Mr. Henry Samuel (alias Mr. Henry Marshall)",38,P,,0,2,England,Passenger
+"Mudd, Mr. Thomas Charles",16,P,,0,2,England,Passenger
+"Myles, Mr. Thomas Francis",63,P,,0,2,Ireland,Passenger
+"Nassr Allah, Mr. Niqula Khalil",28,P,,0,2,Lebanon,Passenger
+"Nassr Allah, Mrs. Adal (née Akim)[52][63]",14,P,?,1,2,Lebanon,Passenger
+"Navratil, Mr. Michel (alias Louis M. Hoffman)",32,P,,0,2,France,Passenger
+"Navratil, Master Michel Marcel",3,P,D,1,2,France,Passenger
+"Navratil, Master Edmond Roger",2,P,D,1,2,France,Passenger
+"Nesson, Mr. Israel",26,P,,0,2,England,Passenger
+"Nicholls, Mr. Joseph Charles ""Joe""",19,P,,0,2,England,Passenger
+"Norman, Mr. Robert Douglas",28,P,,0,2,Scotland,Passenger
+"Nye, Mrs. Elizabeth (née Ramell)",29,P,11,1,2,USA,Passenger
+"Otter, Mr. Richard",39,P,,0,2,USA,Passenger
+"Oxenham, Mr. Percy Thomas",22,P,13,1,2,England,Passenger
+"Padron Manent, Mr. Julian",26,P,9,1,2,Spain,Passenger
+"Pain, Dr. Alfred ""Alf""",23,P,,0,2,Canada,Passenger
+"Pallas y Castello, Mr. Emilio",29,P,9,1,2,Spain,Passenger
+"Parker, Mr. Clifford Richard",28,P,,0,2,Channel Islands,Passenger
+"Parkes, Mr. Francis ""Frank""[54]",18,P,,0,2,Ireland,Passenger
+"Parrish, Mrs. Lutie Davis (née Temple)",60,P,12,1,2,USA,Passenger
+"Pengelly, Mr. Frederick William",19,P,,0,2,England,Passenger
+"Peruschitz, Father Josef",28,P,,0,2,Germany,Passenger
+"Phillips, Mr. Escott Robert",42,P,,0,2,England,Passenger
+"Phillips, Miss Alice Frances Louisa",21,P,12,1,2,England,Passenger
+"Phillips, Miss Kate Florence (alias Mrs. Kate Marshall)[18][64]",19,P,11,1,2,England,Passenger
+"Pinsky, Mrs. Rosa",21,P,9,1,2,USA,Passenger
+"Ponesell, Mr. Martin",34,P,,0,2,England,Passenger
+"Portaluppi, Mr. Emilio Ilario Giuseppe",34,P,14,1,2,USA,Passenger
+"Pulbaum, Mr. Franz",27,P,,0,2,USA,Passenger
+"Quick, Mrs. Jane (née Richards)",33,P,11,1,2,England,Passenger
+"Quick, Miss Winnifred Vera",8,P,11,1,2,England,Passenger
+"Quick, Miss Phyllis May",2,P,11,1,2,England,Passenger
+"Reeves, Mr. David",36,P,,0,2,England,Passenger
+"Renouf, Mr. Peter Henry",33,P,,0,2,USA,Passenger
+"Renouf, Mrs. Lillian ""Lily"" (née Jefferys)",30,P,12,1,2,USA,Passenger
+"Reynaldo, Miss Encarnación",28,P,9,1,2,Spain,Passenger
+"Richard, Mr. Emile Philippe",23,P,,0,2,France,Passenger
+"Richards, Mrs. Emily (née Hocking)",23,P,4,1,2,England,Passenger
+"Richards, Master William Rowe",3,P,4,1,2,England,Passenger
+"Richards, Master Sibley George",1,P,4,1,2,England,Passenger
+"Ridsdale, Miss Lucy",50,P,13,1,2,England,Passenger
+"Rogers, Mr. Reginald Harry",18,P,,0,2,England,Passenger
+"Rugg, Miss Emily",21,P,12,1,2,Channel Islands,Passenger
+"Schmidt, Mr. August",26,P,,0,2,USA,Passenger
+"Sedgwick, Mr. Charles Frederick Waddington",25,P,,0,2,England,Passenger
+"Sharp, Mr. Percival James",27,P,,0,2,England,Passenger
+"Shelley, Mrs. Imanita (née Parrish Hall)",25,P,12,1,2,USA,Passenger
+"Silvén, Miss Lyyli Karolina",17,P,16,1,2,Finland,Passenger
+"Sincock, Miss Maude",20,P,11,1,2,England,Passenger
+"Sinkkonen, Miss Anna",30,P,10,1,2,Finland,Passenger
+"Sjöstedt, Mr. Ernst Adolf",30,P,10,1,2,Sweden,Passenger
+"Slayter, Miss Hilda Mary",30,P,13,1,2,Canada,Passenger
+"Slemen, Mr. Richard James",35,P,,0,2,England,Passenger
+"Smith, Miss Marion Elsie",39,P,9,1,2,England,Passenger
+"Sobey, Mr. Samuel James Hayden",25,P,,0,2,England,Passenger
+"Stanton, Mr. Samuel Ward",42,P,,0,2,USA,Passenger
+"Stokes, Mr. Philip Joseph",25,P,,0,2,England,Passenger
+"Sweet, Mr. George Frederick",14,P,,0,2,England,Passenger
+"Toomey, Miss Ellen Mary",48,P,9,1,2,USA,Passenger
+"Troupiansky, Mr. Moses Aaron",23,P,,0,2,England,Passenger
+"Trout, Mrs. Jessie L.",26,P,9,1,2,USA,Passenger
+"Troutt, Miss Edwina Celia ""Winnie""",27,P,16,1,2,England,Passenger
+"Turpin, Mr. William John Robert",29,P,,0,2,England,Passenger
+"Turpin, Mrs. Dorothy Ann (née Wonnacott)",27,P,,0,2,England,Passenger
+"Veal, Mr. James",40,P,,0,2,USA,Passenger
+"Wallcroft, Miss Ellen ""Nellie""",36,P,14,1,2,England,Passenger
+"Ware, Mr. John James",45,P,,0,2,England,Passenger
+"Ware, Mrs. Florence Louise (née Long)",31,P,10,1,2,England,Passenger
+"Ware, Mr. William Jeffery",23,P,,0,2,England,Passenger
+"Watson, Mr. Ennis Hastings[54]",15,P,,0,2,Ireland,Passenger
+"Watt, Mrs. Elizabeth Inglis ""Bessie"" (née Milne)",40,P,9,1,2,Scotland,Passenger
+"Watt, Miss Robertha Josephine ""Bertha""",12,P,9,1,2,Scotland,Passenger
+"Webber, Miss Susan",37,P,12,1,2,England,Passenger
+"Weisz, Mr. Leopold",28,P,,0,2,England,Passenger
+"Weisz, Mrs. Mathilde Françoise (née Pëde)",37,P,10,1,2,England,Passenger
+"Wells, Mrs. Addie Dart (née Trevaskis)",29,P,14,1,2,England,Passenger
+"Wells, Miss Joan",4,P,14,1,2,England,Passenger
+"Wells, Master Ralph Lester",2,P,14,1,2,England,Passenger
+"West, Mr. Edwy Arthur",36,P,,0,2,England,Passenger
+"West, Mrs. Ada Mary (née Worth)[52][65]",33,P,10,1,2,England,Passenger
+"West, Miss Constance Mirium",4,P,10,1,2,England,Passenger
+"West, Miss Barbara Joyce",1,P,10,1,2,England,Passenger
+"Wheadon, Mr. Edward H.",66,P,,0,2,Channel Islands,Passenger
+"Wheeler, Mr. Edwin Charles ""Fred""",24,P,,0,2,England,Passenger
+"Wilhelms, Mr. Charles",32,P,9,1,2,England,Passenger
+"Wilkinson, Miss Elizabeth Anne (alias Mrs. Elizabeth Faunthorpe)",29,P,16,1,2,England,Passenger
+"Williams, Mr. Charles Eugene",23,P,14,1,2,England,Passenger
+"Wright, Miss Marion",26,P,9,1,2,England,Passenger
+"Yvois, Miss Henriette",24,P,,0,2,France,Passenger
+"Abbing, Mr. Anthony",42,P,--,0,3,USA,Passenger
+"Abbott, Mrs. Rhonda Mary (née Hunt)",39,P,A,1,3,USA,Passenger
+"Abbott, Mr. Rossmore Edward",16,P,--,0,3,USA,Passenger
+"Abbott, Mr. Eugene Joseph",14,P,--,0,3,USA,Passenger
+"Abelseth, Miss Karen Marie",16,P,16,1,3,Norway,Passenger
+"Abelseth, Mr. Olaus Jørgensen",25,P,A,1,3,USA,Passenger
+"Abrahamsson, Mr. Abraham August Johannes",20,P,15,1,3,Finland,Passenger
+"Abrahim, Mrs. Mary Sophie Halaut (née Easu)",18,P,C,1,3,Lebanon,Passenger
+"Adahl, Mr. Mauritz Nils Martin",30,P,--,0,3,Sweden,Passenger
+"Adams, Mr. John",26,P,--,0,3,England,Passenger
+"Ahlin, Mrs. Johanna Persdotter (née Larsson)",40,P,--,0,3,Sweden,Passenger
+"Aks, Mrs. Leah (née Rosen)",18,P,13,1,3,England,Passenger
+"Aks, Master Frank Philip",10 mths,P,11,1,3,England,Passenger
+"Albimona, Mr. Nassef Cassem",26,P,15,1,3,Lebanon,Passenger
+"Alexander, Mr. William",23,P,--,0,3,England,Passenger
+"Alhomäki, Mr. Ilmari Rudolf",19,P,--,0,3,Finland,Passenger
+"Ali, Mr. William",25,P,--,0,3,Argentina,Passenger
+"Ali, Mr. Ahmed",24,P,--,0,3,Argentina,Passenger
+"Allen, Mr. William Henry",35,P,--,0,3,England,Passenger
+"Allum, Mr. Owen George",15,P,--,0,3,England,Passenger
+"Andersen, Mr. Albert Karvin",33,P,--,0,3,Norway,Passenger
+"Andersen-Jensen, Miss Carla Christine",19,P,16,1,3,Denmark,Passenger
+"Andersson, Mr. Anders Johan",39,P,--,0,3,Sweden,Passenger
+"Andersson, Mrs. Alfrida Konstantia (née Brogren)",39,P,--,0,3,Sweden,Passenger
+"Andersson, Miss Sigrid Elisabeth",11,P,--,0,3,Sweden,Passenger
+"Andersson, Miss Ingeborg Constanzia",9,P,--,0,3,Sweden,Passenger
+"Andersson, Miss Ebba Iris Alfrida",6,P,--,0,3,Sweden,Passenger
+"Andersson, Master Sigvard Harald Elias",4,P,--,0,3,Sweden,Passenger
+"Andersson, Miss Ellis Anna Maria",2,P,--,0,3,Sweden,Passenger
+"Andersson, Miss Erna Alexandra",17,P,D,1,3,Finland,Passenger
+"Andersson, Miss Ida Augusta Margareta",38,P,--,0,3,Sweden,Passenger
+"Andersson, Mr. Johan Samuel",26,P,--,0,3,USA,Passenger
+"Andreasson, Mr. Paul Edvin",20,P,--,0,3,Sweden,Passenger
+"Angheloff, Mr. Minko",26,P,--,0,3,Bulgaria,Passenger
+"Arnold-Franchi, Mr. Josef",25,P,--,0,3,Switzerland,Passenger
+"Arnold-Franchi, Mrs. Josefine (née Franchi)",18,P,--,0,3,Switzerland,Passenger
+"Aronsson, Mr. Ernst Axel Algot",24,P,--,0,3,Sweden,Passenger
+"Asim, Mr. Adola",35,P,--,0,3,Argentina,Passenger
+"Asplund, Mr. Carl Oscar Vilhelm Gustafsson",40,P,--,0,3,Sweden,Passenger
+"Asplund, Mrs. Selma Augusta Emilia (née Johansson)",38,P,15,1,3,Sweden,Passenger
+"Asplund, Master Filip Oscar",13,P,--,0,3,Sweden,Passenger
+"Asplund, Master Clarence Gustaf Hugo",9,P,--,0,3,Sweden,Passenger
+"Asplund, Master Carl Edgar",5,P,--,0,3,Sweden,Passenger
+"Asplund, Miss Lillian Gertrud",5,P,15,1,3,Sweden,Passenger
+"Asplund, Master Edvin Rojj Felix",3,P,15,1,3,Sweden,Passenger
+"Asplund, Mr. Johan Charles",23,P,13,1,3,Sweden,Passenger
+"Assaf, Mrs. Mariyam (née Khalil)",45,P,C,1,3,Lebanon,Passenger
+"Assam, Mr. Ali",23,P,--,0,3,Argentina,Passenger
+"Attala, Mr. Sleiman",30,P,--,0,3,Canada,Passenger
+"Atta Allah, Miss Malakah",17,P,--,0,3,Lebanon,Passenger
+"Augustsson, Mr. Albert",23,P,--,0,3,Sweden,Passenger
+"Ayyub Dahir, Miss Bannurah",15,P,C,1,3,Lebanon,Passenger
+"Bakus, Mr. Raful",20,P,--,0,3,Lebanon,Passenger
+"Backström, Mr. Karl Alfred",32,P,--,0,3,Finland,Passenger
+"Backström, Mrs. Maria Mathilda (née Gustafsson)[52][66]",33,P,D,1,3,Finland,Passenger
+"Ba qlini, Mrs. Mariyam Latif (née Qurban)",24,P,C,1,3,Lebanon,Passenger
+"Ba qlini, Miss Mariya Katarin",5,P,C,1,3,Lebanon,Passenger
+"Ba qlini, Miss Eujini",4,P,C,1,3,Lebanon,Passenger
+"Ba qlini, Miss Hileni Barbarah",9 mths,P,C,1,3,Lebanon,Passenger
+"Badman, Miss Emily Louisa",18,P,C,1,3,England,Passenger
+"Badt, Mr. Mohamed",40,P,--,0,3,Lebanon,Passenger
+"Balkic, Mr. Kerim",26,P,--,0,3,Bosnia,Passenger
+"Banski, Mrs. Mara (née Osman)",31,P,?,1,3,Hungary,Passenger
+"Barbarah, Mrs. Katarin Dawud",45,P,--,0,3,Lebanon,Passenger
+"Barbarah, Miss Saidah",12,P,--,0,3,Lebanon,Passenger
+"Barry, Miss Julia",26,P,--,0,3,USA,Passenger
+"Barton, Mr. David John",22,P,--,0,3,England,Passenger
+"Beavan, Mr. William Thomas",18,P,--,0,3,England,Passenger
+"Bengtsson, Mr. Johan Viktor",26,P,--,0,3,Sweden,Passenger
+"Berglund, Mr. Karl Ivar Sven",22,P,--,0,3,Finland,Passenger
+"Betros, Mr. Tannous",20,P,--,0,3,Lebanon,Passenger
+"Lee, Mr. Bing",32,P,C,1,3,China,Passenger
+"Birkeland, Mr. Hans Martin Monsen",21,P,--,0,3,Norway,Passenger
+"Björklund, Mr. Ernst Herbert",18,P,--,0,3,Sweden,Passenger
+"Bostandyeff, Mr. Guentcho",26,P,--,0,3,Bulgaria,Passenger
+"Bulus, Mrs. Sultanah (née Rizq)",40,P,--,0,3,Lebanon,Passenger
+"Bulus, Master Akar",9,P,--,0,3,Lebanon,Passenger
+"Bulus, Miss Nur-al-Ayn",7,P,--,0,3,Lebanon,Passenger
+"Bourke, Mr. John",42,P,--,0,3,Ireland,Passenger
+"Bourke, Mrs. Catherine (née McHugh)",32,P,--,0,3,Ireland,Passenger
+"Bourke, Miss Mary",40,P,--,0,3,Ireland,Passenger
+"Bowen, Mr. David John ""Dai""",26,P,--,0,3,Wales,Passenger
+"Bradley, Miss Bridget Delia",22,P,13,1,3,Ireland,Passenger
+"Braf, Miss Elin Ester Maria",20,P,--,0,3,Sweden,Passenger
+"Braund, Mr. Lewis Richard",29,P,--,0,3,England,Passenger
+"Braund, Mr. Owen Harris",22,P,--,0,3,England,Passenger
+"Brobeck, Mr. Karl Rudolf",22,P,--,0,3,Sweden,Passenger
+"Brocklebank, Mr. William Alfred",35,P,--,0,3,England,Passenger
+"Buckley, Mr. Daniel",21,P,13,1,3,Ireland,Passenger
+"Buckley, Miss Catherine",22,P,--,0,3,Ireland,Passenger
+"Burke, Mr. Jeremiah",19,P,--,0,3,Ireland,Passenger
+"Burns, Miss Mary Delia",17,P,--,0,3,Ireland,Passenger
+"Cacic, Mr. Jego Grga",18,P,--,0,3,Croatia,Passenger
+"Cacic, Mr. Luka",38,P,--,0,3,Croatia,Passenger
+"Cacic, Miss Marija",30,P,--,0,3,Croatia,Passenger
+"Cacic, Miss Manda",21,P,--,0,3,Croatia,Passenger
+"Calic, Mr. Jovo",17,P,--,0,3,Croatia,Passenger
+"Calic, Mr. Petar",17,P,--,0,3,Croatia,Passenger
+"Canavan, Miss Mary",22,P,--,0,3,Ireland,Passenger
+"Canavan, Mr. Patrick ""Peter""",21,P,--,0,3,Ireland,Passenger
+"Cann, Mr. Ernest Charles",21,P,--,0,3,England,Passenger
+"Caram, Mr. Joseph",28,P,--,0,3,Syria,Passenger
+"Caram, Mrs. Maria (née Elias)",18,P,--,0,3,Syria,Passenger
+"Carlsson, Mr. Carl Robert",24,P,--,0,3,Sweden,Passenger
+"Carlsson, Mr. August Sigfrid",24,P,--,0,3,Sweden,Passenger
+"Carr, Miss Jane",47,P,--,0,3,Ireland,Passenger
+"Carver, Mr. Alfred John",28,P,--,0,3,England,Passenger
+"Celotti, Mr. Francesco",24,P,--,0,3,Italy,Passenger
+"Charters, Mr. David",28,P,--,0,3,Ireland,Passenger
+"Shihab, Mr. Amir Faris",25,P,--,0,3,Lebanon,Passenger
+"Chang, Mr. Chip",32,P,C,1,3,China,Passenger
+"Christmann, Mr. Emil",29,P,--,0,3,England,Passenger
+"Chronopoulos, Mr. Apostolos",26,P,--,0,3,Greece,Passenger
+"Chronopoulos, Mr. Dimitrios",18,P,--,0,3,Greece,Passenger
+"Coelho, Mr. Domingos Fernandes",20,P,--,0,3,Portugal,Passenger
+"Cohen, Mr. Gershon ""Gus""",18,P,12,1,3,England,Passenger
+"Colbert, Mr. Patrick",24,P,--,0,3,Ireland,Passenger
+"Coleff, Mr. Fotio",24,P,--,0,3,Bulgaria,Passenger
+"Coltcheff, Mr. Peju",36,P,--,0,3,Bulgaria,Passenger
+"Conlon, Mr. Thomas Henry",31,P,--,0,3,USA,Passenger
+"Connaghton, Mr. Michael",31,P,--,0,3,USA,Passenger
+"Connolly, Miss Catherine ""Kate""",35,P,--,0,3,Ireland,Passenger
+"Connolly, Miss Katherine ""Kate""",22,P,13,1,3,Ireland,Passenger
+"Connors, Mr. Patrick John",61,P,--,0,3,Ireland,Passenger
+"Cook, Mr. Jacob",43,P,--,0,3,Russia,Passenger
+"Cor, Mr. Bartol",35,P,--,0,3,Croatia,Passenger
+"Cor, Mr. Ivan",27,P,--,0,3,Croatia,Passenger
+"Cor, Mr. Liudevit",19,P,--,0,3,Croatia,Passenger
+"Corn, Mr. Henry ""Harry""",30,P,--,0,3,England,Passenger
+"Corr, Miss Helen",16,P,16,1,3,Ireland,Passenger
+"Coutts, Mrs. Mary Winnie (née Trainer)",36,P,2,1,3,England,Passenger
+"Coutts, Master William Loch ""Willie""",9,P,2,1,3,England,Passenger
+"Coutts, Master Neville Leslie",3,P,2,1,3,England,Passenger
+"Coxon, Mr. Daniel",59,P,--,0,3,England,Passenger
+"Crease, Mr. Ernest James",19,P,--,0,3,England,Passenger
+"Cribb, Mr. John Hatfield",44,P,--,0,3,England,Passenger
+"Cribb, Miss Laura Mae",16,P,12,1,3,England,Passenger
+"Culumovic, Mr. Jeso",17,P,--,0,3,Croatia,Passenger
+"Dahir, Mr. Tannous",28,P,--,0,3,Lebanon,Passenger
+"Dahl, Mr. Charles Edwart",45,P,15,1,3,Australia,Passenger
+"Dahlberg, Miss Gerda Ulrika",22,P,--,0,3,Sweden,Passenger
+"Dakic, Mr. Branko",19,P,--,0,3,Austria,Passenger
+"Daly, Miss Margaret ""Maggie""",30,P,15,1,3,Ireland,Passenger
+"Daly, Mr. Eugene Patrick",29,P,B,1,3,Ireland,Passenger
+"Danbom, Mr. Ernst Gilbert",34,P,--,0,3,Sweden,Passenger
+"Danbom, Mrs. Anna Sigrid Maria (née Brogren)",28,P,--,0,3,Sweden,Passenger
+"Danbom, Master Gilbert Sigvard Emanuel",4 mths,P,--,0,3,Sweden,Passenger
+"Danoff, Mr. Yoto",27,P,--,0,3,Bulgaria,Passenger
+"Dantcheff, Mr. Ristju",25,P,--,0,3,Bulgaria,Passenger
+"Davies, Mr. Evan",22,P,--,0,3,Wales,Passenger
+"Davies, Mr. Alfred John",24,P,--,0,3,England,Passenger
+"Davies, Mr. John Samuel",21,P,--,0,3,England,Passenger
+"Davies, Mr. Joseph",17,P,--,0,3,England,Passenger
+"Davison, Mr. Thomas Henry ""Harry""",32,P,--,0,3,England,Passenger
+"Davison, Mrs. Elizabeth Mary(née Finck)",34,P,16,1,3,England,Passenger
+"De Messemaeker, Mr. Guillaume Joseph",36,P,15,1,3,USA,Passenger
+"De Messemaeker, Mrs. Anna (née de Becker)",36,P,13,1,3,USA,Passenger
+"de Mulder, Mr. Theodoor",36,P,11,1,3,Belgium,Passenger
+"de Pelsmaeker, Mr. Alfons",16,P,--,0,3,Belgium,Passenger
+"Dean, Mr. Bertram Frank",25,P,--,0,3,England,Passenger
+"Dean, Mrs. Eva Georgetta (née Light)",32,P,10,1,3,England,Passenger
+"Dean, Master Bertram Vere",1,P,10,1,3,England,Passenger
+"Dean, Miss Elizabeth Gladys ""Millvina""",2 mths,P,10,1,3,England,Passenger
+"Delalic, Mr. Redjo",25,P,--,0,3,Bosnia,Passenger
+"Denkoff, Mr. Mitto",30,P,--,0,3,Bulgaria,Passenger
+"Dennis, Mr. William",26,P,--,0,3,England,Passenger
+"Dennis, Mr. Samuel",22,P,--,0,3,England,Passenger
+"Devaney, Miss Margaret Delia",19,P,C,1,3,Ireland,Passenger
+"Dika, Mr. Mirko",17,P,--,0,3,Croatia,Passenger
+"Dimic, Mr. Jovan",42,P,--,0,3,Croatia,Passenger
+"Dintcheff, Mr. Valtcho",43,P,--,0,3,Bulgaria,Passenger
+"Donohoe, Miss Bridget",21,P,--,0,3,Ireland,Passenger
+"Dooley, Mr. Patrick J.",43,P,--,0,3,Ireland,Passenger
+"Dorking, Mr. Edward Arthur",18,P,B,1,3,England,Passenger
+"Doherty, Mr. William John (aka ""James Moran"")",22,P,--,0,3,Ireland,Passenger
+"Dowdell, Miss Elizabeth",31,P,13,1,3,USA,Passenger
+"Doyle, Miss Elizabeth",24,P,--,0,3,Ireland,Passenger
+"Drazenovic, Mr. Jozef",33,P,--,0,3,Croatia,Passenger
+"Dropkin, Miss Jennie",24,P,13,1,3,Belarus,Passenger
+"Duquemin, Mr. Joseph Pierre",19,P,D,1,3,England,Passenger
+"Dwan, Mr. Frank",65,P,--,0,3,Ireland,Passenger
+"Dyker, Mr. Adolf Fredrik",23,P,--,0,3,USA,Passenger
+"Dyker, Mrs. Anna Elisabeth Judith (née Andersson)",22,P,16,1,3,USA,Passenger
+"Edvardsson, Mr. Gustaf Hjalmar",18,P,--,0,3,Sweden,Passenger
+"Eklund, Mr. Hans Linus",16,P,--,0,3,Sweden,Passenger
+"Ekström, Mr. Johan",45,P,--,0,3,USA,Passenger
+"Elias, Mr. Dibo",29,P,--,0,3,Lebanon,Passenger
+"Elias, Mr. Joseph Jr.",15,P,--,0,3,Lebanon,Passenger
+"Elias Nasrallah, Mr. Tannous",17,P,--,0,3,Lebanon,Passenger
+"Elsbury, Mr. William James",47,P,--,0,3,England,Passenger
+"Emanuel, Miss Virginia Ethel",6,P,13,1,3,USA,Passenger
+"Estanislau, Mr. Manuel Gonçalves",37,P,--,0,3,Portugal,Passenger
+"Everett, Mr. Thomas James",39,P,--,0,3,England,Passenger
+"Fardon, Mr. Charles R.(alias Charles Franklin)",38,P,--,0,3,England,Passenger
+"Farrell, Mr. James ""Jim""",25,P,--,0,3,Ireland,Passenger
+"Finoli, Mr. Luigi",34,P,15,1,3,USA,Passenger
+"Fischer, Mr. Eberhard Thelander",18,P,--,0,3,Sweden,Passenger
+"Fleming, Miss Honora ""Nora""",22,P,--,0,3,Ireland,Passenger
+"Flynn, Mr. James",28,P,--,0,3,Ireland,Passenger
+"Flynn, Mr. John",42,P,--,0,3,Ireland,Passenger
+"Foley, Mr. Joseph",19,P,--,0,3,Ireland,Passenger
+"Foley, Mr. William",20,P,--,0,3,Ireland,Passenger
+"Cheong, Mr. Foo",32,P,C,1,3,China,Passenger
+"Ford, Mr. Arthur",22,P,--,0,3,England,Passenger
+"Ford, Mrs. Margaret Ann (née Watson)",48,P,--,0,3,England,Passenger
+"Ford, Miss Dollina Margaret",20,P,--,0,3,England,Passenger
+"Ford, Mr. Edward Watson",18,P,--,0,3,England,Passenger
+"Ford, Mr. William Neal Thomas",16,P,--,0,3,England,Passenger
+"Ford, Miss Robina Maggie",7,P,--,0,3,England,Passenger
+"Fox, Mr. Patrick",28,P,--,0,3,Ireland,Passenger
+"Gallagher, Mr. Martin",29,P,--,0,3,Ireland,Passenger
+"Garfirth, Mr. John",21,P,--,0,3,England,Passenger
+"Jirjis, Mrs. Shaniini (née Whabee Abi-Saab)",22,P,C,1,3,USA,Passenger
+"Gerios Thamah, Mr. Assaf",21,P,--,0,3,Lebanon,Passenger
+"Gheorgheff, Mr. Stanio",--,P,--,0,3,Bulgaria,Passenger
+"Gilinski, Mr. Eliezer",22,P,--,0,3,Wales,Passenger
+"Gilnagh, Miss Mary Katherine ""Katie""",17,P,16,1,3,Ireland,Passenger
+"Glynn, Miss Mary Agatha",19,P,13,1,3,Ireland,Passenger
+"Goldsmith, Mr. Frank John",33,P,--,0,3,England,Passenger
+"Goldsmith, Mrs. Emily Alice (née Brown)",31,P,C,1,3,England,Passenger
+"Goldsmith, Master Frank John William",9,P,C,1,3,England,Passenger
+"Goldsmith, Mr. Nathan",41,P,--,0,3,Russia,Passenger
+"Goodwin, Mr. Frederick Joseph",42,P,--,0,3,England,Passenger
+"Goodwin, Mrs. Augusta (née Tyler)",43,P,--,0,3,England,Passenger
+"Goodwin, Miss Lillian Amy",16,P,--,0,3,England,Passenger
+"Goodwin, Mr. Charles Edward",14,P,--,0,3,England,Passenger
+"Goodwin, Master William Frederick",13,P,--,0,3,England,Passenger
+"Goodwin, Miss Jessie Allis-Mary",12,P,--,0,3,England,Passenger
+"Goodwin, Master Harold Victor",10,P,--,0,3,England,Passenger
+"Goodwin, Master Sidney Leslie",19m,P,--,0,3,England,Passenger
+"Green, Mr. George Henry",40,P,--,0,3,England,Passenger
+"Grønnestad, Mr. Daniel Danielsen",32,P,--,0,3,Norway,Passenger
+"Guest, Mr. Robert",32,P,--,0,3,England,Passenger
+"Gustafsson, Mr. Alfred Ossian",19,P,--,0,3,Finland,Passenger
+"Gustafsson, Mr. Anders Vilhelm",37,P,--,0,3,Finland,Passenger
+"Gustafsson, Mr. Johan Birger",28,P,--,0,3,Finland,Passenger
+"Gustafsson, Mr. Karl Gideon",19,P,--,0,3,Sweden,Passenger
+"Haas, Miss Aloisia",24,P,--,0,3,Switzerland,Passenger
+"Hagland, Mr. Ingvald Olai Olsen",28,P,--,0,3,Norway,Passenger
+"Hagland, Mr. Konrad Mathias Reiersen",19,P,--,0,3,Norway,Passenger
+"Hakkarainen, Mr Pekka Pietari",28,P,--,0,3,Finland,Passenger
+"Hakkarainen, Mrs. Elin Matilda (née Dolck)",24,P,15,1,3,Finland,Passenger
+"Hampe, Mr. Léon Jérome",19,P,--,0,3,Belgium,Passenger
+"Hanna Dib, Mr. Bulus",18,P,--,0,3,Syria,Passenger
+"Hanna, Mr. Mansur",35,P,--,0,3,Syria,Passenger
+"Hanna, Mr. Borak Suleiman (Hannah Assi Borah)",27,P,15,1,3,Lebanon,Passenger
+"Hansen, Mr. Claus Peter",41,P,--,0,3,USA,Passenger
+"Hansen, Mrs. Jennie Louise (née Howard)",45,P,11,1,3,USA,Passenger
+"Hansen, Mr. Henrik Juul",26,P,--,0,3,Denmark,Passenger
+"Hansen, Mr. Henry Damsgaard",21,P,--,0,3,Denmark,Passenger
+"Hargadon, Miss Catherine ""Kate""",17,P,--,0,3,Ireland,Passenger
+"Harknett, Miss Alice Phoebe",21,P,--,0,3,England,Passenger
+"Hart, Mr. Henry John",27,P,--,0,3,Ireland,Passenger
+"Husayn, Master Husayn Mahumud",11,P,--,0,3,USA,Passenger
+"Healy, Miss Hanora (Nora)",29,P,16,1,3,Ireland,Passenger
+"Hedman, Mr. Oskar Arvid",27,P,15,1,3,USA,Passenger
+"Ling, Mr. Hee",24,P,C,1,3,China,Passenger
+"Hegarty, Miss Hanora ""Nora""",18,P,--,0,3,Ireland,Passenger
+"Heikkinen, Miss Laina",26,P,14?,1,3,Finland,Passenger
+"Heininen, Miss Wendla Maria",23,P,--,0,3,Finland,Passenger
+"Hellström, Miss Hilda Maria",22,P,C,1,3,Sweden,Passenger
+"Hendekovic, Mr. Ignjac",28,P,--,0,3,Croatia,Passenger
+"Henriksson, Miss Jenny Lovisa",28,P,--,0,3,Sweden,Passenger
+"Henry, Miss Bridget Delia",23,P,--,0,3,Ireland,Passenger
+"Hirvonen, Mrs. Helga Elisabeth (née Lindqvist)",22,P,15,1,3,Finland,Passenger
+"Hirvonen, Miss Hildur Elisabeth",2,P,15,1,3,Finland,Passenger
+"Holm, Mr. Johan Fredrik Alexander",43,P,--,0,3,Sweden,Passenger
+"Holten, Mr. Johan Martin",28,P,--,0,3,Norway,Passenger
+"Honkanen, Miss Eliina",27,P,?,1,3,Finland,Passenger
+"Horgan, Mr. John",22,P,--,0,3,Unknown,Passenger
+"Howard, Miss May Elizabeth",27,P,C,1,3,England,Passenger
+"Humblen, Mr. Adolf Mathias Nicolai Olsen",42,P,--,0,3,Norway,Passenger
+"Hyman, Mr. Solomon Abraham",34,P,C,1,3,England,Passenger
+"Ylieff, Mr. Ylio",32,P,--,0,3,Bulgaria,Passenger
+"Ilmakangas, Miss Ida Livija",27,P,--,0,3,USA,Passenger
+"Ilmakangas, Miss Pieta Sofia",25,P,--,0,3,Finland,Passenger
+"Ivanoff, Mr. Kanio",20,P,--,0,3,Bulgaria,Passenger
+"Jabbour (Zabour), Miss Hileni",14,P,--,0,3,Syria,Passenger
+"Jabbour (Zabour), Miss Tamini",19,P,--,0,3,Syria,Passenger
+"Jalševac, Mr. Ivan",29,P,15,1,3,Croatia,Passenger
+"Jansson, Mr. Carl Olof",21,P,A,1,3,Sweden,Passenger
+"Jardim, Mr. José Neto",21,P,--,0,3,Portugal,Passenger
+"Jensen, Mr. Hans Peder",20,P,--,0,3,Denmark,Passenger
+"Jensen, Mr. Niels Peder ""Rasmus""",48,P,--,0,3,USA,Passenger
+"Jensen, Mr. Svend Lauritz",17,P,--,0,3,Denmark,Passenger
+"Jermyn, Miss Annie Jane",26,P,D,1,3,Ireland,Passenger
+"Johannesen, Mr. Bernt Johannes",29,P,13,1,3,Norway,Passenger
+"Johanson, Mr. Jakob Alfred",34,P,--,0,3,Finland,Passenger
+"Johansson, Mr. Erik",22,P,--,0,3,Sweden,Passenger
+"Johansson, Mr. Gustaf Joel",33,P,--,0,3,Sweden,Passenger
+"Johansson, Mr. Karl Johan",31,P,--,0,3,USA,Passenger
+"Johansson, Mr. Nils",29,P,--,0,3,USA,Passenger
+"Johansson Palmquist, Mr. Oskar Leander",26,P,15,1,3,Sweden,Passenger
+"Johnson, Mr. Alfred",49,P,--,0,3,England,Passenger
+"Johnson, Mrs. Elisabeth Vilhelmina (née Berg)",26,P,15,1,3,USA,Passenger
+"Johnson, Master Harold Theodor",4,P,15,1,3,USA,Passenger
+"Johnson, Miss Eleanor Ileen",1,P,15,1,3,USA,Passenger
+"Johnson, Mr. Malkolm Joackim",33,P,--,0,3,USA,Passenger
+"Johnson, Mr. William Cahoone Jr.",19,P,--,0,3,USA,Passenger
+"Johnston, Mr. Andrew Emslie",35,P,--,0,3,England,Passenger
+"Johnston, Mrs. Elizabeth (née Watson) ""Eliza""",34,P,--,0,3,England,Passenger
+"Johnston, Master William Andrew",8,P,--,0,3,England,Passenger
+"Johnston, Miss Catherine Nellie",7,P,--,0,3,England,Passenger
+"Jonkoff, Mr. Lalju",23,P,--,0,3,Bulgaria,Passenger
+"Jonsson, Mr. Carl",32,P,15,1,3,Sweden,Passenger
+"Jönsson, Mr. Nils Hilding",27,P,--,0,3,Sweden,Passenger
+"Yousuf, Mr. Ilyas (Shahin)",39,P,--,0,3,Lebanon,Passenger
+"Jussila, Mr. Eiriik",32,P,15,1,3,Finland,Passenger
+"Jussila, Miss Katriina",20,P,--,0,3,Finland,Passenger
+"Jussila, Miss Mari Aina",21,P,--,0,3,Finland,Passenger
+"Kallio, Mr. Nikolai Erlantti",17,P,--,0,3,Finland,Passenger
+"Kalvik, Mr. Johannes Halvorsen",21,P,--,0,3,Norway,Passenger
+"Karajic, Mr. Milan",30,P,--,0,3,Hungary,Passenger
+"Karlsson, Mr. Einar Gervasius",21,P,13,1,3,Sweden,Passenger
+"Karlsson, Mr. Julius Konrad Eugen",33,P,--,0,3,Sweden,Passenger
+"Karlsson, Mr. Nils August",22,P,--,0,3,Sweden,Passenger
+"Karun, Mr. Franz",39,P,15,1,3,Slovenia,Passenger
+"Karun, Miss Manca (""Anna""",4,P,15,1,3,Slovenia,Passenger
+"Abd al-Khaliq, Mr. Farid Qasim Husayn",18,P,--,0,3,Unknown,Passenger
+"Katavelos, Mr. Vassilios G.",19,P,--,0,3,Greece,Passenger
+"Keane, Mr. Andrew ""Andy""",23,P,--,0,3,Ireland,Passenger
+"Keefe, Mr. Arthur",39,P,--,0,3,USA,Passenger
+"Kelly, Mr. James",19,P,--,0,3,Ireland,Passenger
+"Kelly, Mr. James",44,P,--,0,3,Ireland,Passenger
+"Kelly, Miss Anna Katherine",20,P,16,1,3,Ireland,Passenger
+"Kelly, Miss Mary",22,P,D,1,3,Ireland,Passenger
+"Kennedy, Mr. John Joseph",24,P,15?,1,3,Ireland,Passenger
+"Khalil-Khoury, Mr. Butrus",25,P,--,0,3,Lebanon,Passenger
+"Khalil-Khoury, Mrs. Zahie ""Maria""",20,P,--,0,3,Lebanon,Passenger
+"Kiernan, Mr. John Joseph",24,P,--,0,3,USA,Passenger
+"Kiernan, Mr. Philip",22,P,--,0,3,Ireland,Passenger
+"Kilgannon, Mr. Thomas",22,P,--,0,3,Ireland,Passenger
+"Kink, Mrs. Maria",22,P,--,0,3,Switzerland,Passenger
+"Kink, Mr. Vincenz",26,P,--,0,3,Switzerland,Passenger
+"Kink, Mr. Anton",29,P,2,1,3,Switzerland,Passenger
+"Kink, Mrs. Luise (née Heilmann)",26,P,2,1,3,Switzerland,Passenger
+"Kink, Miss Luise Gretchen",4,P,2,1,3,Switzerland,Passenger
+"Klasén, Mrs. Hulda Kristina Eugenia (Nee Lofqvist)",36,P,--,0,3,Sweden,Passenger
+"Klasén, Mr. Klas Albin",18,P,--,0,3,Sweden,Passenger
+"Klasén, Miss Gertrud Emilia",16m,P,--,0,3,Sweden,Passenger
+"Kraeff, Mr. Theodor",?,P,--,0,3,Bulgaria,Passenger
+"Krekorian, Mr. Neshan",25,P,10,1,3,Turkey,Passenger
+"Kutscher, Mr. Simon",26,P,--,0,3,Scotland,Passenger
+"Lahoud Ishaq Mowad, Mr. Sarkis",30,P,--,0,3,Lebanon,Passenger
+"Laitinen, Miss Kristiina Sofia",37,P,--,0,3,Finland,Passenger
+"Laleff, Mr. Kristo",23,P,--,0,3,Bulgaria,Passenger
+"Lam, Mr. Ali",37,P,C,1,3,China,Passenger
+"Lam, Mr. Len",23,P,--,0,3,China,Passenger
+"Landergren, Miss Aurora Adelia",22,P,13,1,3,Sweden,Passenger
+"Lane, Mr. Patrick",16,P,--,0,3,Ireland,Passenger
+"Lang, Mr. Fang",26,P,14,1,3,China,Passenger
+"Larsson, Mr. August Viktor",29,P,--,0,3,USA,Passenger
+"Larsson, Mr. Bengt Edvin",29,P,--,0,3,Sweden,Passenger
+"Larsson-Rondberg, Mr. Edvard A.",22,P,--,0,3,Sweden,Passenger
+"Al-Za inni, Mr. Fahim Ruhanna",22,P,6,1,3,Lebanon,Passenger
+"Lefebvre, Mrs. Frances Marie-Anselme (Nee Daumont",40,P,--,0,3,France,Passenger
+"Lefebvre, Miss Mathilde Franck-Marie-Joseph",12,P,--,0,3,France,Passenger
+"Lefebvre, Miss Jeannie Franck-Marie-Joseph",8,P,--,0,3,France,Passenger
+"Lefebvre, Master Henri Franck-Marie-Joseph",5,P,--,0,3,France,Passenger
+"Lefebvre, Miss Ida Franck-Marie-Joseph",3,P,--,0,3,France,Passenger
+"Leinonen, Mr. Antti Gustaf",32,P,--,0,3,Finland,Passenger
+"Lennon, Mr. Denis",20,P,--,0,3,Ireland,Passenger
+"Lennon, Miss Mary",18,P,--,0,3,Ireland,Passenger
+"Leonard, Mr. Lionel",36,P,--,0,3,USA,Passenger
+"Lester, Mr. James",39,P,--,0,3,England,Passenger
+"Lievens, Mr. René Gustave Aimé",24,P,--,0,3,Belgium,Passenger
+"Lindahl, Miss Agda Thorilda Viktoria",25,P,--,0,3,Sweden,Passenger
+"Lindblom, Miss Augusta Charlotta",45,P,--,0,3,Sweden,Passenger
+"Lindell, Mr. Edvard Bengtsson",36,P,--,0,3,Sweden,Passenger
+"Lindell, Mrs. Elin Gerda (née Persson)",30,P,--,0,3,Sweden,Passenger
+"Lindqvist, Mr. Eino William",20,P,15,1,3,Finland,Passenger
+"Linehan, Mr. Michael",21,P,--,0,3,Ireland,Passenger
+"Lee, Mr. Ling",28,P,--,0,3,China,Passenger
+"Linhart, Mr. Wenzel H.",27,P,--,0,3,Austria,Passenger
+"Livshin, Mr. David (""Abraham Harmer"")",25,P,--,0,3,Russia,Passenger
+"Lobb, Mr. William Arthur",30,P,--,0,3,USA,Passenger
+"Lobb, Mrs. Cordelia K. (née Stanlick)",26,P,--,0,3,USA,Passenger
+"Lockyer, Mr. Edward Thomas",21,P,--,0,3,England,Passenger
+"Lovell, Mr. John Hall (""Henry"")",20,P,--,0,3,England,Passenger
+"Lulic, Mr. Nikola",29,P,15,1,3,Croatia,Passenger
+"Lundahl, Mr. Johan Svensson",51,P,--,0,3,Sweden,Passenger
+"Lundström, Mr. Thure Edvin",32,P,15,1,3,Sweden,Passenger
+"Lymperopoulus, Mr. Panagiotis K.",30,P,--,0,3,Greece,Passenger
+"Lyntakoff, Mr. Stanio",44,P,--,0,3,Bulgaria,Passenger
+"Mackay, Mr. George William",20,P,--,0,3,England,Passenger
+"Madigan, Miss Margaret ""Maggie""",21,P,15,1,3,Ireland,Passenger
+"Madsen, Mr. Fridtjof Arne",24,P,13,1,3,Norway,Passenger
+"Mäenpää, Mr. Matti Alexanteri",22,P,--,0,3,Finland,Passenger
+"Mahon, Miss Bridget Delia",20,P,--,0,3,Ireland,Passenger
+"Maisner, Mr. Simon",34,P,--,0,3,England,Passenger
+"Mäkinen, Mr. Kalle Edvard",29,P,--,0,3,Finland,Passenger
+"Mamee, Mr. Hanna",20,P,15,1,3,Lebanon,Passenger
+"Mangan, Miss Mary",32,P,--,0,3,Ireland,Passenger
+"Mannion, Miss Margaret",28,P,16,1,3,Ireland,Passenger
+"Mardirosian, Mr. Sarkis",25,P,--,0,3,Turkey,Passenger
+"Marinko, Mr. Dmitri",23,P,--,0,3,Macedonia,Passenger
+"Markoff, Mr. Marin",35,P,--,0,3,Bulgaria,Passenger
+"Markun, Mr. Johann",33,P,--,0,3,Slovenia,Passenger
+"Matinoff, Mr. Nicola",30,P,--,0,3,Bulgaria,Passenger
+"McCarthy, Miss Catherine ""Katie""",24,P,?,1,3,Ireland,Passenger
+"McCormack, Mr. Thomas Joseph",19,P,15,1,3,USA,Passenger
+"McCoy, Miss Catherine Agnes",29,P,16,1,3,Ireland,Passenger
+"McCoy, Miss Alice",26,P,16,1,3,Ireland,Passenger
+"McCoy, Mr. Bernard",24,P,16,1,3,Ireland,Passenger
+"McDermott, Miss Bridget Delia",31,P,13,1,3,Ireland,Passenger
+"McEvoy, Mr. Michael",19,P,--,0,3,Ireland,Passenger
+"McGovern, Miss Mary",22,P,13,1,3,Ireland,Passenger
+"McGowan, Miss Anna F. ""Annie""",16,P,13,1,3,Ireland,Passenger
+"McGowan, Miss Catherine",42,P,--,0,3,Ireland,Passenger
+"McMahon, Mr. Martin",20,P,--,0,3,Ireland,Passenger
+"McNamee, Mr. Neal",27,P,--,0,3,England,Passenger
+"McNamee, Mrs. Eileen (née O'Leary)",19,P,--,0,3,England,Passenger
+"McNeill, Miss Bridget",27,P,--,0,3,Ireland,Passenger
+"Meanwell, Mrs. Mary Ann",63,P,--,0,3,England,Passenger
+"Meehan, Mr. John",22,P,--,0,3,Ireland,Passenger
+"Meek, Mrs. Anna ""Annie"" Louise Rowley",31,P,--,0,3,Wales,Passenger
+"Meo-Martino, Mr. Alfonzo",48,P,--,0,3,England,Passenger
+"Mernagh, Mr. John Robert",26,P,--,0,3,Ireland,Passenger
+"Midtsjø, Mr. Karl Albert",21,P,15,1,3,Norway,Passenger
+"Mihoff, Mr. Stoytcho",28,P,--,0,3,Bulgaria,Passenger
+"Miles, Mr. Frank",23,P,--,0,3,England,Passenger
+"Mineff, Mr. Ivan",24,P,--,0,3,Bulgaria,Passenger
+"Minkoff, Mr. Lazar",21,P,--,0,3,Bulgaria,Passenger
+"Mitkoff, Mr. Mito",23,P,--,0,3,Bulgaria,Passenger
+"Mockler, Miss Ellen Mary",23,P,16,1,3,Ireland,Passenger
+"Moen, Mr. Sigurd Hansen",25,P,--,0,3,Norway,Passenger
+"Moor, Mrs. Beila",29,P,14,1,3,Russia,Passenger
+"Moor, Master Meier",7,P,14,1,3,Russia,Passenger
+"Moore, Mr. Leonard Charles",19,P,--,0,3,England,Passenger
+"Moran, Miss Bertha Bridget",28,P,16,1,3,Ireland,Passenger
+"Moran, Mr. Daniel James",27,P,--,0,3,Ireland,Passenger
+"Morley, Mr. William",34,P,--,0,3,England,Passenger
+"Morrow, Mr. Thomas Rowan",30,P,--,0,3,Ireland,Passenger
+"Moss, Mr. Albert Johan",29,P,B,1,3,Norway,Passenger
+"Mubarik, Mrs. Amanah Fa'ud(née Iskandar)",24,P,C,1,3,Lebanon,Passenger
+"Mubarik, Master Gerios",7,P,C,1,3,Lebanon,Passenger
+"Mubarik, Master Halim Gonios",4,P,C,1,3,Lebanon,Passenger
+"Moussa, Mrs. Mantoura",35,P,?,1,3,Lebanon,Passenger
+"Muslamani, Mrs. Fatimah",22,P,C,1,3,Lebanon,Passenger
+"Moutal, Mr. Rahamin Haim",28,P,--,0,3,England,Passenger
+"Mullen, Miss Katherine ""Katie""",19,P,16,1,3,Ireland,Passenger
+"Mulvihill, Miss Bridget Elizabeth ""Bertha""",25,P,15,1,3,Ireland,Passenger
+"Murdlin, Mr. Joseph",22,P,--,0,3,England,Passenger
+"Murphy, Miss Catherine ""Kate""",18,P,16,1,3,Ireland,Passenger
+"Murphy, Miss Margaret Jane ""Maggie/Mary""",25,P,16,1,3,Ireland,Passenger
+"Murphy, Miss Nora",34,P,16,1,3,Ireland,Passenger
+"Myhrman, Mr. Pehr Fabian Oliver Malkolm",18,P,--,0,3,Sweden,Passenger
+"Nackid, Mr. Sahid",20,P,C,1,3,Lebanon,Passenger
+"Nackid, Miss Waika ""Mary"" (née Mowad)",19,P,C,1,3,Lebanon,Passenger
+"Nackid, Miss Maria",1.5,P,C,1,3,Lebanon,Passenger
+"Naidenoff, Mr. Penko",22,P,--,0,3,Bulgaria,Passenger
+"Zajib Qiyamah, Miss Adal ""Jane""",15,P,C,1,3,Lebanon,Passenger
+"Nakli-Khoury, Mr. Toufik",17,P,--,0,3,Lebanon,Passenger
+"Nancarrow, Mr. William Henry",33,P,--,0,3,England,Passenger
+"Nankoff, Mr. Minko",32,P,--,0,3,Bulgaria,Passenger
+"Nasr Alma, Mr. Mustafa",20,P,--,0,3,Lebanon,Passenger
+"Nassr Rizq, Mr. Saade",20,P,--,0,3,Lebanon,Passenger
+"Naughton, Miss Hannah",21,P,--,0,3,Ireland,Passenger
+"Nenkoff, Mr. Christo",22,P,--,0,3,Bulgaria,Passenger
+"Niqula-Yarid, Miss Jamilah",14,P,C,1,3,Lebanon,Passenger
+"Niqula-Yarid, Master Ilyas",12,P,C,1,3,Lebanon,Passenger
+"Nieminen, Miss Manta Josefiina",29,P,--,0,3,Finland,Passenger
+"Niklasson, Mr. Samuel",28,P,--,0,3,Sweden,Passenger
+"Nilsson, Mr. August Ferdinand",21,P,--,0,3,Sweden,Passenger
+"Nilsson, Miss Berta Olivia",18,P,D,1,3,Sweden,Passenger
+"Nilsson, Miss Helmina Josefina",26,P,13,1,3,Sweden,Passenger
+"Nirva, Mr. Iisakki Antino Äijö",41,P,--,0,3,Finland,Passenger
+"Niskänen, Mr. Juha",39,P,9,1,3,Finland,Passenger
+"Nofal, Mr. Mansur",20,P,--,0,3,Lebanon,Passenger
+"Nosworthy, Mr. Richard Cater",21,P,--,0,3,England,Passenger
+"Nysten, Miss Anna Sofia",22,P,13,1,3,Sweden,Passenger
+"Nysveen, Mr. Johan Hansen",61,P,--,0,3,Norway,Passenger
+"O'Brien, Mr. Thomas",27,P,--,0,3,Ireland,Passenger
+"O'Brien, Mrs. Johanna ""Hannah"" (née Godfrey)",26,P,?,1,3,Ireland,Passenger
+"O'Brien, Mr. Timothy",21,P,--,0,3,Ireland,Passenger
+"O'Connell, Mr. Patrick Denis",17,P,--,0,3,Ireland,Passenger
+"O'Connor, Mr. Maurice",16,P,--,0,3,Ireland,Passenger
+"O'Connor, Mr. Patrick",23,P,--,0,3,Ireland,Passenger
+"O'Driscoll, Miss Bridget",24,P,D,1,3,Ireland,Passenger
+"O'Dwyer, Miss Ellen ""Nellie""",25,P,?,1,3,Ireland,Passenger
+"O'Keefe, Mr. Patrick",22,P,B,1,3,Ireland,Passenger
+"O'Leary, Miss Hanora ""Nora""",16,P,13,1,3,Ireland,Passenger
+"O'Sullivan, Miss Bridget Mary",21,P,--,0,3,Ireland,Passenger
+"Ödahl, Mr. Nils Martin",23,P,--,0,3,Sweden,Passenger
+"Öhman, Miss Velin",22,P,C,1,3,Sweden,Passenger
+"Olsen, Mr. Henry Margido",28,P,--,0,3,Norway,Passenger
+"Olsen, Mr. Karl Siegwart Andreas",42,P,--,0,3,Norway,Passenger
+"Olsen, Master Arthur Carl",9,P,13,1,3,Norway,Passenger
+"Olsen, Mr. Ole Martin",27,P,--,0,3,Norway,Passenger
+"Olsson, Miss Elina",31,P,--,0,3,Sweden,Passenger
+"Olsson, Mr. Nils Johan Göransson",28,P,--,0,3,Sweden,Passenger
+"Olsson, Mr. Oskar Wilhelm",32,P,A,1,3,Sweden,Passenger
+"Olsvingen, Mr. Thor Andersen",20,P,--,0,3,Norway,Passenger
+"Oreskovic, Miss Jelka",23,P,--,0,3,Croatia,Passenger
+"Oreskovic, Mr. Luka",20,P,--,0,3,Croatia,Passenger
+"Oreskovic, Miss Marija",20,P,--,0,3,Croatia,Passenger
+"Osén, Mr. Olaf Elon",16,P,--,0,3,Sweden,Passenger
+"Pålsson, Mrs. Alma Cornelia (née Berglund)",29,P,--,0,3,Sweden,Passenger
+"Pålsson, Miss Torborg Danira",8,P,--,0,3,Sweden,Passenger
+"Pålsson, Master Paul Folke",6,P,--,0,3,Sweden,Passenger
+"Pålsson, Miss Stina Viola",3,P,--,0,3,Sweden,Passenger
+"Pålsson, Master Gösta Leonard",2,P,--,0,3,Sweden,Passenger
+"Panula, Mrs. Maija Emelia Abrahamintytar (née Ketola-Ojala)",41,P,--,0,3,Finland,Passenger
+"Panula, Mr. Ernesti Arvid",16,P,--,0,3,Finland,Passenger
+"Panula, Mr. Jaakko Arnold",15,P,--,0,3,Finland,Passenger
+"Panula, Master Juha Niilo",7,P,--,0,3,Finland,Passenger
+"Panula, Master Urho Abraham",2,P,--,0,3,Finland,Passenger
+"Panula, Master Eino Viljami",13m,P,--,0,3,Finland,Passenger
+"Pasic, Mr. Jakov",21,P,--,0,3,Slovenia,Passenger
+"Patchett, Mr. George",19,P,--,0,3,England,Passenger
+"Pavlovic, Mr. Stefo",32,P,--,0,3,Croatia,Passenger
+"Peacock, Mrs. Edith (née Nile)",26,P,--,0,3,England,Passenger
+"Peacock, Miss Treasteall",4,P,--,0,3,England,Passenger
+"Peacock, Master Alfred Edward",7 mths,P,--,0,3,England,Passenger
+"Pearce, Mr. Ernest",32,P,--,0,3,England,Passenger
+"Pedersen, Mr. Olaf",28,P,--,0,3,Norway,Passenger
+"Peduzzi, Mr. Giuseppe",24,P,--,0,3,England,Passenger
+"Pekoniemi, Mr. Edvard Johannes",21,P,--,0,3,Finland,Passenger
+"Peltomäki, Mr. Nikolai Johannes",25,P,--,0,3,Finland,Passenger
+"Perkin, Mr. John Henry",22,P,--,0,3,England,Passenger
+"Persson, Mr. Ernst Ulrik",25,P,15,1,3,Sweden,Passenger
+"Butrus-Youssef, Mrs. Katarin (née Rizk)",24,P,C,1,3,Lebanon,Passenger
+"Butrus-Youssef, Master Makhkhul",4,P,D,1,3,Lebanon,Passenger
+"Butrus-Youssef, Miss Marianna",2,P,C,1,3,Lebanon,Passenger
+"Peters, Miss Catherine ""Katie""",26,P,--,0,3,Ireland,Passenger
+"Petersen, Mr. Marius",24,P,--,0,3,England,Passenger
+"Petranec, Miss Matilda",28,P,--,0,3,Croatia,Passenger
+"Petroff, Mr. Nadjalko",19,P,--,0,3,Bulgaria,Passenger
+"Petroff, Mr. Pastcho",29,P,--,0,3,Bulgaria,Passenger
+"Pettersson, Miss Ellen Natalia",18,P,--,0,3,Sweden,Passenger
+"Pettersson, Mr. Johan Emil",25,P,--,0,3,Sweden,Passenger
+"Pickard, Mr. Berk (Trembisky)",32,P,9,1,3,Poland,Passenger
+"Plotcharsky, Mr. Vasil",27,P,--,0,3,Bulgaria,Passenger
+"Pocruic, Mr. Mate",17,P,--,0,3,Croatia,Passenger
+"Pocruic, Mr. Tome",24,P,--,0,3,Croatia,Passenger
+"Pullner, Mr. Uscher",16,P,--,0,3,Unknown,Passenger
+"Radeff, Mr. Alexander",27,P,--,0,3,Bulgaria,Passenger
+"Rasmussen, Mrs. Lena Jakobsen (née Solvang)",62,P,--,0,3,Norway,Passenger
+"Razi, Mr. Raihed",30,P,--,0,3,Lebanon,Passenger
+"Reed, Mr. James George",19,P,--,0,3,Wales,Passenger
+"Rekic, Mr. Tido",38,P,--,0,3,Bosnia,Passenger
+"Reynolds, Mr. Harold J.",21,P,--,0,3,England,Passenger
+"Rice, Mrs. Margaret (née Norton)",39,P,--,0,3,Ireland,Passenger
+"Rice, Master Albert",10,P,--,0,3,Ireland,Passenger
+"Rice, Master George Hugh",8,P,--,0,3,Ireland,Passenger
+"Rice, Master Frederick Thomas ""Eric""",7,P,--,0,3,Ireland,Passenger
+"Rice, Master Arthur",4,P,--,0,3,Ireland,Passenger
+"Rice, Master Eugene Francis",2,P,--,0,3,Ireland,Passenger
+"Riihivuori, Miss Susanna Juhantytär ""Sanni""",22,P,--,0,3,Finland,Passenger
+"Rintamäki, Mr. Matti",35,P,--,0,3,Finland,Passenger
+"Riordan, Miss Hannah",18,P,13,1,3,Ireland,Passenger
+"Risien, Mr. Samuel Beard",69,P,--,0,3,England,Passenger
+"Risien, Mrs. Emma Jane(née Lellyet)",58,P,--,0,3,South Africa,Passenger
+"Robins, Mr. Alexander A.",50,P,--,0,3,England,Passenger
+"Robins, Mrs. Grace Charity (née Laury)",47,P,--,0,3,England,Passenger
+"Rogers, Mr. William John",29,P,--,0,3,Wales,Passenger
+"Rommetvedt, Mr. Knud Paust",49,P,--,0,3,Norway,Passenger
+"Rosblom, Mrs. Helena Wilhelmina",41,P,--,0,3,Finland,Passenger
+"Rosblom, Mr. Viktor Rickard",18,P,--,0,3,Finland,Passenger
+"Rosblom, Miss Salli Helena",2,P,--,0,3,Finland,Passenger
+"Roth, Miss Sarah A.",26,P,C,1,3,England,Passenger
+"Rouse, Mr. Richard Henry",50,P,--,0,3,England,Passenger
+"Rush, Mr. Alfred George John",16,P,--,0,3,England,Passenger
+"Ryan, Mr. Edward",24,P,14,1,3,Ireland,Passenger
+"Ryan, Mr. Patrick",29,P,--,0,3,Ireland,Passenger
+"Sæther, Mr. Simon Sivertsen",43,P,--,0,3,Norway,Passenger
+"Saad, Mr. Amin",30,P,--,0,3,Lebanon,Passenger
+"Saad, Mr. Khalil",25,P,--,0,3,Syria,Passenger
+"Sadlier, Mr. Matthew",20,P,--,0,3,Ireland,Passenger
+"Sadowitz, Mr. Harry",17,P,--,0,3,England,Passenger
+"Sage, Mr. John George",44,P,--,0,3,England,Passenger
+"Sage, Mrs. Annie Elizabeth (née Cazaly)",44,P,--,0,3,England,Passenger
+"Sage, Miss Stella Anne",20,P,--,0,3,England,Passenger
+"Sage, Mr. George John",19,P,--,0,3,England,Passenger
+"Sage, Mr. Douglas Bullen",18,P,--,0,3,England,Passenger
+"Sage, Mr. Frederick",16,P,--,0,3,England,Passenger
+"Sage, Miss Dorothy Florence ""Dolly""",14,P,--,0,3,England,Passenger
+"Sage, Master Anthony William ""Will""",13,P,--,0,3,England,Passenger
+"Sage, Miss Elizabeth Ada",10,P,--,0,3,England,Passenger
+"Sage, Miss Constance Gladys",7,P,--,0,3,England,Passenger
+"Sage, Master Thomas Henry",4,P,--,0,3,England,Passenger
+"Salander, Mr. Karl Johan",24,P,--,0,3,Sweden,Passenger
+"Salkjelsvik, Miss Anna Kristine",21,P,C,1,3,Norway,Passenger
+"Salonen, Mr. Johan Verner",39,P,--,0,3,USA,Passenger
+"Sa'maan, Mr. Hanna Ilyas",40,P,--,0,3,Lebanon,Passenger
+"Sa'maan, Mr. Ilyas",17,P,--,0,3,Lebanon,Passenger
+"Sa'maan, Mr. Youssef Omar ""Joseph""",16,P,--,0,3,Lebanon,Passenger
+"Sandström, Mrs. Agnes Charlotta (née Bengtsson)",24,P,13,1,3,Sweden,Passenger
+"Sandström, Miss Marguerite Rut",4,P,13,1,3,Sweden,Passenger
+"Sandström, Miss Beatrice Irene",1,P,13,1,3,Sweden,Passenger
+"Sap, Mr. Julius (Jules)",21,P,11,1,3,Belgium,Passenger
+"Saundercock, Mr. William Henry",19,P,--,0,3,England,Passenger
+"Sawyer, Mr. Frederick Charles",33,P,--,0,3,England,Passenger
+"Scanlan, Mr. James",22,P,--,0,3,Ireland,Passenger
+"Scheerlinck, Mr. Jean Baptiste",29,P,11,1,3,Belgium,Passenger
+"Sdycoff, Mr. Theodor",42,P,--,0,3,Bulgaria,Passenger
+"Sa'maan, Master Butrus",10,P,--,0,3,Lebanon,Passenger
+"Shaughnessy, Mr. Patrick",24,P,--,0,3,Ireland,Passenger
+"Shawah, Mr. Yousseff Ibrahim",33,P,--,0,3,Lebanon,Passenger
+"Shadid, Mr. Dahir Abu",19,P,--,0,3,Syria or Lebanon,Passenger
+"Shellard, Mr. Frederick William Blainey",55,P,--,0,3,England,Passenger
+"Shine, Miss Ellen Natalia",20,P,?,1,3,Ireland,Passenger
+"Shorney, Mr. Charles Joseph",22,P,--,0,3,England,Passenger
+"Simmons, Mr. John",39,P,--,0,3,Unknown,Passenger
+"Sirkanian, Mr. Arsun",22,P,--,0,3,Turkey,Passenger
+"Sirota, Mr. Maurice",20,P,--,0,3,England,Passenger
+"Sivic, Mr. Husein",40,P,--,0,3,Bosnia,Passenger
+"Sivola, Mr. Antti Vilhelmi",21,P,--,0,3,USA,Passenger
+"Sjöblom, Miss Anna Sofiia",18,P,16,1,3,Finland,Passenger
+"Skoog, Mr. Wilhelm Johansson",40,P,--,0,3,Sweden,Passenger
+"Skoog, Mrs. Anna Bernhardina (née Karlsson)",43,P,--,0,3,Sweden,Passenger
+"Skoog, Master Karl Thorsten",11,P,--,0,3,Sweden,Passenger
+"Skoog, Miss Mabel",9,P,--,0,3,Sweden,Passenger
+"Skoog, Master Harald",5,P,--,0,3,Sweden,Passenger
+"Skoog, Miss Margit Elizabeth",2,P,--,0,3,Sweden,Passenger
+"Slabenoff, Mr. Peko",42,P,--,0,3,Bulgaria,Passenger
+"Slocovski, Mr. Selman Francis",20,P,--,0,3,England,Passenger
+"Smiljanovic, Mr. Jakob Mile",37,P,--,0,3,Croatia,Passenger
+"Smyth, Mr. Thomas",26,P,--,0,3,Ireland,Passenger
+"Smyth, Miss Julia",17,P,13,1,3,Ireland,Passenger
+"Søholt, Mr. Peter Andreas Lauritz Andersen",19,P,--,0,3,Norway,Passenger
+"Somerton, Mr. Francis William",30,P,--,0,3,England,Passenger
+"Spector, Mr. Woolf",23,P,--,0,3,England,Passenger
+"Spinner, Mr. Henry John",32,P,--,0,3,England,Passenger
+"Staneff, Mr. Ivan",23,P,--,0,3,Bulgaria,Passenger
+"Stankovic, Mr. Ivan",33,P,--,0,3,Croatia,Passenger
+"Stanley, Miss Amy Zillah Elsie",24,P,C,1,3,England,Passenger
+"Stanley, Mr. Edward Rowland",21,P,--,0,3,Southampton,Passenger
+"Storey, Mr. Thomas",51,P,--,0,3,"England,",Passenger
+"Stoytcheff, Mr. Ilia",19,P,--,0,3,Bulgaria,Passenger
+"Strandberg, Miss Ida Sofia",22,P,--,0,3,Finland,Passenger
+"Strandén, Mr. Juho Niilonpoika",31,P,9,1,3,Finland,Passenger
+"Strilic, Mr. Ivan",27,P,--,0,3,Croatia,Passenger
+"Ström, Mrs. Elna Matilda (née Persson)",29,P,--,0,3,USA,Passenger
+"Ström, Miss Thelma Matilda Wilhelmina",2,P,--,0,3,USA,Passenger
+"Sunderland, Mr. Victor Francis",20,P,B,1,3,England,Passenger
+"Sundman, Mr. Johan Julian",44,P,15,1,3,Finland,Passenger
+"Sutehall Jr., Mr. Henry",25,P,--,0,3,England,Passenger
+"Svensson, Mr. Johan",74,P,--,0,3,Sweden,Passenger
+"Svensson, Mr. Johan Cervin",14,P,13,1,3,Sweden,Passenger
+"Svensson, Mr. Olof",24,P,--,0,3,Sweden,Passenger
+"Tenglin, Mr. Gunnar Isidor",25,P,13,1,3,Sweden,Passenger
+"Theobald, Mr. Thomas Leonard",34,P,--,0,3,England,Passenger
+"Tannous, Mr. Charles R'ad",31,P,--,0,3,Lebanon,Passenger
+"Thomas, Mr. John",34,P,--,0,3,Unknown,Passenger
+"Thomas, Mr. Tannous John",16,P,--,0,3,Lebanon,Passenger
+"Tannous, Mrs. Thamini Khoury Fa'ud ""Thelma""",16,P,14,1,3,Lebanon,Passenger
+"Tannous, Master As'ad Iskandar Fa'ud",5 mths,P,16,1,3,Lebanon,Passenger
+"Thompson, Mr. Alexander Morrison",36,P,--,0,3,Scotland,Passenger
+"Thorneycroft, Mr. Percival Thomas",36,P,--,0,3,England,Passenger
+"Thorneycroft, Mrs. Florence Kate (née Stears)",32,P,10,1,3,England,Passenger
+"Tikkanen, Mr. Juho",32,P,--,0,3,Finland,Passenger
+"Tobin, Mr. Roger",20,P,--,0,3,Ireland,Passenger
+"Todoroff, Mr. Lalio",23,P,--,0,3,Bulgaria,Passenger
+"Tomlin, Mr. Ernest Portage",22,P,--,0,3,Canada,Passenger
+"Törber, Mr. Ernst Wilhelm",44,P,--,0,3,Germany,Passenger
+"Torfa, Mr. Assad",20,P,--,0,3,Syria,Passenger
+"Törnquist, Mr. William Henry",25,P,15,1,3,Sweden,Passenger
+"Touma, Mrs. Hanna Youssef (née Razi)",27,P,C,1,3,Lebanon,Passenger
+"Touma, Miss Marianna Youssef",9,P,C,1,3,Lebanon,Passenger
+"Touma, Master Gerios (George) Youssef",8,P,C,1,3,Lebanon,Passenger
+"Turcin, Mr. Stjepan",36,P,--,0,3,Croatia,Passenger
+"Turja, Miss Anna Sofiia",18,P,15,1,3,Finland,Passenger
+"Turkula, Mrs. Hedvig",63,P,15,1,3,Finland,Passenger
+"Van Billiard, Mr. Austin Blyler",35,P,--,0,3,England,Passenger
+"Van Billiard, Master James William",10,P,--,0,3,England,Passenger
+"Van Billiard, Master Walter John",9,P,--,0,3,England,Passenger
+"Van de Velde, Mr. Johannes Josef",35,P,--,0,3,Belgium,Passenger
+"Van den Steen, Mr. Leo Peter",28,P,--,0,3,Belgium,Passenger
+"Van Impe, Mr. Jean-Baptiste",36,P,--,0,3,Belgium,Passenger
+"Van Impe, Mrs. Rosalie Paula (née Govaert)",30,P,--,0,3,Belgium,Passenger
+"Van Impe, Miss Catharina",10,P,--,0,3,Belgium,Passenger
+"Van Melkebeke, Mr. Philemon Edmund",23,P,--,0,3,Belgium,Passenger
+"Vandercruyssen, Mr. Victor",46,P,--,0,3,Belgium,Passenger
+"Vanderplancke, Mr. Julius",31,P,--,0,3,Belgium,Passenger
+"Vanderplancke, Mrs. Emelie Maria (née Vandemoortele)",31,P,--,0,3,Belgium,Passenger
+"Vanderplancke, Miss Augusta Maria",18,P,--,0,3,Belgium,Passenger
+"Vanderplancke, Mr. Leo Edmondus",15,P,--,0,3,Belgium,Passenger
+"Van de Walle, Mr. Nestor Cyriel",28,P,--,0,3,Belgium,Passenger
+"Vartanian, Mr. Dawud",22,P,13,1,3,Turkey,Passenger
+"Vendel, Mr. Olof Edvin",29,P,--,0,3,Sweden,Passenger
+"Veström, Miss Hulda Amanda Adolfina",14,P,--,0,3,Sweden,Passenger
+"Vovk, Mr. Janko",21,P,--,0,3,Slovenia,Passenger
+"Waelens, Mr. Achille",22,P,--,0,3,Belgium,Passenger
+"Ware, Mr. Frederick William",34,P,--,0,3,England,Passenger
+"Warren, Mr. Charles William",30,P,--,0,3,England,Passenger
+"Wazli, Mr. Yousif Ahmed",25,P,--,0,3,Lebanon,Passenger
+"Webber, Mr. James",66,P,--,0,3,USA,Passenger
+"Wennerström, Mr. August Edvard Andersson",27,P,A,1,3,Sweden,Passenger
+"Widegren, Mr. Carl Peter",51,P,--,0,3,Sweden,Passenger
+"Wiklund, Mr. Jakob Alfred",18,P,--,0,3,Finland,Passenger
+"Wiklund, Mr. Karl Johan",21,P,--,0,3,Finland,Passenger
+"Wilkes, Mrs. Ellen",47,P,16,1,3,England,Passenger
+"Willer, Mr. Aaron",37,P,--,0,3,Russia,Passenger
+"Willey, Mr. Edward",18,P,--,0,3,England,Passenger
+"Williams, Mr. Howard Hugh ""Harry""",28,P,--,0,3,Channel Islands,Passenger
+"Williams, Mr. Leslie",28,P,--,0,3,Wales,Passenger
+"Windeløv, Mr. Einar",21,P,--,0,3,South Africa,Passenger
+"Wirz, Mr. Albert",27,P,--,0,3,Switzerland,Passenger
+"Wiseman, Mr. Phillippe",54,P,--,0,3,England,Passenger
+"Wittevrongel, Mr. Camilius Aloysius",36,P,--,0,3,Belgium,Passenger
+"Yasbak, Mr. Antun",27,P,--,0,3,Lebanon,Passenger
+"Yasbak, Mrs. Silanah Fa'ud (née Iskandar)",15,P,C,1,3,Lebanon,Passenger
+"Youssef, Mr. Gerios (Abi Saab)",45,P,--,0,3,Lebanon,Passenger
+"Youssef, Mr. Gerios (Sam'aan)",45,P,--,0,3,Lebanon,Passenger
+"Zakarian, Mr. Mapri Der",22,P,--,0,3,Turkey,Passenger
+"Zakarian, Mr. Haroutyun Der",27,P,--,0,3,Turkey,Passenger
+"Zimmermann, Mr. Leo",29,P,--,0,3,Germany,Passenger
+"Smith, Commander Edward John, RNR (Retd)",62,C,--,0,Crew,England,Ship's officers
+"Wilde, Lieutenant Henry Tingle, RNR",39,C,--,0,Crew,England,Ship's officers
+"Murdoch, Lieutenant William McMaster, RNR",39,C,--,0,Crew,Scotland,Ship's officers
+"Lightoller, Sub-Lieutenant Charles Herbert, RNR",38,C,B,1,Crew,England,Ship's officers
+"Pitman, Mr. Herbert John",34,C,5,1,Crew,England,Ship's officers
+"Boxhall, Sub-Lieutenant Joseph Groves, RNR",28,C,2,1,Crew,England,Ship's officers
+"Lowe, Sub-Lieutenant Harold Godfrey, RNR",29,C,14,1,Crew,Wales,Ship's officers
+"Moody, Mr. James Paul",24,C,--,0,Crew,England,Ship's officers
+"Anderson, Mr. James",40,C,16,1,Crew,England,Deck crew
+"Anderson, Mr. John",41,C,16,1,Crew,England,Deck crew
+"Archer, Mr. Ernest Edward",36,C,3,1,Crew,England,Deck crew
+"Bailey, Mr. Joseph Henry",43,C,16,1,Crew,England,Deck crew
+"Bradley, Mr. T.",29,C,--,0,Crew,England,Deck crew
+"Brice, Mr. Walter T.",42,C,11,1,Crew,England,Deck crew
+"Bright, Mr. Arthur John",41,C,10,1,Crew,England,Deck crew
+"Buley, Mr. Edward John",27,C,10,1,Crew,England,Deck crew
+"Clench, Mr. Frederick",34,C,12,1,Crew,England,Deck crew
+"Callahan, Mr. James",31,C,--,0,Crew,USA,Deck crew
+"Couch, Mr. Frank",28,C,--,0,Crew,Cornwall,Deck crew
+"Davis, Mr. Stephen James",39,C,--,0,Crew,England,Deck crew
+"Evans, Mr. Alfred Frank",24,C,15,1,Crew,England,Deck crew
+"Evans, Mr. Frank Oliver",24,C,10,1,Crew,England,Deck crew
+"Fleet, Mr. Frederick",24,C,6,1,Crew,England,Deck crew
+"Foley, Mr. John",44,C,4,1,Crew,England,Deck crew
+"Forward, Mr. James",27,C,16,1,Crew,England,Deck crew
+"Haines, Mr. Albert M.",31,C,9,1,Crew,England,Deck crew
+"Harder, Mr. William",39,C,14,1,Crew,England,Deck crew
+"Hemming, Mr. Samuel Ernest",43,C,4,1,Crew,England,Deck crew
+"Hichens, Mr. Robert",29,C,6,1,Crew,England,Deck crew
+"Hogg, Mr. George Alfred",29,C,7,1,Crew,England,Deck crew
+"Holman, Mr. Harry",27,C,7,1,Crew,England,Deck crew
+"Hopkins, Mr. Robert John",40,C,13,1,Crew,England,Deck crew
+"Horswill, Mr. Albert Edward James",33,C,1,1,Crew,England,Deck crew
+"Humphreys, Mr. Sidney James",48,C,11,1,Crew,England,Deck crew
+"Hutchinson, Mr. John Hall",26,C,--,0,Crew,England,Deck crew
+"Jewell, Mr. Archie",23,C,7,1,Crew,England,Deck crew
+"Jones, Mr. Thomas William",32,C,8,1,Crew,England,Deck crew
+"King, Mr. Thomas W.",43,C,--,0,Crew,England,Deck crew
+"Lee, Mr. Reginald Robinson",41,C,13,1,Crew,England,Deck crew
+"Lucas, Mr. William A.",25,C,D,1,Crew,England,Deck crew
+"Lyons, Mr. William Henry[5]",26,C,4,1,Crew,England,Deck crew
+"Matherson, Mr. David",30,C,--,0,Crew,England,Deck crew
+"Mathais, Mr. Montague Vincent",27,C,--,0,Crew,England,Deck crew
+"Maxwell, Mr. John",31,C,--,0,Crew,England,Deck crew
+"McCarthy, Mr. William",47,C,4,1,Crew,Ireland,Deck crew
+"McGough, Mr. James R.",25,C,9,1,Crew,England,Deck crew
+"Moore, Mr. George Alfred",32,C,D,1,Crew,England,Deck crew
+"Nichols, Mr. Alfred",42,C,--,0,Crew,England,Deck crew
+"O'Loughlin, Dr. William Francis Norman",62,C,--,0,Crew,England,Deck crew
+"Olliver, Mr. Alfred",27,C,5,1,Crew,England,Deck crew
+"Osman, Mr. Frank",28,C,2,1,Crew,England,Deck crew
+"Pascoe, Mr. Charles H.",43,C,8,1,Crew,England,Deck crew
+"Perkis, Mr. Walter John",37,C,4,1,Crew,England,Deck crew
+"Peters, Mr. William Chapman",26,C,9,1,Crew,England,Deck crew
+"Poingdestre, Mr. John Thomas",33,C,12,1,Crew,England,Deck crew
+"Rowe, Mr. George Thomas",32,C,C,1,Crew,England,Deck crew
+"Sawyer, Mr. Robert James",30,C,--,0,Crew,England,Deck crew
+"Scarrott, Mr. Joseph George",33,C,14,1,Crew,England,Deck crew
+"Simpson, Dr. John Edward",37,C,--,0,Crew,England,Deck crew
+"Smith, Mr. William",26,C,--,0,Crew,England,Deck crew
+"Symons, Mr. George Thomas Macdonald",24,C,1,1,Crew,England,Deck crew
+"Tamlyn, Mr. Frederick",23,C,--,0,Crew,England,Deck crew
+"Taylor, Mr. C.",35,C,--,0,Crew,England,Deck crew
+"Terrell, Mr. Bertram",20,C,--,0,Crew,England,Deck crew
+"Thorley, Mr. Jonathon",15,C,13,1,Crew,England,Deck crew
+"Vigott, Mr. Philip Francis",32,C,13,1,Crew,England,Deck crew
+"Weller, Mr. William Clifford",30,C,7,1,Crew,England,Deck crew
+"Wynn, Mr. Walter",41,C,9,1,Crew,England,Deck crew
+"Abrams, Mr. William",33,C,--,0,Crew,England,Engineering crew
+"Adams, Mr. R.",26,C,--,0,Crew,England,Engineering crew
+"Allen, Mr. Henry",32,C,--,0,Crew,England,Engineering crew
+"Allen, Mr. Ernest Frederick",24,C,B,1,Crew,England,Engineering crew
+"Allsop, Mr. Alfred Samuel",34,C,--,0,Crew,England,Engineering crew
+"Avery, Mr. James Frank",22,C,15,1,Crew,England,Engineering crew
+"Bailey, Mr. George W.",46,C,--,0,Crew,England,Engineering crew
+"Baines, Mr. Richard",24,C,--,0,Crew,England,Engineering crew
+"Bannon, Mr. John",32,C,--,0,Crew,England,Engineering crew
+"Barlow, Mr. Charles",30,C,--,0,Crew,England,Engineering crew
+"Barnes, Mr. Charles",29,C,--,0,Crew,England,Engineering crew
+"Barnes, Mr. Frederick",29,C,--,0,Crew,England,Engineering crew
+"Barrett, Mr. Frederick",28,C,13,1,Crew,England,Engineering crew
+"Barrett, Mr. Frederick William",33,C,--,0,Crew,England,Engineering crew
+"Beattie, Mr. Joseph",34,C,--,0,Crew,England,Engineering crew
+"Beauchamp, Mr. George William",24,C,13,1,Crew,England,Engineering crew
+"Bell, Mr. Joseph",50,C,--,0,Crew,England,Engineering crew
+"Bendell, Mr. F.",24,C,--,0,Crew,England,Engineering crew
+"Bennett, Mr. George Alfred",30,C,--,0,Crew,England,Engineering crew
+"Benville, Mr. E.",42,C,--,0,Crew,England,Engineering crew
+"Bessant, Mr. William Edward",39,C,--,0,Crew,England,Engineering crew
+"Bevis, Mr. Joseph Henry",22,C,--,0,Crew,England,Engineering crew
+"Biddlecombe, Mr. Charles",33,C,--,0,Crew,England,Engineering crew
+"Biggs, Mr. Edward Charles",21,C,--,0,Crew,England,Engineering crew
+"Billow, Mr. J.",20,C,--,0,Crew,England,Engineering crew
+"Binstead, Mr. Walter",19,C,3,1,Crew,England,Engineering crew
+"Black, Mr. Alexander",28,C,--,0,Crew,England,Engineering crew
+"Black, Mr. D.",41,C,--,0,Crew,England,Engineering crew
+"Blackman, Mr. H.",24,C,--,0,Crew,England,Engineering crew
+"Blake, Mr. Percival Albert",22,C,15,1,Crew,England,Engineering crew
+"Blake, Mr. Seaton",?,C,--,0,Crew,England,Engineering crew
+"Blake, Mr. Thomas",36,C,--,0,Crew,England,Engineering crew
+"Blaney, Mr. James",29,C,--,0,Crew,England,Engineering crew
+"Blann, Mr. Eustace Horatius",21,C,--,0,Crew,England,Engineering crew
+"Bott, Mr. W.",44,C,--,0,Crew,England,Engineering crew
+"Bradley, Mr. Patrick Joseph",39,C,--,0,Crew,England,Engineering crew
+"Brewer, Mr. Henry ""Harry""",30,C,--,0,Crew,England,Engineering crew
+"Briant, Mr. Albert",34,C,--,0,Crew,England,Engineering crew
+"Brooks, Mr. J.",25,C,--,0,Crew,England,Engineering crew
+"Brown, Mr. John",25,C,--,0,Crew,England,Engineering crew
+"Brown, Mr. Joseph James",25,C,--,0,Crew,England,Engineering crew
+"Burroughs, Mr. Arthur",35,C,--,0,Crew,England,Engineering crew
+"Burton, Mr. Edward John",32,C,--,0,Crew,England,Engineering crew
+"Butt, Mr. William John",30,C,--,0,Crew,England,Engineering crew
+"Calderwood, Mr. Hugh",30,C,--,0,Crew,Ireland,Engineering crew
+"Canner, Mr. J.",40,C,--,0,Crew,England,Engineering crew
+"Carr, Mr. Richard Stephen",37,C,--,0,Crew,England,Engineering crew
+"Carter, Mr. James",46,C,--,0,Crew,England,Engineering crew
+"Casey, Mr. T.",28,C,--,0,Crew,England,Engineering crew
+"Castleman, Mr. Edward",37,C,--,0,Crew,England,Engineering crew
+"Cavell, Mr. George Henry",22,C,15,1,Crew,England,Engineering crew
+"Cherrett, Mr. William Victor",24,C,--,0,Crew,England,Engineering crew
+"Chisnall, Mr. George Alexander",35,C,--,0,Crew,England,Engineering crew
+"Chorley, Mr. John",25,C,--,0,Crew,England,Engineering crew
+"Clark, Mr. William",39,C,15,1,Crew,England,Engineering crew
+"Coe, Mr. Harry",21,C,--,0,Crew,England,Engineering crew
+"Coleman, Mr. John",57,C,--,0,Crew,England,Engineering crew
+"Collins, Mr. Samuel",35,C,1,1,Crew,England,Engineering crew
+"Combes, Mr. George",21,C,3,1,Crew,England,Engineering crew
+"Cooper, Mr. Harry",26,C,--,0,Crew,England,Engineering crew
+"Cooper, Mr. James",25,C,--,0,Crew,England,Engineering crew
+"Copperthwaite, Mr. B.",22,C,--,0,Crew,England,Engineering crew
+"Corcoran, Mr. Dennis",33,C,--,0,Crew,England,Engineering crew
+"Cotton, Mr. A.",26,C,--,0,Crew,England,Engineering crew
+"Couch, Mr. Joseph Henry",45,C,--,0,Crew,England,Engineering crew
+"Couper, Mr. Robert",30,C,3,1,Crew,England,Engineering crew
+"Coy, Mr. Francis Ernest George",26,C,--,0,Crew,England,Engineering crew
+"Crabb, Mr. H.",23,C,--,0,Crew,England,Engineering crew
+"Creese, Mr. Henry Philip",44,C,--,0,Crew,England,Engineering crew
+"Crimmins, Mr. James",21,C,13,1,Crew,England,Engineering crew
+"Cross, Mr. W.",39,C,--,0,Crew,England,Engineering crew
+"Cunningham, Mr. B.",30,C,--,0,Crew,England,Engineering crew
+"Curtis, Mr. Arthur",25,C,--,0,Crew,England,Engineering crew
+"Davies, Mr. Thomas",33,C,--,0,Crew,England,Engineering crew
+"Dawson, Mr. Joseph[6]",23,C,--,0,Crew,Ireland,Engineering crew
+"Diaper, Mr. J.",25,C,--,0,Crew,England,Engineering crew
+"Dickson, Mr. W.",36,C,--,0,Crew,England,Engineering crew
+"Dilley, Mr. John",30,C,--,0,Crew,England,Engineering crew
+"Dillon, Mr. Thomas Patrick",25,C,4,1,Crew,England,Engineering crew
+"Dodd, Mr. Edward Charles",38,C,--,0,Crew,England,Engineering crew
+"Dodds, Mr. Henry Watson",27,C,--,0,Crew,England,Engineering crew
+"Doel, Mr. Frederick",22,C,C,1,Crew,England,Engineering crew
+"Dore, Mr. A.",22,C,--,0,Crew,England,Engineering crew
+"Doyle, Mr. Laurence",27,C,--,0,Crew,England,Engineering crew
+"Duffy, Mr. William Luke",28,C,--,0,Crew,England,Engineering crew
+"Dyer, Mr. Henry Ryland",24,C,--,0,Crew,England,Engineering crew
+"Dymond, Mr. Frank",25,C,15,1,Crew,England,Engineering crew
+"Eagle, Mr. A.J.",?,C,--,0,Crew,England,Engineering crew
+"Eastman, Mr. Charles",?,C,--,0,Crew,England,Engineering crew
+"Elliott, Mr. Everett E.",?,C,--,0,Crew,England,Engineering crew
+"Ervine, Mr. Albert G.",18,C,--,0,Crew,Ireland,Engineering crew
+"Evans, Mr. Williams",32,C,--,0,Crew,England,Engineering crew
+"Farquharson, Mr. William E.",39,C,--,0,Crew,England,Engineering crew
+"Fay, Mr. Thomas",30,C,--,0,Crew,England,Engineering crew
+"Ferray, Mr. Anton",?,C,--,0,Crew,England,Engineering crew
+"Ferris, Mr. William",38,C,--,0,Crew,England,Engineering crew
+"Fitzpatrick, Mr. Charles W.N.",30,C,B,1,Crew,England,Engineering crew
+"Flarty, Mr. Edward",?,C,?,1,Crew,England,Engineering crew
+Ford. Mr. H.,?,C,--,0,Crew,England,Engineering crew
+"Ford, Mr. Thomas",30,C,--,0,Crew,England,Engineering crew
+"Foster, Mr. A.",37,C,--,0,Crew,England,Engineering crew
+"Fraser, Mr. James",29,C,--,0,Crew,England,Engineering crew
+"Fraser, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Fredricks, W.",20,C,15,1,Crew,England,Engineering crew
+"Fryer, Mr. Albert E.",26,C,13,1,Crew,England,Engineering crew
+"Geer, Mr. Alfred E.",24,C,--,0,Crew,England,Engineering crew
+"Godley, Mr. George",?,C,?,1,Crew,England,Engineering crew
+"Godwin, Mr. Frederick W.",34,C,--,0,Crew,England,Engineering crew
+"Golder, Mr. Martin W.",?,C,--,0,Crew,England,Engineering crew
+"Gordon, Mr. J.",29,C,--,0,Crew,England,Engineering crew
+"Goree, Mr. Frank",28,C,--,0,Crew,England,Engineering crew
+"Gosling, Mr. Bertram J.",?,C,--,0,Crew,England,Engineering crew
+"Gosling, S.",?,C,--,0,Crew,England,Engineering crew
+"Graham, Mr. Thomas G.",?,C,?,1,Crew,Ireland,Engineering crew
+"Gregory, Mr. David",?,C,--,0,Crew,England,Engineering crew
+"Grodidge, Mr. Ernest E.",32,C,--,0,Crew,England,Engineering crew
+"Gumery, Mr. George",24,C,--,0,Crew,England,Engineering crew
+"Hagan, Mr. John",30,C,3,1,Crew,England,Engineering crew
+"Hall, Mr. Joseph",32,C,--,0,Crew,England,Engineering crew
+"Hallett, Mr. George",?,C,--,0,Crew,England,Engineering crew
+"Hands, Mr. B.",?,C,--,0,Crew,England,Engineering crew
+"Hannam, Mr. George",?,C,--,0,Crew,England,Engineering crew
+"Harris, Mr. Edward",?,C,--,0,Crew,England,Engineering crew
+"Harris, Mr. Frederick",34,C,14,1,Crew,England,Engineering crew
+"Harrison, Mr. Norman",39,C,--,0,Crew,England,Engineering crew
+"Harvey, Mr. Herbert G.",34,C,--,0,Crew,England,Engineering crew
+"Haslin, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Head, Mr. Arthur",?,C,--,0,Crew,England,Engineering crew
+"Hebb, Mr. A.",?,C,B,1,Crew,England,Engineering crew
+"Hendrickson, Mr. Charles G.",29,C,1,1,Crew,England,Engineering crew
+"Hesketh, Mr. James (aka John) H.",33,C,--,0,Crew,England,Engineering crew
+"Hill, Mr. J.",?,C,--,0,Crew,England,Engineering crew
+"Hinton, Mr. William S.",?,C,--,0,Crew,England,Engineering crew
+"Hosking, Mr. George Fox",36,C,--,0,Crew,England,Engineering crew
+"Hunt, Mr. Albert",22,C,C,1,Crew,England,Engineering crew
+"Hunt, Mr. T.",28,C,--,0,Crew,England,Engineering crew
+"Hurst, Mr. Charles",?,C,--,0,Crew,England,Engineering crew
+"Hurst, Walter",27,C,B,1,Crew,England,Engineering crew
+"Ingram, Mr. Charles",?,C,--,0,Crew,England,Engineering crew
+"Instance, T.",?,C,--,0,Crew,England,Engineering crew
+"Jacobson, Mr. John",?,C,--,0,Crew,England,Engineering crew
+"Jago, Mr. J.",?,C,--,0,Crew,England,Engineering crew
+"James, Mr. Thomas",?,C,--,0,Crew,England,Engineering crew
+"Jarvis, Mr. William",37,C,--,0,Crew,England,Engineering crew
+"Joas, Mr. N.",?,C,--,0,Crew,England,Engineering crew
+"Judd, Mr. Charles E.",32,C,B,1,Crew,England,Engineering crew
+"Jukes, Mr. James",35,C,--,0,Crew,England,Engineering crew
+"Jupe, Mr. Herbert",31,C,--,0,Crew,England,Engineering crew
+"Kaspar, Mr. Franz V.",40,C,9,1,Crew,England,Engineering crew
+"Kearle, Mr. Charles H.",?,C,--,0,Crew,England,Engineering crew
+"Kearl, Mr. G.",24,C,--,0,Crew,England,Engineering crew
+"Keegan, Mr. James",38,C,--,0,Crew,England,Engineering crew
+"Kelly, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Kelly, Mr. William",23,C,--,0,Crew,Ireland,Engineering crew
+"Kemish, Mr. George",?,C,9,1,Crew,England,Engineering crew
+"Kemp, Mr. Thomas H.",43,C,--,0,Crew,England,Engineering crew
+"Kenchenten, Mr. Frederick",?,C,--,0,Crew,England,Engineering crew
+"Kerr, Mr. Thomas",?,C,--,0,Crew,England,Engineering crew
+"Kinsella, Mr. Louis",30,C,--,0,Crew,England,Engineering crew
+"Kirkham, Mr. J.",?,C,--,0,Crew,England,Engineering crew
+"Knowles, Mr. Thomas",39,C,C,1,Crew,England,Engineering crew
+"Lahy, Mr. Thomas E.",?,C,--,0,Crew,England,Engineering crew
+Lee. Mr. H.,?,C,--,0,Crew,England,Engineering crew
+"Light, Mr. Charles",?,C,--,0,Crew,England,Engineering crew
+"Light, Mr. W.",?,C,--,0,Crew,England,Engineering crew
+"Lindsay, Mr. William C.",?,C,B,1,Crew,England,Engineering crew
+"Loyd, Mr. W.",29,C,--,0,Crew,England,Engineering crew
+"Long, Mr. Frank",28,C,--,0,Crew,England,Engineering crew
+"Long, Mr. W.",?,C,--,0,Crew,England,Engineering crew
+"Mackie, Mr. William D.",32,C,--,0,Crew,England,Engineering crew
+"Major, Mr. William",?,C,13,1,Crew,England,Engineering crew
+"Marrett, Mr. G.",?,C,--,0,Crew,England,Engineering crew
+"Marsh, Mr. Frederick C.",28,C,--,0,Crew,England,Engineering crew
+"Maskell, Mr. L.A.",?,C,--,0,Crew,England,Engineering crew
+"Mason, Mr. Frank A.R.",32,C,B,1,Crew,England,Engineering crew
+"Mason, Mr. James",39,C,--,0,Crew,England,Engineering crew
+"May Jr., Mr. Arthur",23,C,--,0,Crew,England,Engineering crew
+"May Sr., Mr. Arthur W.",60,C,--,0,Crew,England,Engineering crew
+"Mayo, Mr. William P.",27,C,--,0,Crew,England,Engineering crew
+"Mayzes, Mr. Thomas",25,C,3,1,Crew,England,Engineering crew
+"McAndrew, Mr. Thomas",?,C,--,0,Crew,England,Engineering crew
+"McAndrews, Mr. William",?,C,--,0,Crew,England,Engineering crew
+"McCastlen, Mr. William",?,C,--,0,Crew,England,Engineering crew
+"McCubbin, Mr. Lee {?}",?,C,--,0,Crew,England,Engineering crew
+"McGann, Mr. James",?,C,B,1,Crew,England,Engineering crew
+"McGarvey, Mr. Edward",?,C,--,0,Crew,England,Engineering crew
+"McGaw, Mr. Errol",?,C,--,0,Crew,England,Engineering crew
+"McGregor, Mr. J.",?,C,--,0,Crew,England,Engineering crew
+"McInerney, Mr. Thomas",?,C,--,0,Crew,England,Engineering crew
+"McInytre, Mr. William",22,C,A,1,Crew,England,Engineering crew
+"McQuillan, Mr. William",32,C,--,0,Crew,Ireland,Engineering crew
+"McRae, Mr. William A.",?,C,--,0,Crew,England,Engineering crew
+"McReynolds, Mr. William",22,C,--,0,Crew,Ireland,Engineering crew
+"Middleton, Mr. Alfred P.",17,C,--,0,Crew,Ireland,Engineering crew
+"Milford, Mr. George",?,C,--,0,Crew,England,Engineering crew
+"Millar, Mr. Robert",27,C,--,0,Crew,England,Engineering crew
+"Millar, Mr. Thomas",33,C,--,0,Crew,Ireland,Engineering crew
+"Mintram, Mr. William",46,C,--,0,Crew,England,Engineering crew
+"Mitchell, Mr. Lawrence",?,C,--,0,Crew,England,Engineering crew
+"Moore, Mr. John J.",?,C,3,1,Crew,England,Engineering crew
+"Moore, Mr. R.",?,C,--,0,Crew,England,Engineering crew
+"Moores, Mr. Robert H.",?,C,--,0,Crew,England,Engineering crew
+"Morgan, Mr. Arthur H.",?,C,--,0,Crew,England,Engineering crew
+"Morgan, Mr. Thomas A.",26,C,--,0,Crew,England,Engineering crew
+"Morrell, Mr. R.",?,C,--,0,Crew,England,Engineering crew
+"Morris, Mr. A.",?,C,--,0,Crew,England,Engineering crew
+"Morris, Mr. W.",?,C,--,0,Crew,England,Engineering crew
+"Moyes, Mr. William Y.",23,C,--,0,Crew,Scotland,Engineering crew
+"Murdock, Mr. William",34,C,B,1,Crew,Ireland,Engineering crew
+"Nettleton, Mr. George",?,C,--,0,Crew,England,Engineering crew
+"Newman, Mr. Charles T.",32,C,--,0,Crew,England,Engineering crew
+"Noon, Mr. John",?,C,--,0,Crew,England,Engineering crew
+"Norris, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Noss, Mr. Bertram A.",21,C,--,0,Crew,England,Engineering crew
+"Noss, Mr. Henry",31,C,15,1,Crew,England,Engineering crew
+"Nutbean, Mr. William",31,C,3,1,Crew,England,Engineering crew
+"O'Connor, Mr. John",25,C,B,1,Crew,England,Engineering crew
+"Olive, Mr. Charles",?,C,--,0,Crew,England,Engineering crew
+"Oliver, Mr. H.",?,C,3,1,Crew,England,Engineering crew
+"Othen, Mr. Charles",?,C,11,1,Crew,England,Engineering crew
+"Paice, Mr. Richard C.",?,C,--,0,Crew,England,Engineering crew
+"Painter, Mr. Charles",31,C,--,0,Crew,England,Engineering crew
+"Painter, Mr. Frank",29,C,--,0,Crew,England,Engineering crew
+"Pallas, Mr. T.",?,C,--,0,Crew,England,Engineering crew
+"Parsons, Mr. Frank A.",27,C,--,0,Crew,England,Engineering crew
+"Pearce, Mr. John",?,C,15,1,Crew,England,Engineering crew
+"Pelham, Mr. George",39,C,16,1,Crew,England,Engineering crew
+"Perry, Mr. Edgar L.",19,C,?,1,Crew,England,Engineering crew
+"Perry, Mr. Henry",?,C,--,0,Crew,England,Engineering crew
+"Phillips, Mr. G.",?,C,--,0,Crew,England,Engineering crew
+"Pitfield, Mr. William J.",?,C,--,0,Crew,England,Engineering crew
+"Podesta, Mr. John",25,C,3,1,Crew,England,Engineering crew
+"Pond, Mr. George",32,C,--,0,Crew,England,Engineering crew
+"Prangnell, Mr. George",31,C,B,1,Crew,England,Engineering crew
+"Preston, Mr. Thomas C.",20,C,--,0,Crew,England,Engineering crew
+"Priest, Mr. Arthur J.",23,C,15,1,Crew,England,Engineering crew
+"Proudfoot, Mr. R.",?,C,--,0,Crew,England,Engineering crew
+"Pugh, Mr. Percy",31,C,--,0,Crew,England,Engineering crew
+"Pusey, Mr. Robert W.",24,C,1,1,Crew,England,Engineering crew
+"Ranger, Mr. Thomas G.",?,C,4,1,Crew,England,Engineering crew
+"Reed, Mr. Robert",?,C,--,0,Crew,England,Engineering crew
+"Reeves, Mr. Robert",30,C,--,0,Crew,England,Engineering crew
+"Rice, Mr. Charles",32,C,10,1,Crew,England,Engineering crew
+"Richards, Mr. Joseph J.",?,C,--,0,Crew,England,Engineering crew
+"Rickman, Mr. G.",?,C,--,0,Crew,England,Engineering crew
+"Roberts, Mr. George",?,C,--,0,Crew,England,Engineering crew
+"Rous, Mr. Arthur J.",26,C,--,0,Crew,England,Engineering crew
+"Rudd, Mr. Henry",23,C,--,0,Crew,England,Engineering crew
+"Rutter, Mr. Sidney",?,C,--,0,Crew,England,Engineering crew
+"Sangster, Mr. Charles",?,C,--,0,Crew,England,Engineering crew
+"Saunders, Mr. Thomas",?,C,--,0,Crew,England,Engineering crew
+"Saunders, Mr. W.",30,C,--,0,Crew,England,Engineering crew
+"Saunders, Mr. W.",?,C,--,0,Crew,England,Engineering crew
+"Scott, Mr. Archibald",40,C,--,0,Crew,England,Engineering crew
+"Scott, Mr. Frederick",?,C,4,1,Crew,England,Engineering crew
+"Self, Mr. Alfred H.",?,C,--,0,Crew,England,Engineering crew
+"Self, Mr. Edward",25,C,?,1,Crew,England,Engineering crew
+"Senior, Mr. Henry",31,C,B,1,Crew,England,Engineering crew
+"Shea, Mr. Thomas",29,C,--,0,Crew,England,Engineering crew
+"Sheath, Mr. Frederick",20,C,1,1,Crew,England,Engineering crew
+"Shepherd, Mr. Johnathan",32,C,--,0,Crew,England,Engineering crew
+"Shiers, Mr. Alfred",24,C,5,1,Crew,England,Engineering crew
+"Shillaber, Mr. Charles",20,C,--,0,Crew,England,Engineering crew
+"Skeats, Mr. W.",?,C,--,0,Crew,England,Engineering crew
+"Sloan, Mr. Peter",31,C,--,0,Crew,England,Engineering crew
+"Small, Mr. William",40,C,--,0,Crew,England,Engineering crew
+"Smith, Mr. Ernest G.",?,C,--,0,Crew,England,Engineering crew
+"Smith, Mr. James M.",35,C,--,0,Crew,England,Engineering crew
+"Smither, Mr. Harry J.",?,C,--,0,Crew,England,Engineering crew
+"Snellgrove, Mr. G",?,C,--,0,Crew,England,Engineering crew
+"Snooks, Mr. W",?,C,--,0,Crew,England,Engineering crew
+"Snowberger, Mr. Eustace P.",21,C,B,1,Crew,England,Engineering crew
+"Sparkman, Mr. Henry",?,C,?,1,Crew,England,Engineering crew
+"Stafford, Mr. M.",?,C,--,0,Crew,England,Engineering crew
+"Stanbrook, Mr. Augustus",30,C,--,0,Crew,England,Engineering crew
+"Steel, Mr. Robert E.",?,C,--,0,Crew,England,Engineering crew
+"Stocker, Mr. Henry",?,C,--,0,Crew,England,Engineering crew
+"Street, Mr. Henry A.",25,C,9,1,Crew,England,Engineering crew
+"Stubbs, Mr. James H.",?,C,--,0,Crew,England,Engineering crew
+Sullivan Mr. S.,?,C,--,0,Crew,England,Engineering crew
+"Taylor, Mr. James",25,C,1,1,Crew,England,Engineering crew
+"Taylor, Mr. John",?,C,--,0,Crew,England,Engineering crew
+"Taylor, Mr. T.",?,C,--,0,Crew,England,Engineering crew
+"Taylor, Mr. William H.",28,C,15,1,Crew,England,Engineering crew
+"Thomas, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Thompson, Mr. John W.",42,C,A/14,1,Crew,England,Engineering crew
+"Threlfall, Mr. Thomas",38,C,14,1,Crew,England,Engineering crew
+"Thresher, Mr. George",25,C,?,1,Crew,England,Engineering crew
+"Tizard, Mr. Arthur",?,C,--,0,Crew,England,Engineering crew
+"Tozer, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Triggs, Mr. Robert",?,C,3,1,Crew,England,Engineering crew
+"Turley, Mr. Richard",?,C,--,0,Crew,England,Engineering crew
+"van der brugge, Mr. Wessel A.",42,C,--,0,Crew,England,Engineering crew
+"Veal, Mr. Arthur",?,C,--,0,Crew,England,Engineering crew
+"Vear, Mr. Henry",32,C,--,0,Crew,England,Engineering crew
+"Vear, Mr. W.",32,C,--,0,Crew,England,Engineering crew
+"Ward, Mr. Arthur",24,C,--,0,Crew,England,Engineering crew
+"Ward, Mr. Joseph",31,C,--,0,Crew,England,Engineering crew
+"Wardner, Mr. Frederick Albert",39,C,--,0,Crew,England,Engineering crew
+"Wateridge, Mr. Edward L.",?,C,--,0,Crew,England,Engineering crew
+"Watson, Mr. W.",?,C,--,0,Crew,England,Engineering crew
+"Webb, Mr. S",?,C,--,0,Crew,England,Engineering crew
+"Webber, Mr. Francis A.",31,C,--,0,Crew,England,Engineering crew
+"White, Mr. Alfred",?,C,4,1,Crew,England,Engineering crew
+"White, Mr. Frank L.",?,C,--,0,Crew,England,Engineering crew
+"White, Mr. William G.",23,C,15,1,Crew,England,Engineering crew
+"Williams, Mr. Samuel S.",26,C,--,0,Crew,England,Engineering crew
+"Wilson, Mr. Bertie",28,C,--,0,Crew,England,Engineering crew
+"Wilton, Mr. William",45,C,--,0,Crew,England,Engineering crew
+"Witcher, Mr. Alfred",40,C,--,0,Crew,England,Engineering crew
+"Witt, Mr. F.",?,C,--,0,Crew,England,Engineering crew
+"Witt, Mr. Henry D.",40,C,--,0,Crew,England,Engineering crew
+"Woodford, Mr. Frederick",41,C,--,0,Crew,England,Engineering crew
+"Woods, Mr. H.",?,C,--,0,Crew,England,Engineering crew
+"Wyeth, Mr. James",?,C,--,0,Crew,England,Engineering crew
+"Young, Mr. Francis J.",30,C,--,0,Crew,England,Engineering crew
+"Abbott, Mr. Ernest Owen",21,C,--,0,Crew,England,Victualling crew
+"Ahier, Mr. Percy Snowden",20,C,--,0,Crew,England,Victualling crew
+"Akerman, Mr. Albert",28,C,--,0,Crew,England,Victualling crew
+"Akerman, Mr. Joseph Francis",35,C,--,0,Crew,England,Victualling crew
+"Allan, Mr. Robert Spencer",36,C,--,0,Crew,England,Victualling crew
+"Allen, Mr. George",26,C,--,0,Crew,England,Victualling crew
+"Allen, Mr. Frederick",17,C,--,0,Crew,England,Victualling crew
+"Allsop, Mr. Frank Richard",41,C,--,0,Crew,England,Victualling crew
+"Anderson, Mr. Walter J.",48,C,--,0,Crew,England,Victualling crew
+"Andrews, Mr. Charles Edward",19,C,16,1,Crew,England,Victualling crew
+"Ashcroft, Mr. Austin Aloysius",26,C,--,0,Crew,England,Victualling crew
+"Ashe, Mr. Henry Wellesley",32,C,--,0,Crew,England,Victualling crew
+"Ayling, Mr. George Edwin",22,C,--,0,Crew,England,Victualling crew
+"Back, Mr. Charles Frederick",32,C,--,0,Crew,England,Victualling crew
+"Baggott, Mr. Allen Marden",28,C,9,1,Crew,England,Victualling crew
+"Bagley, Mr. Edward Ernest",31,C,--,0,Crew,England,Victualling crew
+"Bailey, Mr. George Francis",36,C,--,0,Crew,England,Victualling crew
+"Ball, Mr. Percy",19,C,13,1,Crew,England,Victualling crew
+"Barker, Mr. Albert Vale",19,C,--,0,Crew,England,Victualling crew
+"Barker, Mr. Ernest T.",37,C,--,0,Crew,England,Victualling crew
+"Barker, Mr. Reginald Lomond",40,C,--,0,Crew,England,Victualling crew
+"Barlow, Mr. George",36,C,--,0,Crew,England,Victualling crew
+"Barnes, Mr. Frederick",37,C,--,0,Crew,England,Victualling crew
+"Barratt, Mr. Arthur",15,C,--,0,Crew,England,Victualling crew
+"Barringer, Mr. Arthur William",33,C,--,0,Crew,England,Victualling crew
+"Barrow, Mr. Harry",35,C,--,0,Crew,England,Victualling crew
+"Barrows, Mr. William",32,C,--,0,Crew,England,Victualling crew
+"Barton, Mr. Sidney John",25,C,--,0,Crew,England,Victualling crew
+"Baxter, Mr. Harry Ross",51,C,--,0,Crew,England,Victualling crew
+"Baxter, Mr. Thomas Ferguson",48,C,--,0,Crew,England,Victualling crew
+"Bedford, Mr. William Barnet",31,C,--,0,Crew,England,Victualling crew
+"Beedem, Mr. George Arthur",34,C,--,0,Crew,England,Victualling crew
+"Beere, Mr. William",19,C,--,0,Crew,England,Victualling crew
+"Benham, Mr. Frederick",29,C,--,0,Crew,England,Victualling crew
+"Bennett, Mrs. Mabel",30,C,5,1,Crew,England,Victualling crew
+"Bessant, Mr. Edward William",31,C,--,0,Crew,England,Victualling crew
+"Best, Mr. Alfred",38,C,--,0,Crew,England,Victualling crew
+"Blake, Mr. Seaton",26,C,--,0,Crew,England,Victualling crew
+"Bishop, Mr. Walter Alexander",34,C,--,0,Crew,England,Victualling crew
+"Bliss, Mrs. Emma (née Junod)",45,C,15,1,Crew,England,Victualling crew
+"Bochatay, Mr. Alexis Joseph",30,C,--,0,Crew,England,Victualling crew
+"Bogie, Mr. Norman Leslie",29,C,--,0,Crew,England,Victualling crew
+"Bond, Mr. William John",40,C,--,0,Crew,England,Victualling crew
+"Boothby, Mr. W.",36,C,--,0,Crew,England,Victualling crew
+"Boston, Mr. William John",30,C,--,0,Crew,England,Victualling crew
+"Boughton, Mr. B.",24,C,--,0,Crew,England,Victualling crew
+"Boyd, Mr. John",35,C,--,0,Crew,England,Victualling crew
+"Boyes, Mr. John Henry",36,C,--,0,Crew,England,Victualling crew
+"Bradshaw, Mr. J.A.",43,C,--,0,Crew,England,Victualling crew
+"Brewster, Mr. George H.",48,C,--,0,Crew,England,Victualling crew
+"Bride, Mr. Harold Sydney",22,C,B,1,Crew,England,Victualling crew
+"Bristow, Mr. Robert Charles",31,C,--,0,Crew,England,Victualling crew
+"Bristow, Mr. Harry",33,C,--,0,Crew,Cornwall,Victualling crew
+"Brookman, Mr, John",27,C,--,0,Crew,England,Victualling crew
+"Broom, Mr. H.",33,C,--,0,Crew,England,Victualling crew
+"Broome, Mr. Athol Frederick",30,C,--,0,Crew,England,Victualling crew
+"Brown, Mr. Edward",34,C,A,1,Crew,England,Victualling crew
+"Brown, Mr. Walter James",28,C,--,0,Crew,England,Victualling crew
+"Buckley, Mr. H.E.",34,C,--,0,Crew,England,Victualling crew
+"Bull, Mr. W.",30,C,--,0,Crew,England,Victualling crew
+"Bulley, Mr. Henry Ashburnham",21,C,--,0,Crew,England,Victualling crew
+"Bunnell, Mr. Wilfred",20,C,--,0,Crew,England,Victualling crew
+"Burgess, Mr. Charles Reginald",18,C,15,1,Crew,England,Victualling crew
+"Burke, Mr. Richard Edward",30,C,--,0,Crew,England,Victualling crew
+"Burke, Mr. William",31,C,10,1,Crew,England,Victualling crew
+"Burr, Mr. Ewart",29,C,--,0,Crew,England,Victualling crew
+"Burrage, Mr. Alfred",20,C,13,1,Crew,England,Victualling crew
+"Butt, Mr. Robert Henry",22,C,--,0,Crew,England,Victualling crew
+"Butterworth, Mr. John",23,C,--,0,Crew,England,Victualling crew
+"Byrne, Mr. J.E.",31,C,--,0,Crew,England,Victualling crew
+"Campbell, Mr. Donald S.",25,C,--,0,Crew,England,Victualling crew
+"Carney, Mr. William",31,C,--,0,Crew,England,Victualling crew
+"Cartwright, Mr. James Edward",32,C,--,0,Crew,England,Victualling crew
+"Casswill, Mr. Charles",32,C,--,0,Crew,England,Victualling crew
+"Caton, Miss Annie",50,C,11,1,Crew,England,Victualling crew
+"Caunt, Mr. William Ewart",27,C,--,0,Crew,England,Victualling crew
+"Cave, Mr. Herbert",34,C,--,0,Crew,England,Victualling crew
+"Cecil, Mr. C.",20,C,--,0,Crew,England,Victualling crew
+"Chapman, Mr. Joseph Charles",32,C,9,1,Crew,England,Victualling crew
+"Charman, Mr. John",25,C,--,0,Crew,England,Victualling crew
+"Cheverton, Mr. William Edward",27,C,--,0,Crew,Wales,Victualling crew
+"Chitty, Mr. Archibald George",28,C,--,0,Crew,England,Victualling crew
+"Chitty, Mr. George Henry",52,C,--,0,Crew,England,Victualling crew
+"Christmas, Mr. H.",33,C,--,0,Crew,England,Victualling crew
+"Coleman, Mr. Albert Edward",28,C,--,0,Crew,England,Victualling crew
+"Coleman, Mr. John",57,C,--,0,Crew,England,Victualling crew
+"Colgan, Mr. E. Joseph",33,C,13,1,Crew,England,Victualling crew
+"Collins, Mr. John",17,C,B,1,Crew,Ireland,Victualling crew
+"Conway, Mr. P.W.",25,C,--,0,Crew,England,Victualling crew
+"Cook, Mr. George",42,C,--,0,Crew,England,Victualling crew
+"Coombs, Mr. Augustus Charles",38,C,--,0,Crew,England,Victualling crew
+"Corben, Mr. Ernest Theodore",27,C,--,0,Crew,England,Victualling crew
+"Coutin, Mr. Auguste Louis",28,C,--,0,Crew,England,Victualling crew
+"Cox, Mr. William Denton",29,C,--,0,Crew,England,Victualling crew
+"Crafter, Mr. Frederick",27,C,15,1,Crew,England,Victualling crew
+"Crawford, Mr. Alfred",36,C,8,1,Crew,England,Victualling crew
+"Crisp, Mr. Albert Hector",35,C,--,0,Crew,England,Victualling crew
+"Crispin, Mr. William",32,C,--,0,Crew,England,Victualling crew
+"Crosby, Mr. J. Bertram",42,C,--,0,Crew,England,Victualling crew
+"Crowe, Mr. George Frederick",30,C,14,1,Crew,England,Victualling crew
+"Crumplin, Mr. Charles",35,C,--,0,Crew,England,Victualling crew
+"Cullen, Mr. Charles",45,C,11,1,Crew,England,Victualling crew
+"Cunningham, Mr. Andrew",35,C,4,1,Crew,England,Victualling crew
+"Daniels, Mr. Sidney Edward",18,C,B,1,Crew,England,Victualling crew
+"Dashwood, Mr. William George",19,C,--,0,Crew,England,Victualling crew
+"Davies, Mr. Gordon Raleigh",33,C,--,0,Crew,England,Victualling crew
+"Davies, Mr. John James",27,C,--,0,Crew,England,Victualling crew
+"Davies, Mr. Robert J.",26,C,--,0,Crew,England,Victualling crew
+"Dean, Mr. George H.",19,C,--,0,Crew,England,Victualling crew
+"Deeble, Mr. Alfred Arnold",29,C,--,0,Crew,England,Victualling crew
+"Derrett, Mr. Albert",26,C,--,0,Crew,England,Victualling crew
+"Deslands, Mr. Percival Stainer",36,C,--,0,Crew,England,Victualling crew
+"Desvernine, Mr. Louis Gabriel",20,C,--,0,Crew,England,Victualling crew
+"Dinenage, Mr. James Richard",47,C,--,0,Crew,England,Victualling crew
+"Dodd, Mr. George Charles",44,C,--,0,Crew,England,Victualling crew
+"Dolby, Mr. Joseph",36,C,--,0,Crew,England,Victualling crew
+"Donoghue, Mr. Frank",35,C,--,0,Crew,England,Victualling crew
+"Doughty, Mr. W.",22,C,--,0,Crew,England,Victualling crew
+"Dunford, Mr. William",41,C,--,0,Crew,England,Victualling crew
+"Dyer, Mr. William",31,C,--,0,Crew,England,Victualling crew
+"Edbrooke, Mr. F.",24,C,--,0,Crew,England,Victualling crew
+"Ede, Mr. George B.",22,C,--,0,Crew,England,Victualling crew
+"Edge, Mr. Frederick William",37,C,--,0,Crew,England,Victualling crew
+"Edwards, Mr. Clement",38,C,--,0,Crew,England,Victualling crew
+"Egg, Mr. W.H.",34,C,--,0,Crew,England,Victualling crew
+"Ellis, Mr. John Bertram",30,C,2,1,Crew,England,Victualling crew
+"Ennis, Mr. Walter",35,C,--,0,Crew,England,Victualling crew
+"Etches, Mr. Henry Samuel",41,C,5,1,Crew,England,Victualling crew
+"Evans, Mr. George Richard",32,C,--,0,Crew,England,Victualling crew
+"Fairall, Mr. Henry",38,C,--,0,Crew,England,Victualling crew
+"Farrenden, Mr. Ernest John",32,C,--,0,Crew,England,Victualling crew
+"Faulkner, Mr. William Stephen",37,C,11,1,Crew,England,Victualling crew
+"Fellowes, Mr. Alfred J.",29,C,--,0,Crew,England,Victualling crew
+"Feltham, Mr. G.",36,C,--,0,Crew,England,Victualling crew
+"Finch, Mr. Harry",18,C,--,0,Crew,England,Victualling crew
+"Fletcher, Mr. Peter W.",26,C,--,0,Crew,England,Victualling crew
+"Foley, Mr. William C.",26,C,13,1,Crew,England,Victualling crew
+"Ford, Mr. Ernest",32,C,--,0,Crew,England,Victualling crew
+"Ford, Mr. F.",37,C,--,0,Crew,England,Victualling crew
+"Fox, Mr. William Thomas",27,C,--,0,Crew,England,Victualling crew
+"Franklin, Mr. Alan Vincent",29,C,--,0,Crew,England,Victualling crew
+"Freeman, Mr. Ernest Edward Samuel",43,C,--,0,Crew,England,Victualling crew
+"Geddes, Mr. Richard Charles",31,C,--,0,Crew,England,Victualling crew
+"Gibbons, Mr. Jacob William",36,C,11,1,Crew,England,Victualling crew
+"Giles, Mr. John Robert",30,C,--,0,Crew,England,Victualling crew
+"Gill, Mr. Joseph Stanley",34,C,--,0,Crew,England,Victualling crew
+"Gill, Mr. Patrick",38,C,--,0,Crew,England,Victualling crew
+"Gold, Mrs. Katherine (née Cook)",42,C,11,1,Crew,England,Victualling crew
+"Gollop, Mr. F.",28,C,--,0,Crew,England,Victualling crew
+"Goshawk, Mr. Arthur James",31,C,--,0,Crew,England,Victualling crew
+"Gregson, Miss Mary",44,C,16,1,Crew,England,Victualling crew
+"Gunn, Mr. Joseph Alfred",28,C,--,0,Crew,England,Victualling crew
+"Guy, Mr. Edward John",28,C,5,1,Crew,England,Victualling crew
+"Halford, Mr. Richard",22,C,15,1,Crew,England,Victualling crew
+"Hall, Mr. F.A.J.",38,C,--,0,Crew,England,Victualling crew
+"Hamblyn, Mr. Ernest William",41,C,--,0,Crew,England,Victualling crew
+"Hamilton, Mr. Ernest",25,C,--,0,Crew,England,Victualling crew
+"Harding, Mr. A.",20,C,--,0,Crew,England,Victualling crew
+"Hardwick, Mr. Reginald",21,C,11,1,Crew,England,Victualling crew
+"Hardy, Mr. John T.",37,C,D,1,Crew,England,Victualling crew
+"Harris, Mr. Charles William",19,C,--,0,Crew,England,Victualling crew
+"Harris, Mr. Clifford Henry",16,C,--,0,Crew,England,Victualling crew
+"Harris, Mr. Edward",18,C,--,0,Crew,England,Victualling crew
+"Harrison, Mr. Aragon D.",40,C,9,1,Crew,England,Victualling crew
+"Hart, Mr. John Edward",31,C,15,1,Crew,England,Victualling crew
+"Hartnell, Mr. Frederick",21,C,11,1,Crew,England,Victualling crew
+"Hatch, Mr. Hugh",22,C,--,0,Crew,England,Victualling crew
+"Hawkesworth, Mr. James",38,C,--,0,Crew,England,Victualling crew
+"Hawkesworth, Mr. William Walter",38,C,--,0,Crew,England,Victualling crew
+"Hayter, Mr. Arthur",44,C,--,0,Crew,England,Victualling crew
+"Heinen, Mr. Joseph",30,C,--,0,Crew,England,Victualling crew
+"Hendy, Mr. Edward Martin",38,C,--,0,Crew,England,Victualling crew
+"Hensford, Mr. Herbert George",29,C,--,0,Crew,England,Victualling crew
+"Hewett, Mr. Thomas",37,C,--,0,Crew,England,Victualling crew
+"Hill, Mr. H.P.",36,C,--,0,Crew,England,Victualling crew
+"Hill, Mr. James Colston",38,C,--,0,Crew,England,Victualling crew
+"Hinckley, Mr. George",35,C,--,0,Crew,England,Victualling crew
+"Hine, Mr. William Edward",36,C,--,0,Crew,England,Victualling crew
+"Hiscock, Mr. S.",22,C,--,0,Crew,England,Victualling crew
+"Hoare, Mr. Leonard James",21,C,--,0,Crew,England,Victualling crew
+"Hogg, Mr. Charles William",37,C,--,0,Crew,England,Victualling crew
+"Hogue, Mr. E.",22,C,--,0,Crew,England,Victualling crew
+"Holland, Mr. Thomas",28,C,--,0,Crew,England,Victualling crew
+"Holloway, Mr. Sidney",20,C,--,0,Crew,England,Victualling crew
+"Hopkins, Mr. F.",16,C,--,0,Crew,England,Victualling crew
+"House, Mr. William",38,C,--,0,Crew,England,Victualling crew
+"Howell, Mr. Arthur Albert",31,C,--,0,Crew,England,Victualling crew
+"Hughes, Mr. William Thomas",33,C,--,0,Crew,England,Victualling crew
+"Humby, Mr. Frederick",16,C,--,0,Crew,England,Victualling crew
+"Humphreys, Mr. Thomas Humphrey",31,C,--,0,Crew,England,Victualling crew
+"Hutchinson, Mr. James",29,C,--,0,Crew,England,Victualling crew
+"Hyland, Mr. Leo James",19,C,11,1,Crew,England,Victualling crew
+"Ide, Mr. Harry John",32,C,--,0,Crew,England,Victualling crew
+"Ingrouille, Mr. Henry",21,C,--,0,Crew,England,Victualling crew
+"Ings, Mr. William Ernest",20,C,--,0,Crew,England,Victualling crew
+"Jackson, Mr. Cecil",29,C,--,0,Crew,England,Victualling crew
+"Janaway, Mr. William Frank",35,C,--,0,Crew,England,Victualling crew
+"Jenner, Mr. Harry",41,C,--,0,Crew,England,Victualling crew
+"Jensen, Mr. Charles Valdemar",25,C,--,0,Crew,England,Victualling crew
+"Jessop, Miss Violet Constance",24,C,16,1,Crew,England,Victualling crew
+"Johnson Thorne, Mr. Harry",25,C,--,0,Crew,England,Victualling crew
+"Johnston, Mr. James",41,C,2,1,Crew,England,Victualling crew
+"Jones, Mr. Albert",17,C,--,0,Crew,England,Victualling crew
+"Jones, Mr. Arthur Ernest",38,C,--,0,Crew,England,Victualling crew
+"Jones, Mr. H.",29,C,--,0,Crew,England,Victualling crew
+"Jones, Mr. Reginald V.",20,C,--,0,Crew,England,Victualling crew
+"Joughin, Mr. Charles John",32,C,B,1,Crew,England,Victualling crew
+"Keen, Mr. Percy Edward",28,C,15,1,Crew,England,Victualling crew
+"Kelland, Mr. Thomas",21,C,--,0,Crew,England,Victualling crew
+"Kennell, Mr. Charles",30,C,--,0,Crew,England,Victualling crew
+"Kerley, Mr. William Thomas",28,C,A,1,Crew,England,Victualling crew
+"Ketchley, Mr. Henry",30,C,--,0,Crew,England,Victualling crew
+"Kieran, Mr. James W.",32,C,--,0,Crew,England,Victualling crew
+"Kieran, Mr. Michael",31,C,--,0,Crew,England,Victualling crew
+"King, Mr. Alfred",18,C,--,0,Crew,England,Victualling crew
+"King, Mr. Ernest Waldron",28,C,--,0,Crew,Ireland,Victualling crew
+"King, Mr. G.",20,C,--,0,Crew,England,Victualling crew
+"Kingscote, Mr. William Ford",43,C,--,0,Crew,England,Victualling crew
+"Kirkaldy, Mr. Thomas",37,C,--,0,Crew,England,Victualling crew
+"Kitching, Mr. Arthur Alfred",30,C,--,0,Crew,England,Victualling crew
+"Klein, Mr. Herbert",33,C,--,0,Crew,England,Victualling crew
+"Knight, Mr. George",44,C,13,1,Crew,England,Victualling crew
+"Knight, Mr. Leonard George",21,C,--,0,Crew,England,Victualling crew
+"Lacey, Mr. Bert W.",21,C,--,0,Crew,England,Victualling crew
+"Lake, Mr. William",35,C,--,0,Crew,England,Victualling crew
+"Lane, Mr. Albert Edward",34,C,--,0,Crew,England,Victualling crew
+"Latimer, Mr. Andrew L.",55,C,--,0,Crew,England,Victualling crew
+"Lavington, Miss Bessie",39,C,11,1,Crew,England,Victualling crew
+"Lawrence, Mr. Arthur",25,C,--,0,Crew,England,Victualling crew
+"Leader, Mr. Archie",22,C,--,0,Crew,England,Victualling crew
+"Leather, Mrs Elizabeth May",41,C,16,1,Crew,England,Victualling crew
+"Lefebvre, Mr. Paul Georges",35,C,--,0,Crew,England,Victualling crew
+"Leonard, Mr. Matthew",26,C,--,0,Crew,Ireland,Victualling crew
+"Levett, Mr. George Alfred",21,C,--,0,Crew,England,Victualling crew
+"Lewis, Mr. Arthur Ernest",27,C,15,1,Crew,England,Victualling crew
+"Light, Mr. C.",23,C,--,0,Crew,England,Victualling crew
+"Littlejohn, Mr. Alexander James",40,C,13,1,Crew,England,Victualling crew
+"Lloyd, Mr. Humphrey",32,C,--,0,Crew,England,Victualling crew
+"Locke, Mr. A.",33,C,--,0,Crew,England,Victualling crew
+"Longmuir, Mr. John Dickson",19,C,--,0,Crew,England,Victualling crew
+"Lovell, Mr. John",38,C,--,0,Crew,England,Victualling crew
+"Lucas, Mr. William",34,C,A,1,Crew,England,Victualling crew
+"Lydiatt, Mr. Charles",38,C,--,0,Crew,England,Victualling crew
+"Mabey, Mr. J.",23,C,--,0,Crew,England,Victualling crew
+"Mackay, Mr. Charles Donald",34,C,11,1,Crew,England,Victualling crew
+"Mackie, Mr. George William",34,C,--,0,Crew,England,Victualling crew
+"Major, Mr. Thomas Edgar",35,C,--,0,Crew,England,Victualling crew
+"Mantle, Mr. Roland Frederick",36,C,--,0,Crew,England,Victualling crew
+"Marks, Mr. J.",26,C,--,0,Crew,England,Victualling crew
+"Marriott, Mr. J.W.",20,C,--,0,Crew,England,Victualling crew
+"Marsden, Miss Evelyn",28,C,16,1,Crew,England,Victualling crew
+"Martin, Mrs. Annie",33,C,11,1,Crew,England,Victualling crew
+"Martin, Mr. F.",29,C,13,1,Crew,England,Victualling crew
+"Maynard, Mr. Isaac Hiram",31,C,B,1,Crew,England,Victualling crew
+"Maytum, Mr. Alfred",52,C,--,0,Crew,England,Victualling crew
+"McCarthy, Mr. Frederick",36,C,--,0,Crew,England,Victualling crew
+"McCawley, Mr. Thomas W.",36,C,--,0,Crew,England,Victualling crew
+"McElroy, Mr. Hugh Walter",37,C,--,0,Crew,England,Victualling crew
+"McGrady, Mr. James",27,C,--,0,Crew,England,Victualling crew
+"McLaren, Mrs.",40,C,5,1,Crew,England,Victualling crew
+"McMicken, Mr. Arthur",23,C,11,1,Crew,England,Victualling crew
+"McMicken, Mr. Benjamin Tucker",21,C,--,0,Crew,England,Victualling crew
+"McMullin, Mr. James",31,C,--,0,Crew,England,Victualling crew
+"McMurray, Mr. William Ernest",43,C,--,0,Crew,England,Victualling crew
+"Mellor, Mr. Arthur",34,C,--,0,Crew,England,Victualling crew
+"Middleton, Mr. M.V.",24,C,--,0,Crew,England,Victualling crew
+"Mills, Mr. Christopher",51,C,C,1,Crew,England,Victualling crew
+"Mishellamy, Mr. Abraham",52,C,--,0,Crew,England,Victualling crew
+"Moore, Mr. Alfred Ernest",39,C,--,0,Crew,England,Victualling crew
+"Morgan (Bird), Mr. Charles Frederick",42,C,--,0,Crew,England,Victualling crew
+"Morris, Mr. Frank Herbert",28,C,14,1,Crew,England,Victualling crew
+"Moss, Mr. William",34,C,--,0,Crew,England,Victualling crew
+"Mullen, Mr. Thomas A.",20,C,--,0,Crew,Scotland,Victualling crew
+"Neal, Mr. Henry",25,C,13,1,Crew,England,Victualling crew
+"Nicholls, Mr. Sidney",39,C,--,0,Crew,England,Victualling crew
+"Nichols, Mr. A. D.",34,C,--,0,Crew,England,Victualling crew
+"Nichols, Mr. Walter Henry",35,C,15,1,Crew,England,Victualling crew
+"O'Connor, Mr. Thomas Peter",39,C,--,0,Crew,England,Victualling crew
+"Olive, Mr. Ernest Roskelly",28,C,--,0,Crew,England,Victualling crew
+"Orpet, Mr. Walter Hayward",31,C,--,0,Crew,England,Victualling crew
+"Orr, Mr. J.",40,C,--,0,Crew,England,Victualling crew
+"Osbourne, Mr. William Edward",32,C,--,0,Crew,England,Victualling crew
+"Owen, Mr. Lewis",49,C,--,0,Crew,England,Victualling crew
+"Pacey, Mr. Reginald Ivan",17,C,--,0,Crew,England,Victualling crew
+"Paintin, Mr. James Arthur",29,C,--,0,Crew,England,Victualling crew
+"Parsons, Mr. Edward",35,C,--,0,Crew,England,Victualling crew
+"Parsons, Mr. Richard",18,C,--,0,Crew,England,Victualling crew
+"Pearce, Mr. Alfred Ernest",24,C,--,0,Crew,England,Victualling crew
+"Pearcey, Mr. Albert Victor",32,C,C,1,Crew,England,Victualling crew
+"Pennal, Mr. Thomas Francis",33,C,--,0,Crew,England,Victualling crew
+"Penny, Mr. William Far",30,C,--,0,Crew,England,Victualling crew
+"Penrose, Mr. John Poole",49,C,--,0,Crew,England,Victualling crew
+"Perkins, Mr. Laurence Alexander",22,C,--,0,Crew,England,Victualling crew
+"Perrin, Mr. William Charles",39,C,--,0,Crew,England,Victualling crew
+"Perriton, Mr. Hubert Prouse",31,C,--,0,Crew,England,Victualling crew
+"Petty, Mr. Edwin Henry",25,C,--,0,Crew,England,Victualling crew
+"Pfropper, Mr. Richard",30,C,9,1,Crew,England,Victualling crew
+"Phillimore, Mr. Harold Charles William",23,C,14,1,Crew,England,Victualling crew
+"Phillips, Mr. John George ""Jack""",25,C,B,1,Crew,England,Victualling crew
+"Platt, Mr. W.",18,C,--,0,Crew,England,Victualling crew
+"Pook, Mr. P.",34,C,--,0,Crew,England,Victualling crew
+"Port, Mr. Frank",32,C,13,1,Crew,England,Victualling crew
+"Porteus, Mr. Thomas",32,C,--,0,Crew,England,Victualling crew
+"Prentice, Mr. Frank Winnold",22,C,4,1,Crew,England,Victualling crew
+"Prichard, Mrs. Alice",33,C,11,1,Crew,England,Victualling crew
+"Prideaux, Mr. John Arthur ""Jack""",23,C,--,0,Crew,England,Victualling crew
+"Prior, Mr. Harold John",21,C,11,1,Crew,England,Victualling crew
+"Proctor, Mr. Charles",40,C,--,0,Crew,England,Victualling crew
+"Pryce, Mr. Charles William",22,C,--,0,Crew,England,Victualling crew
+"Pugh, Mr. Alfred",20,C,14,1,Crew,England,Victualling crew
+"Pusey, Mr. John E.",35,C,--,0,Crew,England,Victualling crew
+"Randall, Mr. Frank Henry",27,C,--,0,Crew,England,Victualling crew
+"Ransom, Mr. James",33,C,--,0,Crew,England,Victualling crew
+"Rattonbury, Mr. William Henry",36,C,--,0,Crew,England,Victualling crew
+"Ray, Mr. Frederick Dent",32,C,13,1,Crew,England,Victualling crew
+"Reed, Mr. Charles S.",43,C,--,0,Crew,England,Victualling crew
+"Revell, Mr. William",31,C,--,0,Crew,England,Victualling crew
+"Rice, Mr. John Reginald",25,C,--,0,Crew,England,Victualling crew
+"Rice, Mr. John Reginald",25,C,--,0,Crew,England,Victualling crew
+"Ricks, Mr. Cyril G.",23,C,--,0,Crew,England,Victualling crew
+"Ridout, Mr. W.",29,C,--,0,Crew,England,Victualling crew
+"Rimmer, Mr. Gilbert",27,C,--,0,Crew,England,Victualling crew
+"Roberton, Mr. George Edward",19,C,--,0,Crew,England,Victualling crew
+"Roberts, Mr. Frank John",36,C,--,0,Crew,England,Victualling crew
+"Roberts, Mr. Hugh H.",40,C,--,0,Crew,England,Victualling crew
+"Roberts, Mrs. Mary Kezziah (née Humphrys)",41,C,16,1,Crew,England,Victualling crew
+"Robinson, Mrs. Annie",40,C,11,1,Crew,England,Victualling crew
+"Robinson, Mr. James William",30,C,--,0,Crew,England,Victualling crew
+"Rogers, Mr. Edward James William",32,C,--,0,Crew,England,Victualling crew
+"Rogers, Mr. Michael",27,C,--,0,Crew,England,Victualling crew
+"Ross, Mr. Horace Leopold",36,C,13,1,Crew,England,Victualling crew
+"Rowe, Mr. Edward M.",31,C,--,0,Crew,England,Victualling crew
+"Rule, Mr. Samuel James",58,C,15,1,Crew,England,Victualling crew
+"Russell, Mr. Boysie Richard",17,C,--,0,Crew,England,Victualling crew
+"Ryan, Mr. Tom",27,C,--,0,Crew,England,Victualling crew
+"Ryerson, Mr. William Edwy",32,C,9,1,Crew,England,Victualling crew
+"Samuel, Mr. Owen Wilmore",41,C,--,0,Crew,England,Victualling crew
+"Saunders, Mr. D. E.",26,C,--,0,Crew,England,Victualling crew
+"Savage, Mr. Charles J.",23,C,11,1,Crew,England,Victualling crew
+"Scott, Mr. John",21,C,--,0,Crew,England,Victualling crew
+"Scovell, Mr. Robert",42,C,--,0,Crew,England,Victualling crew
+"Sedunary, Mr. Sidney Francis",25,C,--,0,Crew,England,Victualling crew
+"Shea, Mr. John",39,C,--,0,Crew,England,Victualling crew
+"Slight, Mr. Harry John",35,C,--,0,Crew,England,Victualling crew
+"Sloan, Miss Mary",28,C,--,0,Crew,Northern Ireland,Victualling crew
+"Slocombe, Mrs Maud (née Waldon)",30,C,--,0,Crew,England,Victualling crew
+"Smillie, Mr. John",38,C,--,0,Crew,England,Victualling crew
+"Smith, Mr. Charles Edward",38,C,--,0,Crew,England,Victualling crew
+"Smith, Miss Katherine E.",42,C,--,0,Crew,England,Victualling crew
+"Snape, Mrs Lucy Violet",22,C,--,0,Crew,England,Victualling crew
+"Stap, Miss Sarah Agnes",47,C,--,0,Crew,England,Victualling crew
+"Stone, Mr. Edmond J.",26,C,--,0,Crew,England,Victualling crew
+"Stone, Mr. Edward Thomas",30,C,--,0,Crew,England,Victualling crew
+"Talbot, Mr. George Frederick Charles.",27,C,--,0,Crew,England,Victualling crew
+"Taylor, Mr. William",21,C,--,0,Crew,England,Victualling crew
+"Teuton, Mr. Thomas Moore",32,C,--,0,Crew,England,Victualling crew
+"Turner, Mr. L[eopold].[14]",28,C,--,0,Crew,England,Victualling crew
+"Veal, Mr. Thomas H.E.",38,C,--,0,Crew,England,Victualling crew
+"Wake, Mr. T.",32,C,--,0,Crew,England,Victualling crew
+"Wallis, Mrs Catherine Jane",35,C,--,0,Crew,England,Victualling crew
+"Walpole, Mr. James",48,C,--,0,Crew,England,Victualling crew
+"Walsh, Miss Catherine",32,C,--,0,Crew,England,Victualling crew
+"Ward, Mr. Edward",34,C,--,0,Crew,England,Victualling crew
+"Ward, Mr. Percy T.",38,C,--,0,Crew,England,Victualling crew
+"Ward, Mr. William",36,C,9,1,Crew,England,Victualling crew
+"Wareham, Mr. Robert Arthur",36,C,--,0,Crew,England,Victualling crew
+"Warwick, Mr. Thomas",35,C,--,0,Crew,England,Victualling crew
+"Weatherston, Mr. Thomas",24,C,--,0,Crew,England,Victualling crew
+"Weikman, Mr. August",51,C,A,1,Crew,England,Victualling crew
+"White, Mr J.W.",27,C,--,0,Crew,England,Victualling crew
+"White, Mr. L.",32,C,--,0,Crew,England,Victualling crew
+"Whiteley, Mr. Thomas",18,C,B,1,Crew,England,Victualling crew
+"Whitford, Mr. A.H.",37,C,--,0,Crew,England,Victualling crew
+"Whittman, Mr. Henry",34,C,--,0,Crew,England,Victualling crew
+"Widgery, Mr. James G.",37,C,9,1,Crew,England,Victualling crew
+"Wildebank, Mr. Alfred E.",39,C,13,1,Crew,England,Victualling crew
+"Williams, Mr. Walter J.",28,C,13,1,Crew,England,Victualling crew
+"Willis, Mr. William",66,C,--,0,Crew,England,Victualling crew
+"Wiltshire, Mr. W.",33,C,--,0,Crew,England,Victualling crew
+"Witter, Mr. James W.C.",31,C,11,1,Crew,England,Victualling crew
+"Wood, Mr. J.T.",40,C,--,0,Crew,England,Victualling crew
+"Wormald, Mr. Frederick William",36,C,--,0,Crew,England,Victualling crew
+"Wrapson, Mr. Frederick B.",19,C,--,0,Crew,England,Victualling crew
+"Wright, Mr. Frederick",24,C,--,0,Crew,England,Victualling crew
+"Wright, Mr. William",40,C,13,1,Crew,England,Victualling crew
+"Yearsley, Mr. Harry",38,C,9,1,Crew,England,Victualling crew
+"Yoshack, Mr. James A.",31,C,--,0,Crew,England,Victualling crew
+"Allaria, Signore Battista Antonio",30,C,--,0,Crew,England,Restaurant staff
+"Aspeslagh, Mr. Georges",26,C,--,0,Crew,England,Restaurant staff
+"Banfi, Signore Ugo",24,C,--,0,Crew,England,Restaurant staff
+"Basilico, Signore Giovanni",27,C,--,0,Crew,England,Restaurant staff
+"Bazzi, Signore Narciso",33,C,--,0,Crew,England,Restaurant staff
+"Bernardi, Signore Battista",22,C,--,0,Crew,England,Restaurant staff
+"Beux, Mr. David",26,C,--,0,Crew,England,Restaurant staff
+"Bietrix, Mr. George Baptiste",28,C,--,0,Crew,England,Restaurant staff
+"Blument, Mr. Jean Baptiste",26,C,--,0,Crew,England,Restaurant staff
+"Bochet, Mr. Pierre Giuseppe",43,C,--,0,Crew,England,Restaurant staff
+"Bolhuis, Mr. Hendrik ""Hennie""",21,C,--,0,Crew,England,Restaurant staff
+"Bowker, Miss Ruth",27,C,6,1,Crew,England,Restaurant staff
+"Casali, Signore Giulio",27,C,--,0,Crew,England,Restaurant staff
+"Chaboisson, Mr. Adrien Finnin",25,C,--,0,Crew,England,Restaurant staff
+"Cornaire, Mr. Marcel Raymond André",19,C,--,0,Crew,England,Restaurant staff
+"Coutin, Mr. Auguste Louis",28,C,--,0,Crew,England,Restaurant staff
+"Crovella, Signore Luigi",17,C,--,0,Crew,England,Restaurant staff
+"De Marsico, Signore Giovanni",20,C,--,0,Crew,England,Restaurant staff
+"Debreucq, Mr. Maurice Emile Victor",22,C,--,0,Crew,England,Restaurant staff
+"Desvernine, Mr. Louis Gabriel",20,C,--,0,Crew,England,Restaurant staff
+"Donati, Signore Italo Francesco",17,C,--,0,Crew,England,Restaurant staff
+"Dornier, Mr. Louis Auguste",20,C,--,0,Crew,England,Restaurant staff
+"Fey, Signore Carlo",30,C,--,0,Crew,England,Restaurant staff
+"Fioravante, Signore Giuseppe Bertoldo",23,C,--,0,Crew,England,Restaurant staff
+"Gatti, Signore Gaspare Antonio Pietro ""Luigi""",37,C,--,0,Crew,England,Restaurant staff
+"Gilardino, Signore Vincenzo Pio",31,C,--,0,Crew,England,Restaurant staff
+"Grosclaude, Mr. Gérald",24,C,--,0,Crew,England,Restaurant staff
+"Jaillet, Mr. Henri Marie",28,C,--,0,Crew,England,Restaurant staff
+"Janin, Mr. Claude Marie",29,C,--,0,Crew,England,Restaurant staff
+"Jeffery, Mr. William Alfred",28,C,--,0,Crew,England,Restaurant staff
+"Jouannault, Mr. Georges Jules",24,C,--,0,Crew,England,Restaurant staff
+"Martin, Miss Margaret Edwina ""Mabel""",20,C,6,1,Crew,England,Restaurant staff
+"Mattmann, Mr. Adolf",20,C,--,0,Crew,England,Restaurant staff
+"Maugé, Mr. Paul Achille Maurice Germain",25,C,13,1,Crew,England,Restaurant staff
+"Monteverdi, Signore Giovanni",23,C,--,0,Crew,England,Restaurant staff
+"Mourous, Mr. Jean Javier",20,C,--,0,Crew,England,Restaurant staff
+"Nannini, Signore Francesco Luigi",42,C,--,0,Crew,England,Restaurant staff
+"Pachera, Signore Jean Baptiste Stanislas",19,C,--,0,Crew,England,Restaurant staff
+"Pedrini, Signore Alessandro",21,C,--,0,Crew,England,Restaurant staff
+"Peracchio, Signore Alberto",20,C,--,0,Crew,England,Restaurant staff
+"Peracchio, Signore Sebastiano",17,C,--,0,Crew,England,Restaurant staff
+"Perotti, Signore Alfonso",20,C,--,0,Crew,England,Restaurant staff
+"Phillips, Mr. Walter John",35,C,--,0,Crew,England,Restaurant staff
+"Piatti, Signore Luigi",17,C,--,0,Crew,England,Restaurant staff
+"Piazza, Signore Pompeo",30,C,--,0,Crew,England,Restaurant staff
+"Poggi, Signore Emilio",28,C,--,0,Crew,England,Restaurant staff
+"Price, Mr. Ernest",17,C,--,0,Crew,England,Restaurant staff
+"Ratti, Signore Enrico",21,C,--,0,Crew,England,Restaurant staff
+"Ricaldone, Signore Rinaldo Renato",22,C,--,0,Crew,England,Restaurant staff
+"Rigozzi, Signore Abele",22,C,--,0,Crew,England,Restaurant staff
+"Rotta, Signore Angelo Mario",23,C,--,0,Crew,England,Restaurant staff
+"Rousseau, Mr. Pierre",49,C,--,0,Crew,England,Restaurant staff
+"Saccaggi, Signore Giovanni Giuseppe Emilio",24,C,--,0,Crew,England,Restaurant staff
+"Salussolia, Signore Giovanni",25,C,--,0,Crew,England,Restaurant staff
+"Sartori, Signore Lazar",24,C,--,0,Crew,England,Restaurant staff
+"Scavino, Signore Candido",42,C,--,0,Crew,England,Restaurant staff
+"Sesia, Signore Giacomo",24,C,--,0,Crew,England,Restaurant staff
+"Testoni, Signore Ercole",23,C,--,0,Crew,England,Restaurant staff
+"Tietz, Mr. Karl",27,C,--,0,Crew,England,Restaurant staff
+"Turvey, Mr. Charles",16,C,--,0,Crew,England,Restaurant staff
+"Urbini, Signore Roberto",22,C,--,0,Crew,England,Restaurant staff
+"Valvassori, Signore Ettore Luigi",35,C,--,0,Crew,England,Restaurant staff
+"Vicat, Mr. Alphonse Jean Eugene",21,C,--,0,Crew,England,Restaurant staff
+"Villvarlange, Mr. Pierre Léon Gabriel",19,C,--,0,Crew,France,Restaurant staff
+"Vine, Mr. H.",18,C,--,0,Crew,England,Restaurant staff
+"Vioni, Signore Roberto",31,C,--,0,Crew,England,Restaurant staff
+"Voegelin-Dubach, Mr. Johannes",35,C,--,0,Crew,England,Restaurant staff
+"Zanetti, Signore Minio",20,C,--,0,Crew,England,Restaurant staff
+"Zarracchi, Signore L.",26,C,--,0,Crew,England,Restaurant staff
+"Gwinn, Mr. William Logan",37,C,--,0,Crew,USA,Postal clerks
+"March, Mr. John Starr",50,C,--,0,Crew,USA,Postal clerks
+"Smith, Mr. John Richard ""Jago""",35,C,--,0,Crew,England,Postal clerks
+"Williamson, Mr. James Bertram",35,C,--,0,Crew,Ireland,Postal clerks
+"Woody, Mr. Oscar Scott",44,C,--,0,Crew,USA,Postal clerks
+"Andrews, Mr. Thomas",39,C,--,0,Crew,Ireland,Guarantee group
+"Campbell, Mr. William Henry",21,C,--,0,Crew,Ireland,Guarantee group
+"Chisholm, Mr. Roderick Robert Crispin",40,C,--,0,Crew,Ireland,Guarantee group
+"Cunningham, Mr. Alfred Fleming",21,C,--,0,Crew,Ireland,Guarantee group
+"Frost, Mr. Anthony Wood ""Artie""",37,C,--,0,Crew,Ireland,Guarantee group
+"Knight, Mr. Robert J.",39,C,--,0,Crew,Ireland,Guarantee group
+"Parkes, Mr. Francis ""Frank""",21,C,--,0,Crew,Ireland,Guarantee group
+"Parr, Mr. William Henry Marsh",29,C,--,0,Crew,Ireland,Guarantee group
+"Watson, Mr. Ennis Hastings",15,C,--,0,Crew,Ireland,Guarantee group
+"Krins, Mr. Georges Alexandré",23,C,,0,Crew,England,Musician
+"Hume, Mr. John Law ""Jock""",21,C,,0,Crew,Scotland,Musician
+"Hartley, Mr. Wallace Henry",33,C,,0,Crew,England,Musician
+"Bricoux, Mr. Roger Marie",20,C,,0,Crew,Monaco,Musician
+"Brailey, Mr. W. Theodore Ronald",24,C,,0,Crew,England,Musician
+"Taylor, Mr. Percy Cornelius",32,C,,0,Crew,England,Musician
+"Clarke, Mr. John Frederick Preston",30,C,,0,Crew,England,Musician
+"Woodward, Mr. John Wesley",32,C,,0,Crew,England,Musician
