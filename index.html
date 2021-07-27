@@ -2,7 +2,7 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <style> circle {fill: lightblue; stroke: black;} </style>
 <body onload='init()'>
-<svg width=300 height=300>
+<svg width=600 height=600>
 </svg>
 <script>
 async function init() {
@@ -15,8 +15,8 @@ const data = await d3.csv('https://hromadka.github.io/data/cars2017.csv');
 
 // set the dimensions and margins of the graph
 var margin = 50,
-    width = 300,
-    height = 250;
+    width = 500,
+    height = 500;
 
   var xScale = d3.scaleLog().base(10)
     .domain([10,150])
@@ -39,7 +39,7 @@ console.log("rscale!");
 var svg = d3.select('svg')
   .append("g")
     .attr("transform",
-          "translate(" + 50+ "," + 50+ ")");
+          "translate(" + margin + "," + 0 + ")");
 
 
   svg.selectAll("circle")
@@ -48,10 +48,6 @@ var svg = d3.select('svg')
     .attr("cx", function (d) { return xScale(d.AverageCityMPG) } )
     .attr("cy", function (d) { return yScale(d.AverageHighwayMPG) } )
     .attr("r", function (d) { return parseInt(d.EngineCylinders)+2  } );
-// autograder note:
-// "DOM elements that are wrong will be in red, any missing ones will be shown in red italics parentheses."
-// This means that I had errors that were generating no results in the inner functions
-// not that I was generating parentheses around a badly typed result.  Arrgh.
 
 
     // axes
@@ -66,11 +62,11 @@ var svg = d3.select('svg')
     	.tickFormat(d3.format('~s'));
 
     svg.append('g')
-      	.attr('transform', 'translate(' + [margin, margin] + ')')
+      	.attr('transform', 'translate(' + [0, 0] + ')')
       	.call(yAxis);
 
     svg.append('g')
-      	.attr('transform', 'translate(' + [margin, height] + ')')
+      	.attr('transform', 'translate(' + [0, height-margin] + ')')
       	.call(xAxis);
 
 ////////////////////////////////////////////////////////////////////
