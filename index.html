@@ -1,6 +1,7 @@
 <html>
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <style> circle {fill: lightblue; stroke: black;} </style>
+<style> path {stroke: black;}</style>
 <body onload='init()'>
 <svg width=600 height=600>
 </svg>
@@ -10,14 +11,21 @@ async function init() {
 
 // FINAL VERSION
 
-const data = await d3.csv('https://hromadka.github.io/data/cars2017.csv');
+const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated_mini.csv');
+//var data = [4,8,15,16,23,42];
+var color = ['pink','lightyellow','lightgreen','lightcyan','lightblue','violet'];
+var arc = d3.arc().innerRadius(0).outerRadius(100);
+//var pie = d3.pie();
+var pie = d3.pie().value(function(d) { 
+                return d.Survived; 
+            });
 
 
 // set the dimensions and margins of the graph
 var margin = 50,
     width = 500,
     height = 500;
-
+/*
   var xScale = d3.scaleLog().base(10)
     .domain([10,150])
     .range([ 0, (width-(2*margin)) ]);
@@ -25,23 +33,23 @@ var margin = 50,
   var yScale = d3.scaleLog().base(10)
     .domain([10,150])
     .range([height - margin, 0]);
-
-//  var rScale = d3.sum([d.EngineCylinders,2]);
-console.log("rscale!");
-
-
-//var xData = function (d) { return xScale(d.AverageCityMPG); };
-//var yData = function (d) { return yScale(d.AverageHighwayMPG); };
-//var rData = function (d) { return rScale(d.EngineCylinders); };
-
+*/
 
 // append the svg object to the body of the page
 var svg = d3.select('svg')
   .append("g")
     .attr("transform",
-          "translate(" + margin + "," + 0 + ")");
+          "translate(" + 3*margin + "," + 3*margin + ")");
 
 
+svg.selectAll("path")
+.data(pie(data))
+.enter().append("path")
+.attr("d", arc )
+.attr("fill", function(d, i) { return color[i]; })
+;
+
+/*
   svg.selectAll("circle")
     .data(data)
     .enter().append("circle")
@@ -68,7 +76,7 @@ var svg = d3.select('svg')
     svg.append('g')
       	.attr('transform', 'translate(' + [0, height-margin] + ')')
       	.call(xAxis);
-
+*/
 ////////////////////////////////////////////////////////////////////
 }
 </script>
