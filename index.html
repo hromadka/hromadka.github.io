@@ -1,15 +1,11 @@
 <html>
 <script src='https://d3js.org/d3.v5.min.js'></script>
-<style> path {stroke: black;}</style>
-<body>
-Hello World!
+<style> circle {fill: lightblue; stroke: black;} </style>
+<body onload='init()'>
 <svg width=300 height=300>
 </svg>
 <script>
-//var data = [4,8,15,16,23,42];
-var color = ['pink','lightyellow','lightgreen','lightcyan','lightblue','violet'];
-var pie = d3.pie();
-var arc = d3.arc().innerRadius(0).outerRadius(100);
+async function init() {
 ////////////////////////////////////////////////////////////////////////////////////
 
 // FINAL VERSION
@@ -78,6 +74,7 @@ var svg = d3.select('svg')
       	.call(xAxis);
 
 ////////////////////////////////////////////////////////////////////
+}
 </script>
 </body>
 </html>
