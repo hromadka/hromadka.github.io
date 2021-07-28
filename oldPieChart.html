@@ -4,34 +4,35 @@
 <style> path {stroke: black;}</style>
 <style> h1 {text-align: center;} </style>
 <style> h3 {text-align: center;} </style>
-<style> body { font-family: Helvetica, sans-serif; } </style>
+<style>
+body {
+  font-family: Helvetica, sans-serif;
+}
+</style>
 <body onload='init()'>
-<br><br>
 <h1>SURVIVING THE TITANIC</h1>
 <h3>Please click a button below to drill-down into the survival data.</h3>
 <div>
-  <input onclick="checkEvent('age')" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
-  <input onclick="checkEvent('gender')" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
-  <input onclick="checkEvent('ticketclass')" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
+  <input type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
+  <input type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
+  <input type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
 </div>
 <div id="dataviz"></div>
-<svg width=600 height=600></svg>
-<script> 
-function checkEvent(t) { 
-	console.log(t); 
-	init();  // this is horrible, but I don't know how else to reach a function inside the async init()
-} 
-</script>
-
+<svg width=600 height=600>
+</svg>
 <script>
 async function init() {
 ////////////////////////////////////////////////////////////////////////////////////
 
+// FINAL VERSION
+
 const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv');
+//var data = [4,8,15,16,23,42];
 var arc = d3.arc().innerRadius(0).outerRadius(100);
 var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
 
 const survived_totals = d3.nest().key(function(d){return d.Survived;}).rollup(function(d){return d.length;}).entries(data);
+update(survived_totals);
 
 
 //console.log(data);
@@ -67,21 +68,12 @@ const data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(functio
 // const grouped = d3.rollup(data, v => v.length, d => d.Gender)  
 
 
-
-function update() {
-	console.log("update()");
-
-// confirming that update() can see all the data loaded during beginning of init()
-//	console.log(survived_totals);
-//	console.log(data_gender);
-	
-	dataX = data_gender;
-	
+function update(data) {
 	//var pie = d3.pie();
 	//var pie = d3.pie().value(function(d) { return d.Gender; });
 	// I know this is wrong, but it seems to work!
-	var pie = d3.pie().value(function(d,i) { return dataX[i].value; })
-	var data_ready = pie(d3.entries(dataX))
+	var pie = d3.pie().value(function(d,i) { return data[i].value; })
+	var data_ready = pie(d3.entries(data))
 
 
 	//console.log(data_ready);
@@ -133,23 +125,6 @@ function update() {
 		;
 
 }
-
-d3.selectAll(".checkbox").each(function(d){
-        cb = d3.select(this);
-        grp = cb.property("value")
-
-        // If the box is check, I show the group
-        if(cb.property("checked")){
-          console.log("checked " + grp);
-        }else{
-          console.log("unchecked " + grp);
-        }
-      })
-	  
-//d3.selectAll("checkbox").on("change",update(survived_totals));
-
-update();
-
 
 ////////////////////////////////////////////////////////////////////
 }
