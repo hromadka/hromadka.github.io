@@ -3,9 +3,19 @@
 <style> circle {fill: lightblue; stroke: black;} </style>
 <style> path {stroke: black;}</style>
 <style> h1 {text-align: center;} </style>
+<style> h3 {text-align: center;} </style>
 <body onload='init()'>
 <h1>SURVIVING THE TITANIC</h1>
-Please click a button below to drill-down into the survival data.
+<h3>Please click a button below to drill-down into the survival data.</h3>
+<div>
+  <input type="checkbox" name="chkAge" unchecked>
+  <label for="chkAge">Age</label>
+  <input type="checkbox" name="chkGender" unchecked>
+  <label for="chkGender">Gender</label>
+  <input type="checkbox" name="chkClass" unchecked>
+  <label for="chkClass">Ticket Class</label>
+</div>
+<div id="dataviz"></div>
 <svg width=600 height=600>
 </svg>
 <script>
@@ -17,6 +27,7 @@ async function init() {
 const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv');
 //var data = [4,8,15,16,23,42];
 var arc = d3.arc().innerRadius(0).outerRadius(100);
+var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
 
 //console.log(data);
 
@@ -34,10 +45,6 @@ function getMapSize(x) {
 //})
 
 // D3 v5
-// below works correctly for counting Gender
-var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
-//const grouped = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
-
 // below works correctly for counting Survived (of Total)
 const grouped = d3.nest().key(function (d){return d.Survived;}).rollup(function(d){return d.length;}).entries(data);
 // below did NOT work correctly
@@ -49,6 +56,7 @@ const grouped = d3.nest().key(function (d){return d.Survived;}).rollup(function(
 //		console.log("ArrayData_length", getMapSize(grouped) );
 		console.log("grouped[0] detail:",grouped[0].value);  // <-- this returns length correctly
 		console.log("grouped[1] detail:",grouped[1].value);  // <-- this returns length correctly
+
 		
 // D3 v6
 // const grouped = d3.rollup(data, v => v.length, d => d.Gender)  
@@ -68,6 +76,18 @@ var data_ready = pie(d3.entries(grouped))
 var margin = 50,
     width = 500,
     height = 500;
+	
+// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+var radius = Math.min(width, height) / 2 - margin
+
+// append the svg object to the div called 'my_dataviz'
+var svg = d3.select("#dataviz")
+  .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");	
+
 /*
   var xScale = d3.scaleLog().base(10)
     .domain([10,150])
@@ -78,12 +98,13 @@ var margin = 50,
     .range([height - margin, 0]);
 */
 
+/*
 // append the svg object to the body of the page
 var svg = d3.select('svg')
   .append("g")
     .attr("transform",
           "translate(" + 3*margin + "," + 3*margin + ")");
-
+*/
 
 svg.selectAll("path")
 .data(pie(data_ready))
@@ -91,6 +112,8 @@ svg.selectAll("path")
 .attr("d", arc )
 .attr("fill", function(d, i) { return color[i]; })
 ;
+
+
 
 /*
   svg.selectAll("circle")
