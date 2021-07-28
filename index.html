@@ -11,15 +11,47 @@ async function init() {
 
 // FINAL VERSION
 
-const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated_mini.csv');
+const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv');
 //var data = [4,8,15,16,23,42];
-var color = ['pink','lightyellow','lightgreen','lightcyan','lightblue','violet'];
+var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
 var arc = d3.arc().innerRadius(0).outerRadius(100);
-//var pie = d3.pie();
-var pie = d3.pie().value(function(d) { 
-                return d.Survived; 
-            });
 
+//console.log(data);
+
+// .size and .length not working?
+function getMapSize(x) {
+    var len = 0;
+    for (var count in x) {
+            len++;
+    }
+    return len;
+}
+
+//.rollup(function(ids) {
+//    return ids.length; 
+//})
+
+// D3 v5
+const grouped = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
+//      console.log("ArrayData :", grouped);
+//      console.log("ArrayData[0] :", grouped[0]);
+//      console.log("ArrayData[1] :", grouped[1]);
+//		console.log("ArrayData_length", getMapSize(grouped) );
+		console.log("grouped[0] detail:",grouped[0].value);  // <-- this returns 4, correctly
+		
+// D3 v6
+// const grouped = d3.rollup(data, v => v.length, d => d.Gender)  
+
+
+
+//var pie = d3.pie();
+//var pie = d3.pie().value(function(d) { return d.Gender; });
+// I know this is wrong, but it seems to work!
+var pie = d3.pie().value(function(d,i) { return grouped[i].value; })
+var data_ready = pie(d3.entries(grouped))
+
+
+//console.log(data_ready);
 
 // set the dimensions and margins of the graph
 var margin = 50,
@@ -43,7 +75,7 @@ var svg = d3.select('svg')
 
 
 svg.selectAll("path")
-.data(pie(data))
+.data(pie(data_ready))
 .enter().append("path")
 .attr("d", arc )
 .attr("fill", function(d, i) { return color[i]; })
