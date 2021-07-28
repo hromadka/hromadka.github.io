@@ -2,7 +2,10 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <style> circle {fill: lightblue; stroke: black;} </style>
 <style> path {stroke: black;}</style>
+<style> h1 {text-align: center;} </style>
 <body onload='init()'>
+<h1>SURVIVING THE TITANIC</h1>
+Please click a button below to drill-down into the survival data.
 <svg width=600 height=600>
 </svg>
 <script>
@@ -13,7 +16,6 @@ async function init() {
 
 const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv');
 //var data = [4,8,15,16,23,42];
-var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
 var arc = d3.arc().innerRadius(0).outerRadius(100);
 
 //console.log(data);
@@ -32,12 +34,21 @@ function getMapSize(x) {
 //})
 
 // D3 v5
-const grouped = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
+// below works correctly for counting Gender
+var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
+//const grouped = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
+
+// below works correctly for counting Survived (of Total)
+const grouped = d3.nest().key(function (d){return d.Survived;}).rollup(function(d){return d.length;}).entries(data);
+// below did NOT work correctly
+//const grouped = d3.nest().key(function (d){return d.Survived;}).rollup(function(d){return d3.sum(d,function(g){return g.value;});}).entries(data);
+
 //      console.log("ArrayData :", grouped);
 //      console.log("ArrayData[0] :", grouped[0]);
 //      console.log("ArrayData[1] :", grouped[1]);
 //		console.log("ArrayData_length", getMapSize(grouped) );
-		console.log("grouped[0] detail:",grouped[0].value);  // <-- this returns 4, correctly
+		console.log("grouped[0] detail:",grouped[0].value);  // <-- this returns length correctly
+		console.log("grouped[1] detail:",grouped[1].value);  // <-- this returns length correctly
 		
 // D3 v6
 // const grouped = d3.rollup(data, v => v.length, d => d.Gender)  
