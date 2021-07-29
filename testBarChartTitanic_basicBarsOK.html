@@ -4,19 +4,14 @@
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
-<div>
-  <input onclick="loadData(0)" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
-  <input onclick="nogo(1)" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
-  <input onclick="nogo(2)" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
+<!-- Add 2 buttons -->
+<button onclick="update(data1)">Variable 1</button>
+<button onclick="update(data2)">Variable 2</button>
+
+<!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
 
 <script>
-
-console.log(allData);
-//renderData(0);
-
-//var data0 = "https://hromadka.github.io/data/titanicdatabase_curated.csv";
-//var fileData = null;
 
 // create 2 data_set
 var data1 = [
@@ -32,10 +27,6 @@ var data2 = [
    {group: "D", value: 4},
    {group: "E", value: 48}
 ];
-
-var allData = data2;
-console.log(allData);
-
 
 // set the dimensions and margins of the graph
 var margin = {top: 30, right: 30, bottom: 70, left: 60},
@@ -55,25 +46,10 @@ var svg = d3.select("#my_dataviz")
 var xAxis = svg.append("g")
 var yAxis = svg.append("g")
 
-renderData(0, data2);
-
 
 // A function that create / update the plot for a given variable:
-function renderData(idx, data) {
+function update(data) {
 
-	console.log("renderData(" + idx + ")");
-	
-	
-    //ignore click events until data is being loaded
-    if(data == null) {
-        return;
-    }
-//    data = fileData[idx];
-	
-	console.log(data)
-	console.log("returning");
-	return;
-		
 	//var xScale = d3.scaleLinear().domain([0,100]).range([0, (width-(2*margin))]);
 	
 	// Initialize the X axis
@@ -98,11 +74,11 @@ function renderData(idx, data) {
 	x.domain([0,100])
 	xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
-	console.log(data);
-
 	// Update the Y axis
 	y.domain(data.map(function(d){ return d.group; }))
 	yAxis.transition().duration(1000).call(d3.axisLeft(y));
+
+	console.log(data)
 
 	// Create the u variable
 	var u = svg.selectAll("rect")
@@ -127,53 +103,7 @@ function renderData(idx, data) {
 }
 
 // Initialize the plot with the first dataset
-//update(data1)
-
-/*
-Promise.all([
-    d3.csv(file1),
-	d3.csv(file2)
-*/
-/*
-Promise.all([
-    d3.csv(data0)
-]).then(function(data) {
-	console.log(data0);
-    fileData = data;
-	console.log("done!");
-	console.log(fileData);
-    // then use data in charts etc
-    // chart - want to dynamically change data source
-    // from file1 to file2 and back using button onClick event
-    // by default render first file, 0 index
-    renderData(0);
-
-});
-*/
-
-function callback(data) {
-	console.log("callback");
-	console.log(data);
-	renderData(1);
-}
-
-
-async function loadData(idx) {
-	console.log("loadData " + idx);
-	await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv', callback);	
-	
-	
-	
-//	console.log(data0);
-//	var fileData = d3.csv(data0);
-//	console.log(fileData);
-//	return fileData
-};
-
-
-function nogo(idx) { 
-	console.log("clicked " + idx);
-}
+update(data1)
 
 </script>
 

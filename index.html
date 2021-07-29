@@ -27,7 +27,7 @@ function checkEvent(t) {
 async function init() {
 ////////////////////////////////////////////////////////////////////////////////////
 
-const data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv');
+var data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv');
 var arc = d3.arc().innerRadius(0).outerRadius(100);
 var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
 
