@@ -161,6 +161,8 @@ console.log(dataC);
 		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
 // note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
 const data_age = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data);	
+// data_age is unsorted!
+//console.log(data_age);
 //console.log("data_age[0] detail:",data_age[0].value);  // <-- this returns length correctly
 //console.log("data_age[1] detail:",data_age[1].value);  // <-- this returns length correctly
 
@@ -173,17 +175,18 @@ const data_age4_survived = d3.nest().key(function (d){return d.AgeBinned;}).roll
 const data_age5_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "51-60" && d.Survived == 1) }));
 const data_age6_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "61-70" && d.Survived == 1) }));
 const data_age7_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "71+" && d.Survived == 1) }));
-console.log("data_age0_survived[0] detail:",data_age0_survived[0].value);  // <-- this returns length correctly
-//console.log("data_genderM_survived[0] detail:",data_genderM_survived[0].value);  // <-- this returns length correctly
+//console.log("data_age0_survived[0] detail:",data_age0_survived[0].value);  // <-- this returns length correctly
+//console.log("data_age1_survived[1] detail:",data_age1_survived[0].value);  // <-- this returns length correctly
 
-surv0 = 100*parseFloat(data_age0_survived[0].value)/parseFloat(data_age[0].value);
-surv1 = 100*parseFloat(data_age1_survived[1].value)/parseFloat(data_age[1].value);
-surv2 = 100*parseFloat(data_age2_survived[2].value)/parseFloat(data_age[2].value);
-surv3 = 100*parseFloat(data_age3_survived[3].value)/parseFloat(data_age[3].value);
-surv4 = 100*parseFloat(data_age4_survived[4].value)/parseFloat(data_age[4].value);
-surv5 = 100*parseFloat(data_age5_survived[5].value)/parseFloat(data_age[5].value);
-surv6 = 100*parseFloat(data_age6_survived[6].value)/parseFloat(data_age[6].value);
-surv7 = 100*parseFloat(data_age7_survived[7].value)/parseFloat(data_age[7].value);
+// note: careful if no survivors for a specific subgroup
+surv0 = 100*parseFloat(data_age0_survived[0].value)/parseFloat(data_age[3].value);
+surv1 = 100*parseFloat(data_age1_survived[0].value)/parseFloat(data_age[1].value);
+surv2 = 100*parseFloat(data_age2_survived[0].value)/parseFloat(data_age[0].value);
+surv3 = 100*parseFloat(data_age3_survived[0].value)/parseFloat(data_age[2].value);
+surv4 = 100*parseFloat(data_age4_survived[0].value)/parseFloat(data_age[4].value);
+surv5 = 100*parseFloat(data_age5_survived[0].value)/parseFloat(data_age[5].value);
+surv6 = 100*parseFloat(data_age6_survived[0].value)/parseFloat(data_age[6].value);
+surv7 = 100*parseFloat(data_age7_survived[0].value)/parseFloat(data_age[7].value);
 //console.log("F survival rate = " + Fsurv);
 //console.log("M survival rate = " + Msurv);
 
@@ -203,6 +206,7 @@ console.log(dataA);
 
 	} else {
 		console.log("state case not implemented yet.");
+		data = dataDefault;
 //return;
 //const data_age = d3.nest().key(function (d){return d.Age;}).rollup(function(d){return d.length;}).entries(data);
 	}
