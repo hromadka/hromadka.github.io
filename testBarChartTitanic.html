@@ -12,13 +12,11 @@
 
 <script>
 
-console.log(allData);
-//renderData(0);
 
 //var data0 = "https://hromadka.github.io/data/titanicdatabase_curated.csv";
 //var fileData = null;
 
-// create 2 data_set
+// create 2 data_sets for offline testing
 var data1 = [
    {group: "A", value: 24},
    {group: "B", value: 16},
@@ -62,17 +60,17 @@ renderData(0, data2);
 function renderData(idx, data) {
 
 	console.log("renderData(" + idx + ")");
-	
-	
+	console.log("verifying data");
+	console.log(data);
+	console.log("verification complete");
     //ignore click events until data is being loaded
     if(data == null) {
         return;
     }
 //    data = fileData[idx];
 	
-	console.log(data)
-	console.log("returning");
-	return;
+//	console.log(data)
+
 		
 	//var xScale = d3.scaleLinear().domain([0,100]).range([0, (width-(2*margin))]);
 	
@@ -98,32 +96,58 @@ function renderData(idx, data) {
 	x.domain([0,100])
 	xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
-	console.log(data);
+//	console.log(data);
 
 	// Update the Y axis
-	y.domain(data.map(function(d){ return d.group; }))
+	if (idx == 0) {
+		console.log("y-axis 0")
+		y.domain(data.map(function(d){ return d.group; }))
+	} else {
+		console.log("y-axis 1")
+		y.domain(data.map(function(d){ return d.Class; }))	
+	}
 	yAxis.transition().duration(1000).call(d3.axisLeft(y));
+	console.log("survived y-axis");
 
 	// Create the u variable
 	var u = svg.selectAll("rect")
 	.data(data)
 
-	u
-	.enter()
-	.append("rect") // Add a new rect for each new elements
-	.merge(u) // get the already existing elements as well
-	.transition() // and apply changes to all of them
-	.duration(1000)
-	  .attr("x", x(0))
-	  .attr("y", function(d) { return y(d.group); })
-	  .attr("width", function(d) { return x(d.value); })
-	  .attr("height", y.bandwidth())
-	  .attr("fill", "#69b3a2")
+	if (idx == 0) {
+		u
+		.enter()
+		.append("rect") // Add a new rect for each new elements
+		.merge(u) // get the already existing elements as well
+		.transition() // and apply changes to all of them
+		.duration(1000)
+		  .attr("x", x(0))
+		  .attr("y", function(d) { return y(d.group); })
+		  .attr("width", function(d) { return x(d.value); })
+		  .attr("height", y.bandwidth())
+		  .attr("fill", "#69b3a2")
 
-	// If less group in the new dataset, I delete the ones not in use anymore
-	u
-	.exit()
-	.remove()
+		// If less group in the new dataset, I delete the ones not in use anymore
+		u
+		.exit()
+		.remove()
+	} else {
+		u
+		.enter()
+		.append("rect") // Add a new rect for each new elements
+		.merge(u) // get the already existing elements as well
+		.transition() // and apply changes to all of them
+		.duration(1000)
+		  .attr("x", x(0))
+		  .attr("y", function(d) { return y(d.Age); })
+		  .attr("width", function(d) { return x(d.value); })
+		  .attr("height", y.bandwidth())
+		  .attr("fill", "#69b3a2")
+
+		// If less group in the new dataset, I delete the ones not in use anymore
+		u
+		.exit()
+		.remove()
+	}	
 }
 
 // Initialize the plot with the first dataset
@@ -154,20 +178,13 @@ Promise.all([
 function callback(data) {
 	console.log("callback");
 	console.log(data);
-	renderData(1);
+	renderData(1, data);
 }
 
 
 async function loadData(idx) {
 	console.log("loadData " + idx);
 	await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv', callback);	
-	
-	
-	
-//	console.log(data0);
-//	var fileData = d3.csv(data0);
-//	console.log(fileData);
-//	return fileData
 };
 
 
