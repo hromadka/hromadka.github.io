@@ -13,8 +13,8 @@
 </style>
 
 <div>
-  <input onclick="loadData(0)" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
-  <input onclick="nogo(1)" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
+  <input onclick="nogo(0)" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
+  <input onclick="loadData()" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
   <input onclick="nogo(2)" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
 <div id="my_dataviz"></div>
 
@@ -24,7 +24,7 @@
 //var data0 = "https://hromadka.github.io/data/titanicdatabase_curated.csv";
 //var fileData = null;
 
-// create 2 data_sets for offline testing
+// create 2 datasets for offline testing
 var data1 = [
    {group: "A", value: 24},
    {group: "B", value: 16},
@@ -38,6 +38,8 @@ var data2 = [
    {group: "D", value: 4},
    {group: "E", value: 48}
 ];
+
+var dataX = new Map();
 
 var allData = data2;
 console.log(allData);
@@ -61,13 +63,13 @@ var svg = d3.select("#my_dataviz")
 var xAxis = svg.append("g")
 var yAxis = svg.append("g")
 
-renderData(0, data2);
+renderData(0,0,0, data2);
 
 
 // A function that create / update the plot for a given variable:
-function renderData(idx, data) {
+function renderData(idxAge, idxGender, idxClass, data) {
 
-	console.log("renderData(" + idx + ")");
+	console.log("renderData(" + idxAge + "," + idxGender + "," +  idxClass + ")");
 	console.log("verifying data");
 	console.log(data);
 	console.log("verification complete");
@@ -77,10 +79,10 @@ function renderData(idx, data) {
     }
 
 	// perform data rollup based on chosen parameters
-	if (idx == 0) {
+	if (idxAge+idxGender+idxClass == 0) {
 		console.log("no rollup");
 	} else {
-		console.log("rollup processing for idx = " + idx);
+		console.log("rollup processing for idx = " + idxGender);
 // note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
 const data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
 console.log("data_gender[0] detail:",data_gender[0].value);  // <-- this returns length correctly
@@ -94,15 +96,32 @@ console.log("data_genderF_survived[0] detail:",data_genderF_survived[0].value); 
 const data_genderM_survived = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.Survived == 1) }));
 console.log("data_genderM_survived[0] detail:",data_genderM_survived[0].value);  // <-- this returns length correctly
 
-console.log("F survival rate = " + 100*parseFloat(data_genderF_survived[0].value)/parseFloat(data_gender[0].value));
-console.log("M survival rate = " + 100*parseFloat(data_genderM_survived[0].value)/parseFloat(data_gender[1].value));
+Fsurv = 100*parseFloat(data_genderF_survived[0].value)/parseFloat(data_gender[0].value);
+Msurv = 100*parseFloat(data_genderM_survived[0].value)/parseFloat(data_gender[1].value);
+console.log("F survival rate = " + Fsurv);
+console.log("M survival rate = " + Msurv);
 
+/*
+let M = {group: 'M'};
+let F = {group: 'F'};
+let Mrate = {value: Msurv};
+let Frate = {value: Fsurv};
+dataX.set(M,Mrate);
+dataX.set(F,Frate);
+*/
+var dataX = [
+   {group: "M", value: Msurv},
+   {group: "F", value: Fsurv}
+];
+data = dataX;
+console.log("printing dataX now:")
+console.log(dataX);
 //
 
-return;
+//return;
 	
-const data_age = d3.nest().key(function (d){return d.Age;}).rollup(function(d){return d.length;}).entries(data);
-const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data);	
+//const data_age = d3.nest().key(function (d){return d.Age;}).rollup(function(d){return d.length;}).entries(data);
+//const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data);	
 	}
 
 		
@@ -151,12 +170,12 @@ const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(
 //	console.log(data);
 
 	// Update the Y axis
-	if (idx == 0) {
+	if (idxAge+idxGender+idxClass == 0) {
 		console.log("y-axis 0")
 		y.domain(data.map(function(d){ return d.group; }))
 	} else {
 		console.log("y-axis 1")
-		y.domain(data.map(function(d){ return d.Class; }))	
+		y.domain(data.map(function(d){ return d.group; }))	
 	}
 	yAxis.transition().duration(1000).call(d3.axisLeft(y));
 	console.log("survived y-axis");
@@ -165,7 +184,7 @@ const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(
 	var u = svg.selectAll("rect")
 	.data(data)
 
-	if (idx == 0) {
+//	if (idx == 0) {
 		u
 		.enter()
 		.append("rect") // Add a new rect for each new elements
@@ -182,6 +201,7 @@ const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(
 		u
 		.exit()
 		.remove()
+/*
 	} else {
 		u
 		.enter()
@@ -190,7 +210,7 @@ const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(
 		.transition() // and apply changes to all of them
 		.duration(1000)
 		  .attr("x", x(0))
-		  .attr("y", function(d) { return y(d.Age); })
+		  .attr("y", function(d) { return y(d.group); })
 		  .attr("width", function(d) { return x(d.value); })
 		  .attr("height", y.bandwidth())
 		  .attr("fill", "#69b3a2")
@@ -199,7 +219,8 @@ const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(
 		u
 		.exit()
 		.remove()
-	}	
+	}
+*/	
 }
 
 // Initialize the plot with the first dataset
@@ -230,12 +251,13 @@ Promise.all([
 function callback(data) {
 	console.log("callback");
 	console.log(data);
-	renderData(1, data);
+	renderData(0,1,0, data);
 }
 
 
-async function loadData(idx) {
-	console.log("loadData " + idx);
+async function loadData() {
+	// survey all checkboxes for current state parameters
+	console.log("loadData()");
 	await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv', callback);	
 };
 
