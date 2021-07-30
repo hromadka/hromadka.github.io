@@ -24,7 +24,7 @@ We also included data about the crew, possibly for the first time ever.  This cr
 <script> 
 function checkEvent(t) { 
 	console.log(t); 
-	init();  // this is horrible, but I don't know how else to reach a function inside the async init()
+	init();  
 } 
 </script>
 
@@ -123,27 +123,6 @@ function update() {
 //console.log(data_ready);
 
 
-	
-
-	/*
-	// scale for XY axes
-	  var xScale = d3.scaleLog().base(10)
-		.domain([10,150])
-		.range([ 0, (width-(2*margin)) ]);
-
-	  var yScale = d3.scaleLog().base(10)
-		.domain([10,150])
-		.range([height - margin, 0]);
-	*/
-
-	/*
-	// append the svg object to the body of the page
-	var svg = d3.select('svg')
-	  .append("g")
-		.attr("transform",
-			  "translate(" + 3*margin + "," + 3*margin + ")");
-	*/
-
 	var draw = function(selection) {
 		selection
 		.attr('d', d3.arc()
@@ -174,7 +153,7 @@ var labelMap = [
 			
 var arcGenerator = d3.arc()
   .innerRadius(0)
-  .outerRadius(radius-1.8*margin)			
+  .outerRadius(radius-2*margin)			
 svg
   .selectAll('mySlices')
   .data(data_ready)
@@ -183,7 +162,7 @@ svg
   .text(function(d){ if (d.data.key==0) { return "Survivors"; } else { return "Deceased"; } })
   .attr("transform", function(d) { return "translate(" + arcGenerator.centroid(d) + ")";  })
   .style("text-anchor", "middle")
-  .style("font-size", 17)
+  .style("font-size", 15)
 
 
 /*
@@ -207,7 +186,6 @@ svg
 
 	  */
 }
-
 	 
 //d3.selectAll("checkbox").on("change",update(survived_totals));
 

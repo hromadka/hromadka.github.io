@@ -62,7 +62,23 @@ var svg = d3.select("#my_dataviz")
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
-
+		  
+  // text label for the x axis
+  svg.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + margin.top + 20) + ")")
+      .style("text-anchor", "middle")
+      .text("Survival rate (%)");
+	  
+  // text label for the y axis -- vary this by selected factor(s)
+  svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Value");  
 
 var xAxis = svg.append("g")
 var yAxis = svg.append("g")
@@ -241,22 +257,7 @@ console.log(dataA);
 	x.domain([0,100])
 	xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
-  // text label for the x axis
-  svg.append("text")             
-      .attr("transform",
-            "translate(" + (width/2) + " ," + 
-                           (height + margin.top + 20) + ")")
-      .style("text-anchor", "middle")
-      .text("Survival rate (%)");
 	  
-  // text label for the y axis -- vary this by selected factor(s)
-  svg.append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 0 - margin.left)
-      .attr("x",0 - (height / 2))
-      .attr("dy", "1em")
-      .style("text-anchor", "middle")
-      .text("Value");  	  
 
 //	console.log(data);
 
@@ -313,6 +314,7 @@ console.log(dataA);
 	}
 */	
 
+	// mouse events
 	svg.selectAll("rect")
 	  .on("mouseover", function(d) {
           d3.select(this).style("fill", 'purple');
@@ -320,7 +322,22 @@ console.log(dataA);
       .on("mouseout", function(d) {
           d3.select(this).style("fill", 'pink');
       });
+	  
+	var labels = svg.selectAll(".label").data(data)
 
+		
+	labels.enter()
+		.append("text")
+		.merge(labels)
+        .transition()
+        .duration(1000)		
+		.attr("class","label")
+		.attr("x", function(d) { return x(d.value) - margin.left/2; })
+		.attr("y",  function(d) { return y(d.group) + y.bandwidth()/2; })
+		.text(function(d) { return d.value.toFixed(0) + "%"; }); 	  
+	
+	labels.exit()
+		.remove();
 
 }
 
