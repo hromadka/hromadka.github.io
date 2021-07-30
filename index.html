@@ -10,9 +10,11 @@
 <h1>SURVIVING THE TITANIC</h1>
 <h3>Please click a button below to drill-down into the survival data.</h3>
 <div>
+<!--  
   <input onclick="checkEvent('age')" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
   <input onclick="checkEvent('gender')" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
-  <input onclick="checkEvent('ticketclass')" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
+  <input onclick="checkEvent('ticketclass')" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label> 
+ -->
 </div>
 <div id="dataviz"></div>
 <svg width=600 height=600></svg>
@@ -89,7 +91,7 @@ function update() {
 //	console.log(data_gender);
 
 	dataX = survived_totals;
-
+/*
 	d3.selectAll(".checkbox").each(function(d){
         cb = d3.select(this);
         grp = cb.property("value")
@@ -106,9 +108,9 @@ function update() {
           console.log("unchecked " + grp);
         }
       })
-	
+*/	
 // verify that correct dataset is selected, loaded, accessible	
-console.log(dataX);
+//console.log(dataX);
 	
 	//var pie = d3.pie();
 	//var pie = d3.pie().value(function(d) { return d.Gender; });
