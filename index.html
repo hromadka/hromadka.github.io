@@ -33,6 +33,11 @@ var data = await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated
 var arc = d3.arc().innerRadius(0).outerRadius(100);
 var color = ['pink','lightblue','lightyellow','lightgreen','lightcyan','violet'];
 
+function clickEvent() { 
+	console.log("clicked chart!");
+	window.location.href = "https://hromadka.github.io/testBarChartTitanic.html";
+} 
+
 // replace .size or .length 
 function getMapSize(x) {
     var len = 0;
@@ -81,6 +86,7 @@ const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(
 		.attr("height", height)
 		.append("g")
 		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+		.on("click", clickEvent)
 		;
 
 function update() {
@@ -170,7 +176,7 @@ function update() {
 		 .remove()
 
 	
-		
+			
 
 }
 
