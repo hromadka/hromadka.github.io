@@ -13,7 +13,7 @@
 </style>
 
 <div>
-  <input onclick="nogo(0)" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
+  <input onclick="loadData()" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
   <input onclick="loadData()" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
   <input onclick="loadData()" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
 <div id="my_dataviz"></div>
@@ -74,9 +74,11 @@ renderData(0,0,0, dataDefault);
 function renderData(idxAge, idxGender, idxClass, data) {
 
 	console.log("renderData(" + idxAge + "," + idxGender + "," +  idxClass + ")");
-	console.log("verifying data");
-	console.log(data);
-	console.log("verification complete");
+	
+//	console.log("verifying data");
+//	console.log(data);
+//	console.log("verification complete");
+
     // ignore click events while data is being loaded
     if(data == null) {
         return;
@@ -154,6 +156,50 @@ var dataC = [
 data = dataC;
 console.log("printing dataC now:")
 console.log(dataC);
+
+	} else if (idxAge == 1 && idxGender == 0 && idxClass == 0) {
+		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
+// note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
+const data_age = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data);	
+//console.log("data_age[0] detail:",data_age[0].value);  // <-- this returns length correctly
+//console.log("data_age[1] detail:",data_age[1].value);  // <-- this returns length correctly
+
+// TODO find a way to do this dynamically!
+const data_age0_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "< 10" && d.Survived == 1) }));
+const data_age1_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "11-20" && d.Survived == 1) }));
+const data_age2_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "21-30" && d.Survived == 1) }));
+const data_age3_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "31-40" && d.Survived == 1) }));
+const data_age4_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "41-50" && d.Survived == 1) }));
+const data_age5_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "51-60" && d.Survived == 1) }));
+const data_age6_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "61-70" && d.Survived == 1) }));
+const data_age7_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.AgeBinned == "71+" && d.Survived == 1) }));
+console.log("data_age0_survived[0] detail:",data_age0_survived[0].value);  // <-- this returns length correctly
+//console.log("data_genderM_survived[0] detail:",data_genderM_survived[0].value);  // <-- this returns length correctly
+
+surv0 = 100*parseFloat(data_age0_survived[0].value)/parseFloat(data_age[0].value);
+surv1 = 100*parseFloat(data_age1_survived[1].value)/parseFloat(data_age[1].value);
+surv2 = 100*parseFloat(data_age2_survived[2].value)/parseFloat(data_age[2].value);
+surv3 = 100*parseFloat(data_age3_survived[3].value)/parseFloat(data_age[3].value);
+surv4 = 100*parseFloat(data_age4_survived[4].value)/parseFloat(data_age[4].value);
+surv5 = 100*parseFloat(data_age5_survived[5].value)/parseFloat(data_age[5].value);
+surv6 = 100*parseFloat(data_age6_survived[6].value)/parseFloat(data_age[6].value);
+surv7 = 100*parseFloat(data_age7_survived[7].value)/parseFloat(data_age[7].value);
+//console.log("F survival rate = " + Fsurv);
+//console.log("M survival rate = " + Msurv);
+
+var dataA = [
+   {group: "< 10", value: surv0},
+   {group: "11-20", value: surv1},
+   {group: "21-30", value: surv2},
+   {group: "31-40", value: surv3},
+   {group: "41-50", value: surv4},
+   {group: "51-60", value: surv5},
+   {group: "61-70", value: surv6},
+   {group: "71+", value: surv7}
+];
+data = dataA;
+console.log("printing dataA now:")
+console.log(dataA);
 
 	} else {
 		console.log("state case not implemented yet.");
