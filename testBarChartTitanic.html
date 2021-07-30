@@ -69,7 +69,11 @@ var yAxis = svg.append("g")
 
 renderData(0,0,0, dataDefault);
 
-
+// colors: http://bl.ocks.org/mbostock/5577023
+var color = d3.scale.ordinal()
+    .range(["#d73027","#f46d43","#fdae61","#fee090","#e0f3f8","#abd9e9","#74add1","#4575b4"]);
+	
+	
 // A function that create / update the plot for a given variable:
 function renderData(idxAge, idxGender, idxClass, data) {
 
@@ -269,7 +273,7 @@ console.log(dataA);
 
 	// Create the u variable
 	var u = svg.selectAll("rect")
-	.data(data)
+	.data(data)	
 
 //	if (idx == 0) {
 		u
@@ -278,11 +282,11 @@ console.log(dataA);
 		.merge(u) // get the already existing elements as well
 		.transition() // and apply changes to all of them
 		.duration(1000)
-		  .attr("x", x(0))
-		  .attr("y", function(d) { return y(d.group); })
-		  .attr("width", function(d) { return x(d.value); })
-		  .attr("height", y.bandwidth())
-		  .attr("fill", 'pink')
+		.attr("x", x(0.5))
+		.attr("y", function(d) { return y(d.group); })
+		.attr("width", function(d) { return x(d.value); })
+		.attr("height", y.bandwidth())
+		.attr("fill", 'pink')
 
 		// If less group in the new dataset, I delete the ones not in use anymore
 		u
@@ -308,6 +312,16 @@ console.log(dataA);
 		.remove()
 	}
 */	
+
+	svg.selectAll("rect")
+	  .on("mouseover", function(d) {
+          d3.select(this).style("fill", 'purple');
+      })
+      .on("mouseout", function(d) {
+          d3.select(this).style("fill", 'pink');
+      });
+
+
 }
 
 // Initialize the plot with the first dataset
