@@ -11,7 +11,7 @@
 The Titanic dataset is part of a <a href="https://www.kaggle.com/c/titanic">classic machine learning challenge on Kaggle</a>.  Here, we extended that dataset by labeling the test data, bringing the full passenger manifest into the analysis.  
 <p>
 We also included data about the crew, possibly for the first time ever.  This crew data has not been included in any of the Titanic data science challenges we could find, making this an interesting update to the popular challenge.
-<h3>Please click the chart below to drill-down into the survival data.</h3>
+<h3>Please click the "survivors" wedge in the pie chart below to drill-down into the survival data.</h3>
 <div>
 <!--  
   <input onclick="checkEvent('age')" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
@@ -19,7 +19,7 @@ We also included data about the crew, possibly for the first time ever.  This cr
   <input onclick="checkEvent('ticketclass')" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label> 
  -->
 </div>
-<div id="dataviz"></div>
+<div id="dataviz"  style="text-align: center"></div>
 <svg width=600 height=600></svg>
 <script> 
 function checkEvent(t) { 
@@ -80,7 +80,7 @@ const data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(functio
 		.attr("width", width)
 		.attr("height", height)
 		.append("g")
-		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+		.attr("transform", "translate(" + width / 2 + "," + height / 4 + ")")
 		.on("click", clickEvent)
 		;
 
@@ -166,6 +166,25 @@ function update() {
 //		.on("mouseout", function(d) { .attr("fill", function(d, i) { return color[i]; })
 	  ;		
 			
+
+var labelMap = [
+{key:0, value:"Survived"},
+{key:1, value:"Deceased"}
+];
+			
+var arcGenerator = d3.arc()
+  .innerRadius(0)
+  .outerRadius(radius-1.8*margin)			
+svg
+  .selectAll('mySlices')
+  .data(data_ready)
+  .enter()
+  .append('text')
+  .text(function(d){ if (d.data.key==0) { return "Survivors"; } else { return "Deceased"; } })
+  .attr("transform", function(d) { return "translate(" + arcGenerator.centroid(d) + ")";  })
+  .style("text-anchor", "middle")
+  .style("font-size", 17)
+
 
 /*
 	// this worked, but transition is no longer necessary because we moved data drill-down to 2nd page bar charts
