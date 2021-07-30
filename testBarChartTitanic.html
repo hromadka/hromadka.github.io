@@ -95,6 +95,7 @@ const data_genderM_survived = d3.nest().key(function (d){return d.Gender;}).roll
 console.log("data_genderM_survived[0] detail:",data_genderM_survived[0].value);  // <-- this returns length correctly
 
 console.log("F survival rate = " + 100*parseFloat(data_genderF_survived[0].value)/parseFloat(data_gender[0].value));
+console.log("M survival rate = " + 100*parseFloat(data_genderM_survived[0].value)/parseFloat(data_gender[1].value));
 
 //
 
