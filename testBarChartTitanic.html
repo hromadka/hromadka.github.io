@@ -4,6 +4,14 @@
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+<style>
+.axis-label {
+  fill: #000;
+  font-size: 16px;
+  text-anchor: middle;
+}
+</style>
+
 <div>
   <input onclick="loadData(0)" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
   <input onclick="nogo(1)" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
@@ -63,13 +71,38 @@ function renderData(idx, data) {
 	console.log("verifying data");
 	console.log(data);
 	console.log("verification complete");
-    //ignore click events until data is being loaded
+    // ignore click events while data is being loaded
     if(data == null) {
         return;
     }
-//    data = fileData[idx];
+
+	// perform data rollup based on chosen parameters
+	if (idx == 0) {
+		console.log("no rollup");
+	} else {
+		console.log("rollup processing for idx = " + idx);
+// note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
+const data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
+console.log("data_gender[0] detail:",data_gender[0].value);  // <-- this returns length correctly
+console.log("data_gender[1] detail:",data_gender[1].value);  // <-- this returns length correctly
+
+// these functions are great at counting values in a field by type.  We actually need survival % for each type, so need to join+filter two columns.
+// something like this:
+// entries(data.filter(function(d){ return  (d.Gender == "M" && d.Survival == 1) }))
+const data_genderF_survived = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.Survived == 1) }));
+console.log("data_genderF_survived[0] detail:",data_genderF_survived[0].value);  // <-- this returns length correctly
+const data_genderM_survived = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.Survived == 1) }));
+console.log("data_genderM_survived[0] detail:",data_genderM_survived[0].value);  // <-- this returns length correctly
+
+console.log("F survival rate = " + 100*parseFloat(data_genderF_survived[0].value)/parseFloat(data_gender[0].value));
+
+//
+
+return;
 	
-//	console.log(data)
+const data_age = d3.nest().key(function (d){return d.Age;}).rollup(function(d){return d.length;}).entries(data);
+const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data);	
+	}
 
 		
 	//var xScale = d3.scaleLinear().domain([0,100]).range([0, (width-(2*margin))]);
@@ -78,7 +111,8 @@ function renderData(idx, data) {
 //	  .domain(data.map(function(d) { return d.value; }))
 	var x = d3.scaleLinear().range([0,width]);
 	xAxis.attr("transform", "translate(0," + height + ")")
-//	  .call(d3.axisBottom(x))	  
+//	  .call(d3.axisBottom(x))
+
 
 	// Initialize the Y axis
 	var y = d3.scaleBand()
@@ -95,6 +129,23 @@ function renderData(idx, data) {
 	// fixed range on x-axis
 	x.domain([0,100])
 	xAxis.transition().duration(1000).call(d3.axisBottom(x))
+
+  // text label for the x axis
+  svg.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + margin.top + 20) + ")")
+      .style("text-anchor", "middle")
+      .text("Survival rate (%)");
+	  
+  // text label for the y axis -- vary this by selected factor(s)
+  svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Value");  	  
 
 //	console.log(data);
 
