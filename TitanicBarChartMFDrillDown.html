@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<style>
+.axis-label {
+  fill: #000;
+  font-size: 16px;
+  text-anchor: middle;
+}
+</style>
+
+<span>Please select a feature to explore: </span>
+  <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="0" /><label>Age</label>
+  <!--<input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="1" /><label>Gender</label>-->
+  <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="2" /><label>Ticket Class</label>
+  
+<div>
+<!--
+  <input onclick="loadData()" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
+  <input onclick="loadData()" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
+  <input onclick="loadData()" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
+-->
+<div id="my_datavizM"></div>
+<div id="my_datavizF"></div>
+
+<style>
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightgray;
+  border: 0px;
+  border-radius: 8px;
+}
+</style>
+
+<script>
+
+var dataX = new Map();
+
+var dataDefaultM = [
+   {group: "Total", value: 21}
+];
+var dataDefaultF = [
+   {group: "Total", value: 72}
+];
+
+
+// set the dimensions and margins of the graph
+var margin = {top: 30, right: 30, bottom: 70, left: 60},
+    width = 460 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svgM = d3.select("#my_datavizM")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+		 
+  // chart title
+  svgM.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (0) + ")")
+      .style("text-anchor", "middle")
+      .text("Male Passengers/Crew");
+		 
+  // text label for the x axis
+  svgM.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + margin.top + 20) + ")")
+      .style("text-anchor", "middle")
+      .text("Survival rate (%)");
+	  
+  // text label for the y axis -- vary this by selected factor(s)
+  svgM.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Value");  
+
+var xAxisM = svgM.append("g")
+var yAxisM = svgM.append("g")
+
+var divM = d3.select("#my_datavizM").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);	
+
+renderDataM(0,0,0, dataDefaultM);
+
+/////////////////////////////////////////////////////
+// append the svg object to the body of the page
+var svgF = d3.select("#my_datavizF")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+		 
+  // chart title
+  svgF.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (0) + ")")
+      .style("text-anchor", "middle")
+      .text("Female Passengers/Crew");
+		 
+  // text label for the x axis
+  svgF.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + margin.top + 20) + ")")
+      .style("text-anchor", "middle")
+      .text("Survival rate (%)");
+	  
+  // text label for the y axis -- vary this by selected factor(s)
+  svgF.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Value"); 
+
+var xAxisF = svgF.append("g")
+var yAxisF = svgF.append("g")
+
+var divF = d3.select("#my_datavizF").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);	
+
+renderDataF(0,0,0, dataDefaultF);
+
+
+
+/////////////////////////////////////////////////////
+
+
+
+// colors: http://bl.ocks.org/mbostock/5577023
+//var color = d3.scale.ordinal().range(["#d73027","#f46d43","#fdae61","#fee090","#e0f3f8","#abd9e9","#74add1","#4575b4"]);
+	
+	
+function renderDataM(idxAge, idxGender, idxClass, data) {
+
+	console.log("renderDataM(" + idxAge + "," + idxGender + "," +  idxClass + ")");
+	
+	var data_gender;
+	var data_gender_sorted = [];
+	
+	var data_age;
+	var data_age_sorted = [];
+	
+	var data_class;
+	var data_class_sorted = [];
+	
+//	console.log("verifying data");
+//	console.log(data);
+//	console.log("verification complete");
+
+    // ignore click events while data is being loaded
+    if(data == null) {
+        return;
+    }
+
+	// perform data rollup based on chosen parameters
+	if (idxAge+idxGender+idxClass == 0) {
+		console.log("no rollup");
+		data = dataDefaultM;
+	} else if (idxAge == 0 && idxGender == 1 && idxClass == 0) {
+		console.log("rollup processing for idx = " + idxGender);
+		data = dataDefaultM;
+	} else if (idxAge == 0 && idxGender == 0 && idxClass == 1) {
+		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
+// note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
+data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M") }));	
+data_class_sorted[0] = data_class[0].value;
+data_class_sorted[1] = data_class[1].value;
+data_class_sorted[2] = data_class[2].value;
+data_class_sorted[3] = data_class[3].value;
+
+// TODO find a way to do this dynamically!
+// TODO try crossfilter(data);
+const data_class1_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.Class == "1" && d.Survived == 1) }));
+const data_class2_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.Class == "2" && d.Survived == 1) }));
+const data_class3_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.Class == "3" && d.Survived == 1) }));
+const data_classC_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.Class == "Crew" && d.Survived == 1) }));
+
+surv1 = 100*parseFloat(data_class1_survived[0].value)/parseFloat(data_class[0].value);
+surv2 = 100*parseFloat(data_class2_survived[0].value)/parseFloat(data_class[1].value);
+surv3 = 100*parseFloat(data_class3_survived[0].value)/parseFloat(data_class[2].value);
+survC = 100*parseFloat(data_classC_survived[0].value)/parseFloat(data_class[3].value);
+//console.log("F survival rate = " + Fsurv);
+//console.log("M survival rate = " + Msurv);
+
+var dataC = [
+   {group: "1st", value: surv1},
+   {group: "2nd", value: surv2},
+   {group: "3rd", value: surv3},
+   {group: "Crew", value: survC}
+];
+data = dataC;
+//console.log("printing dataC now:")
+//console.log(dataC);
+
+	} else if (idxAge == 1 && idxGender == 0 && idxClass == 0) {
+		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
+// note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
+data_age = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M") }));
+data_age_sorted[0] = data_age[2].value;
+data_age_sorted[1] = data_age[1].value;
+data_age_sorted[2] = data_age[0].value;
+data_age_sorted[3] = data_age[4].value;
+data_age_sorted[4] = data_age[3].value;
+data_age_sorted[5] = data_age[5].value;
+data_age_sorted[6] = data_age[6].value;
+data_age_sorted[7] = data_age[7].value;
+	
+// data_age is unsorted!
+//console.log(data_age);
+//console.log("data_age[0] detail:",data_age[0].value);  // <-- this returns length correctly
+//console.log("data_age[1] detail:",data_age[1].value);  // <-- this returns length correctly
+
+// TODO find a way to do this dynamically!
+const data_age0_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "< 10" && d.Survived == 1) }));
+const data_age1_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "11-20" && d.Survived == 1) }));
+const data_age2_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "21-30" && d.Survived == 1) }));
+const data_age3_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "31-40" && d.Survived == 1) }));
+const data_age4_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "41-50" && d.Survived == 1) }));
+const data_age5_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "51-60" && d.Survived == 1) }));
+const data_age6_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "61-70" && d.Survived == 1) }));
+const data_age7_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "M" && d.AgeBinned == "71+" && d.Survived == 1) }));
+//console.log("data_age0_survived[0] detail:",data_age0_survived[0].value);  // <-- this returns length correctly
+//console.log("data_age1_survived[1] detail:",data_age1_survived[0].value);  // <-- this returns length correctly
+
+// note: careful if no survivors for a specific subgroup
+surv0 = 100*parseFloat(data_age0_survived[0].value)/parseFloat(data_age[2].value);
+surv1 = 100*parseFloat(data_age1_survived[0].value)/parseFloat(data_age[1].value);
+surv2 = 100*parseFloat(data_age2_survived[0].value)/parseFloat(data_age[0].value);
+surv3 = 100*parseFloat(data_age3_survived[0].value)/parseFloat(data_age[4].value);
+surv4 = 100*parseFloat(data_age4_survived[0].value)/parseFloat(data_age[3].value);
+surv5 = 100*parseFloat(data_age5_survived[0].value)/parseFloat(data_age[5].value);
+surv6 = 100*parseFloat(data_age6_survived[0].value)/parseFloat(data_age[6].value);
+surv7 = 100*parseFloat(data_age7_survived[0].value)/parseFloat(data_age[7].value);
+//console.log("F survival rate = " + Fsurv);
+//console.log("M survival rate = " + Msurv);
+
+		var dataA = [
+		   {group: "< 10", value: surv0},
+		   {group: "11-20", value: surv1},
+		   {group: "21-30", value: surv2},
+		   {group: "31-40", value: surv3},
+		   {group: "41-50", value: surv4},
+		   {group: "51-60", value: surv5},
+		   {group: "61-70", value: surv6},
+		   {group: "71+", value: surv7}
+		];
+		data = dataA;
+
+	} else {
+		console.log("state case not implemented yet.");
+		data = dataDefaultM;
+	}
+
+		
+	
+	// Initialize the X axis
+	var x = d3.scaleLinear().range([0,width]);
+	xAxisM.attr("transform", "translate(0," + height + ")")
+
+
+	// Initialize the Y axis
+	var y = d3.scaleBand()
+	  .range([0,height])
+	  .padding(0.1);  // this will place a gap between bars; will be useful with doing M/F dimension
+	yAxisM.attr("class", "myYaxis")
+
+
+	// Update the X axis - fixed range on x-axis
+	x.domain([0,100])
+	xAxisM.transition().duration(1000).call(d3.axisBottom(x))
+
+
+	// Update the Y axis
+	if (idxAge+idxGender+idxClass == 0) {
+		console.log("y-axis 0")
+		y.domain(data.map(function(d){ return d.group; }))
+	} else {
+		console.log("y-axis 1")
+		y.domain(data.map(function(d){ return d.group; }))	
+	}
+	yAxisM.transition().duration(1000).call(d3.axisLeft(y));
+	console.log("survived y-axis");
+
+	// Create the u variable
+	var u = svgM.selectAll("rect")
+	.data(data)	
+
+//	if (idx == 0) {
+		u
+		.enter()
+		.append("rect") // Add a new rect for each new elements
+		.merge(u) // get the already existing elements as well
+		.transition() // and apply changes to all of them
+		.duration(1000)
+		.attr("x", x(0.5))
+		.attr("y", function(d) { return y(d.group); })
+		.attr("width", function(d) { return x(d.value); })
+		.attr("height", y.bandwidth())
+		.attr("fill", 'lightblue')
+
+		// If less group in the new dataset, I delete the ones not in use anymore
+		u
+		.exit()
+		.remove()
+/*
+	} else {
+		u
+		.enter()
+		.append("rect") // Add a new rect for each new elements
+		.merge(u) // get the already existing elements as well
+		.transition() // and apply changes to all of them
+		.duration(1000)
+		  .attr("x", x(0))
+		  .attr("y", function(d) { return y(d.group); })
+		  .attr("width", function(d) { return x(d.value); })
+		  .attr("height", y.bandwidth())
+		  .attr("fill", "#69b3a2")
+
+		// If less group in the new dataset, I delete the ones not in use anymore
+		u
+		.exit()
+		.remove()
+	}
+*/	
+
+	// mouse events
+	if (idxAge + idxClass + idxGender == 0) {
+		svgM.selectAll("rect")
+		  .on("mouseover", function(d) {
+			  d3.select(this).style("fill", 'purple');
+				divM.transition().duration(200).style("opacity", 0.9);
+				divM.html("351 survived (M)")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'lightblue');
+			  divM.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxAge == 1) {
+		svgM.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				divM.transition().duration(200).style("opacity", 0.9);
+				divM.html(parseInt(d.value / 100.0 * data_age_sorted[i]) + " survived (M)")       
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'lightblue');
+			  divM.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxGender == 1) {
+		svgM.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				divM.transition().duration(200).style("opacity", 0.9);
+				divM.html(parseInt(d.value / 100.0 * data_gender_sorted[i]) + " survived (M)")       
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'lightblue');
+			  divM.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxClass == 1) {
+		svgM.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				divM.transition().duration(200).style("opacity", 0.9);
+				divM.html(parseInt(d.value / 100.0 * data_class_sorted[i]) + " survived (M)")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'lightblue');
+			  divM.transition().duration(200).style("opacity", 0);
+		  });		  
+	}
+	  
+	var labels = svgM.selectAll(".label").data(data)
+	labels.enter()
+		.append("text")
+		.merge(labels)
+        .transition()
+        .duration(1000)		
+		.attr("class","label")
+		.attr("x", function(d) { return x(d.value) - margin.left/2; })
+		.attr("y",  function(d) { return y(d.group) + y.bandwidth()/2; })
+		.text(function(d) { return d.value.toFixed(0) + "%"; }); 	  
+	labels.exit()
+		.remove();
+
+}  // renderDataM()
+
+/***************************************************/
+function renderDataF(idxAge, idxGender, idxClass, data) {
+
+	console.log("renderDataF(" + idxAge + "," + idxGender + "," +  idxClass + ")");
+	
+	var data_gender;
+	var data_gender_sorted = [];
+	
+	var data_age;
+	var data_age_sorted = [];
+	
+	var data_class;
+	var data_class_sorted = [];
+	
+//	console.log("verifying data");
+//	console.log(data);
+//	console.log("verification complete");
+
+    // ignore click events while data is being loaded
+    if(data == null) {
+        return;
+    }
+
+	// perform data rollup based on chosen parameters
+	if (idxAge+idxGender+idxClass == 0) {
+		console.log("no rollup");
+		data = dataDefaultF;
+	} else if (idxAge == 0 && idxGender == 1 && idxClass == 0) {
+		console.log("rollup processing for idx = " + idxGender);
+		data = dataDefaultF;
+	} else if (idxAge == 0 && idxGender == 0 && idxClass == 1) {
+		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
+// note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
+data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F") }));	
+data_class_sorted[0] = data_class[0].value;
+data_class_sorted[1] = data_class[1].value;
+data_class_sorted[2] = data_class[2].value;
+data_class_sorted[3] = data_class[3].value;
+
+// TODO find a way to do this dynamically!
+// TODO try crossfilter(data);
+const data_class1_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.Class == "1" && d.Survived == 1) }));
+const data_class2_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.Class == "2" && d.Survived == 1) }));
+const data_class3_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.Class == "3" && d.Survived == 1) }));
+const data_classC_survived = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.Class == "Crew" && d.Survived == 1) }));
+
+surv1 = 100*parseFloat(data_class1_survived[0].value)/parseFloat(data_class[0].value);
+surv2 = 100*parseFloat(data_class2_survived[0].value)/parseFloat(data_class[1].value);
+surv3 = 100*parseFloat(data_class3_survived[0].value)/parseFloat(data_class[2].value);
+survC = 100*parseFloat(data_classC_survived[0].value)/parseFloat(data_class[3].value);
+//console.log("F survival rate = " + Fsurv);
+//console.log("M survival rate = " + Msurv);
+
+var dataC = [
+   {group: "1st", value: surv1},
+   {group: "2nd", value: surv2},
+   {group: "3rd", value: surv3},
+   {group: "Crew", value: survC}
+];
+data = dataC;
+//console.log("printing dataC now:")
+//console.log(dataC);
+
+	} else if (idxAge == 1 && idxGender == 0 && idxClass == 0) {
+		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
+// note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
+data_age = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F") }));
+data_age_sorted[0] = data_age[3].value;
+data_age_sorted[1] = data_age[1].value;
+data_age_sorted[2] = data_age[0].value;
+data_age_sorted[3] = data_age[2].value;
+data_age_sorted[4] = data_age[6].value;
+data_age_sorted[5] = data_age[5].value;
+data_age_sorted[6] = data_age[4].value;
+data_age_sorted[7] = data_age[7].value;
+	
+// data_age is unsorted!
+//console.log(data_age);
+//console.log("data_age[0] detail:",data_age[0].value);  // <-- this returns length correctly
+//console.log("data_age[1] detail:",data_age[1].value);  // <-- this returns length correctly
+
+// TODO find a way to do this dynamically!
+const data_age0_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "< 10" && d.Survived == 1) }));
+const data_age1_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "11-20" && d.Survived == 1) }));
+const data_age2_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "21-30" && d.Survived == 1) }));
+const data_age3_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "31-40" && d.Survived == 1) }));
+const data_age4_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "41-50" && d.Survived == 1) }));
+const data_age5_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "51-60" && d.Survived == 1) }));
+const data_age6_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "61-70" && d.Survived == 1) }));
+const data_age7_survived = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data.filter(function(d){ return  (d.Gender == "F" && d.AgeBinned == "71+" && d.Survived == 1) }));
+//console.log("data_age0_survived[0] detail:",data_age0_survived[0].value);  // <-- this returns length correctly
+//console.log("data_age1_survived[1] detail:",data_age1_survived[0].value);  // <-- this returns length correctly
+
+// note: careful if no survivors for a specific subgroup
+surv0 = 100*parseFloat(data_age0_survived[0].value)/parseFloat(data_age[3].value);
+surv1 = 100*parseFloat(data_age1_survived[0].value)/parseFloat(data_age[1].value);
+surv2 = 100*parseFloat(data_age2_survived[0].value)/parseFloat(data_age[0].value);
+surv3 = 100*parseFloat(data_age3_survived[0].value)/parseFloat(data_age[2].value);
+surv4 = 100*parseFloat(data_age4_survived[0].value)/parseFloat(data_age[6].value);
+surv5 = 100*parseFloat(data_age5_survived[0].value)/parseFloat(data_age[5].value);
+surv6 = 100*parseFloat(data_age6_survived[0].value)/parseFloat(data_age[4].value);
+surv7 = 100*parseFloat(data_age7_survived[0].value)/parseFloat(data_age[7].value);
+
+
+		var dataA = [
+		   {group: "< 10", value: surv0},
+		   {group: "11-20", value: surv1},
+		   {group: "21-30", value: surv2},
+		   {group: "31-40", value: surv3},
+		   {group: "41-50", value: surv4},
+		   {group: "51-60", value: surv5},
+		   {group: "61-70", value: surv6},
+		   {group: "71+", value: surv7}
+		];
+		data = dataA;
+
+	} else {
+		console.log("state case not implemented yet.");
+		data = dataDefaultF;
+	}
+
+		
+	
+	// Initialize the X axis
+	var x = d3.scaleLinear().range([0,width]);
+	xAxisF.attr("transform", "translate(0," + height + ")")
+
+
+	// Initialize the Y axis
+	var y = d3.scaleBand()
+	  .range([0,height])
+	  .padding(0.1);  // this will place a gap between bars; will be useful with doing M/F dimension
+	yAxisF.attr("class", "myYaxis")
+
+
+	// Update the X axis - fixed range on x-axis
+	x.domain([0,100])
+	xAxisF.transition().duration(1000).call(d3.axisBottom(x))
+
+
+	// Update the Y axis
+	if (idxAge+idxGender+idxClass == 0) {
+		console.log("y-axis 0")
+		y.domain(data.map(function(d){ return d.group; }))
+	} else {
+		console.log("y-axis 1")
+		y.domain(data.map(function(d){ return d.group; }))	
+	}
+	yAxisF.transition().duration(1000).call(d3.axisLeft(y));
+	console.log("survived y-axis");
+
+	// Create the u variable
+	var u = svgF.selectAll("rect")
+	.data(data)	
+
+//	if (idx == 0) {
+		u
+		.enter()
+		.append("rect") // Add a new rect for each new elements
+		.merge(u) // get the already existing elements as well
+		.transition() // and apply changes to all of them
+		.duration(1000)
+		.attr("x", x(0.5))
+		.attr("y", function(d) { return y(d.group); })
+		.attr("width", function(d) { return x(d.value); })
+		.attr("height", y.bandwidth())
+		.attr("fill", 'pink')
+
+		// If less group in the new dataset, I delete the ones not in use anymore
+		u
+		.exit()
+		.remove()
+
+
+	// mouse events
+	if (idxAge + idxClass + idxGender == 0) {
+		svgF.selectAll("rect")
+		  .on("mouseover", function(d) {
+			  d3.select(this).style("fill", 'purple');
+				divF.transition().duration(200).style("opacity", 0.9);
+				divF.html("352 survived (F)")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  divF.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxAge == 1) {
+		svgF.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				divF.transition().duration(200).style("opacity", 0.9);
+				divF.html(parseInt(d.value / 100.0 * data_age_sorted[i]) + " survived (F)")       
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  divF.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxGender == 1) {
+		svgF.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				divF.transition().duration(200).style("opacity", 0.9);
+				divF.html(parseInt(d.value / 100.0 * data_gender_sorted[i]) + " survived (F)")       
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  divF.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxClass == 1) {
+		svgF.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				divF.transition().duration(200).style("opacity", 0.9);
+				divF.html(parseInt(d.value / 100.0 * data_class_sorted[i]) + " survived (F)")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  divF.transition().duration(200).style("opacity", 0);
+		  });		  
+	}
+	  
+	var labels = svgF.selectAll(".label").data(data)
+	labels.enter()
+		.append("text")
+		.merge(labels)
+        .transition()
+        .duration(1000)		
+		.attr("class","label")
+		.attr("x", function(d) { return x(d.value) - margin.left/2; })
+		.attr("y",  function(d) { return y(d.group) + y.bandwidth()/2; })
+		.text(function(d) { return d.value.toFixed(0) + "%"; }); 	  
+	labels.exit()
+		.remove();
+
+}  // renderDataF()
+
+
+
+function callback(data) {
+	console.log("callback OK");
+//	console.log(data);
+
+	var states = [0,0,0];
+	states[d3.select('input[name="myRadios"]:checked').property("value")] = 1;
+	console.log(states)
+	
+	renderDataM(states[0], states[1], states[2], data);
+	renderDataF(states[0], states[1], states[2], data);
+}
+
+
+async function loadData() {
+	console.log("loadData()");
+	await d3.csv('https://hromadka.github.io/data/titanicdatabase_curated.csv', callback);	
+};
+
+
+function nogo(idx) { 
+	console.log("clicked " + idx);
+}
+
+</script>
+
+</body>
+</html>
