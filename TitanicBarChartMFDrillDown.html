@@ -409,7 +409,7 @@ surv7 = 100*parseFloat(data_age7_survived[0].value)/parseFloat(data_age[7].value
         .transition()
         .duration(1000)		
 		.attr("class","label")
-		.attr("x", function(d) { return x(d.value) - margin.left/2; })
+		.attr("x", function(d) { return x(d.value) + 10; })
 		.attr("y",  function(d) { return y(d.group) + y.bandwidth()/2; })
 		.text(function(d) { return d.value.toFixed(0) + "%"; }); 	  
 	labels.exit()
@@ -653,7 +653,7 @@ surv7 = 100*parseFloat(data_age7_survived[0].value)/parseFloat(data_age[7].value
         .transition()
         .duration(1000)		
 		.attr("class","label")
-		.attr("x", function(d) { return x(d.value) - margin.left/2; })
+		.attr("x", function(d) { return x(d.value) + 10; })
 		.attr("y",  function(d) { return y(d.group) + y.bandwidth()/2; })
 		.text(function(d) { return d.value.toFixed(0) + "%"; }); 	  
 	labels.exit()

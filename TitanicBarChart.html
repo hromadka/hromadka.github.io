@@ -25,9 +25,11 @@
 -->
 <div id="my_dataviz"></div>
 
-<button name="drill" onclick="window.location.href='https://hromadka.github.io/TitanicBarChartMFDrillDown.html';">
+<!--
+<button name="drill" onclick="window.location.href='https://hromadka.github.io/TitanicBarChartMFDrillDown.html';" style="display:none;">
   2D Drill-Down
 </button>
+-->
 
 <style>
 div.tooltip {
@@ -49,29 +51,12 @@ div.tooltip {
 //var data0 = "https://hromadka.github.io/data/titanicdatabase_curated.csv";
 //var fileData = null;
 
-// create 2 datasets for offline testing
-var data1 = [
-   {group: "A", value: 24},
-   {group: "B", value: 16},
-   {group: "C", value: 1}
-];
-
-var data2 = [
-   {group: "A", value: 24},
-   {group: "B", value: 16},
-   {group: "C", value: 1},
-   {group: "D", value: 4},
-   {group: "E", value: 48}
-];
 
 var dataX = new Map();
 
 var dataDefault = [
    {group: "Total", value: 32.4}
 ];
-
-var allData = data2;
-console.log(allData);
 
 
 // set the dimensions and margins of the graph
@@ -87,6 +72,7 @@ var svg = d3.select("#my_dataviz")
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
+		  
 		  
   // text label for the x axis
   svg.append("text")             
@@ -104,6 +90,9 @@ var svg = d3.select("#my_dataviz")
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Value");  
+	  
+   svg.on("click", clickChartEvent);
+
 
 var xAxis = svg.append("g")
 var yAxis = svg.append("g")
@@ -398,7 +387,7 @@ data = dataA;
 		  .on("mouseover", function(d,i) {
 			  d3.select(this).style("fill", 'purple');
 				div.transition().duration(200).style("opacity", 0.9);
-				div.html(parseInt(d.value / 100.0 * data_gender_sorted[i]) + ' survived.')
+				div.html(parseInt(d.value / 100.0 * data_gender_sorted[i]) + ' survived.' + '<br><br><br>' + 'Please click on this chart to drill-down more into this data dimension!' )
 				.style("left", (width) + "px")             
 				.style("top", (100) + "px");
 		  })
@@ -478,30 +467,25 @@ for (var i = 0; i < rad.length; i++) {
 }
 */
 
+function clickChartEvent() {
+	console.log("clicked chart!");
+	window.location.href = 'https://hromadka.github.io/TitanicBarChartMFDrillDown.html';
+}
+
 function callback(data) {
 	console.log("callback OK");
-//	console.log(data);
 
 	var states = [0,0,0];
-//	console.log(states)
-/*
-	// survey all checkboxes for current state parameters
-	d3.selectAll(".checkbox").each(function(d, i){
-        cb = d3.select(this);
-        grp = cb.property("value")
-
-        // If the box is check, I show the group
-        if(cb.property("checked")){
-          console.log("checked " + grp);
-		  states[i]=1;
-        }else{
-          console.log("unchecked " + grp);
-        }
-      })
-*/
-
 	states[d3.select('input[name="myRadios"]:checked').property("value")] = 1;
 	console.log(states)
+	
+	/*
+	if (states[1] == 1) {
+		toggleButton(true);
+	} else {
+		toggleButton(false);
+	}
+	*/
 	
 	renderData(states[0], states[1], states[2], data);
 }
