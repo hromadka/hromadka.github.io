@@ -25,6 +25,20 @@
 -->
 <div id="my_dataviz"></div>
 
+<style>
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+}
+</style>
+
 <script>
 
 
@@ -90,6 +104,10 @@ var svg = d3.select("#my_dataviz")
 var xAxis = svg.append("g")
 var yAxis = svg.append("g")
 
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);	
+
 renderData(0,0,0, dataDefault);
 
 // colors: http://bl.ocks.org/mbostock/5577023
@@ -100,6 +118,9 @@ renderData(0,0,0, dataDefault);
 function renderData(idxAge, idxGender, idxClass, data) {
 
 	console.log("renderData(" + idxAge + "," + idxGender + "," +  idxClass + ")");
+	
+	var data_gender;
+	var data_gender_sorted = [];
 	
 //	console.log("verifying data");
 //	console.log(data);
@@ -117,7 +138,7 @@ function renderData(idxAge, idxGender, idxClass, data) {
 	} else if (idxAge == 0 && idxGender == 1 && idxClass == 0) {
 		console.log("rollup processing for idx = " + idxGender);
 // note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
-const data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
+data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(function(d){return d.length;}).entries(data);
 console.log("data_gender[0] detail:",data_gender[0].value);  // <-- this returns length correctly
 console.log("data_gender[1] detail:",data_gender[1].value);  // <-- this returns length correctly
 
@@ -133,6 +154,8 @@ Fsurv = 100*parseFloat(data_genderF_survived[0].value)/parseFloat(data_gender[0]
 Msurv = 100*parseFloat(data_genderM_survived[0].value)/parseFloat(data_gender[1].value);
 console.log("F survival rate = " + Fsurv);
 console.log("M survival rate = " + Msurv);
+data_gender_sorted[0] = data_gender[1].value;
+data_gender_sorted[1] = data_gender[0].value;
 
 /*
 // having trouble dynamically creating this map based on values of this field
@@ -321,13 +344,61 @@ data = dataA;
 */	
 
 	// mouse events
-	svg.selectAll("rect")
-	  .on("mouseover", function(d) {
-          d3.select(this).style("fill", 'purple');
-      })
-      .on("mouseout", function(d) {
-          d3.select(this).style("fill", 'pink');
-      });
+	if (idxAge + idxClass + idxGender == 0) {
+		svg.selectAll("rect")
+		  .on("mouseover", function(d) {
+			  d3.select(this).style("fill", 'purple');
+				div.transition().duration(200).style("opacity", 0.9);
+				div.html(parseInt(d.value * 21.69) + " survived")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  div.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxAge == 1) {
+		svg.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				div.transition().duration(200).style("opacity", 0.9);
+				div.html(parseInt(d.value * 2.169) + " survived")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  div.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxGender == 1) {
+		svg.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				div.transition().duration(200).style("opacity", 0.9);
+				//var not_i = Math.abs(0-i);
+				//console.log(d.value + "," + data_gender[not_i].value);
+				div.html(parseInt(d.value / 100.0 * data_gender_sorted[i]) + " survived")       
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  div.transition().duration(200).style("opacity", 0);
+		  });
+	} else if (idxClass == 1) {
+		svg.selectAll("rect")
+		  .on("mouseover", function(d,i) {
+			  d3.select(this).style("fill", 'purple');
+				div.transition().duration(200).style("opacity", 0.9);
+				div.html(parseInt(d.value * 2.169) + " survived")     
+				.style("left", (width) + "px")             
+				.style("top", (100) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  d3.select(this).style("fill", 'pink');
+			  div.transition().duration(200).style("opacity", 0);
+		  });		  
+	}
 	  
 	var labels = svg.selectAll(".label").data(data)
 
@@ -345,7 +416,7 @@ data = dataA;
 	labels.exit()
 		.remove();
 
-}
+}  // renderData()
 
 // Initialize the plot with the first dataset
 //update(data1)
