@@ -122,6 +122,12 @@ function renderData(idxAge, idxGender, idxClass, data) {
 	var data_gender;
 	var data_gender_sorted = [];
 	
+	var data_age;
+	var data_age_sorted = [];
+	
+	var data_class;
+	var data_class_sorted = [];
+	
 //	console.log("verifying data");
 //	console.log(data);
 //	console.log("verification complete");
@@ -177,7 +183,11 @@ data = dataG;
 	} else if (idxAge == 0 && idxGender == 0 && idxClass == 1) {
 		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
 // note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
-const data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data);	
+data_class = d3.nest().key(function (d){return d.Class;}).rollup(function(d){return d.length;}).entries(data);	
+data_class_sorted[0] = data_class[0].value;
+data_class_sorted[1] = data_class[1].value;
+data_class_sorted[2] = data_class[2].value;
+data_class_sorted[3] = data_class[3].value;
 //console.log("data_gender[0] detail:",data_gender[0].value);  // <-- this returns length correctly
 //console.log("data_gender[1] detail:",data_gender[1].value);  // <-- this returns length correctly
 
@@ -209,7 +219,16 @@ data = dataC;
 	} else if (idxAge == 1 && idxGender == 0 && idxClass == 0) {
 		console.log("rollup processing for idx = " + idxAge + "," + idxGender + "," + idxClass);
 // note that to get percentage, will also need to divide by rollup total per gender (i.e., data_gender[0].value <-- length)
-const data_age = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data);	
+data_age = d3.nest().key(function (d){return d.AgeBinned;}).rollup(function(d){return d.length;}).entries(data);
+data_age_sorted[0] = data_age[3].value;
+data_age_sorted[1] = data_age[1].value;
+data_age_sorted[2] = data_age[0].value;
+data_age_sorted[3] = data_age[2].value;
+data_age_sorted[4] = data_age[4].value;
+data_age_sorted[5] = data_age[5].value;
+data_age_sorted[6] = data_age[6].value;
+data_age_sorted[7] = data_age[7].value;
+	
 // data_age is unsorted!
 //console.log(data_age);
 //console.log("data_age[0] detail:",data_age[0].value);  // <-- this returns length correctly
@@ -362,7 +381,7 @@ data = dataA;
 		  .on("mouseover", function(d,i) {
 			  d3.select(this).style("fill", 'purple');
 				div.transition().duration(200).style("opacity", 0.9);
-				div.html(parseInt(d.value * 2.169) + " survived")     
+				div.html(parseInt(d.value / 100.0 * data_age_sorted[i]) + " survived")       
 				.style("left", (width) + "px")             
 				.style("top", (100) + "px");
 		  })
@@ -375,8 +394,6 @@ data = dataA;
 		  .on("mouseover", function(d,i) {
 			  d3.select(this).style("fill", 'purple');
 				div.transition().duration(200).style("opacity", 0.9);
-				//var not_i = Math.abs(0-i);
-				//console.log(d.value + "," + data_gender[not_i].value);
 				div.html(parseInt(d.value / 100.0 * data_gender_sorted[i]) + " survived")       
 				.style("left", (width) + "px")             
 				.style("top", (100) + "px");
@@ -390,7 +407,7 @@ data = dataA;
 		  .on("mouseover", function(d,i) {
 			  d3.select(this).style("fill", 'purple');
 				div.transition().duration(200).style("opacity", 0.9);
-				div.html(parseInt(d.value * 2.169) + " survived")     
+				div.html(parseInt(d.value / 100.0 * data_class_sorted[i]) + " survived")     
 				.style("left", (width) + "px")             
 				.style("top", (100) + "px");
 		  })
