@@ -16,7 +16,7 @@
   <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="0" /><label>Age</label>
   <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="1" /><label>Gender</label>
   <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="2" /><label>Ticket Class</label>
-  
+<br><br><em>Please highlight a chart bar for more information.</em>  
 <div>
 <!--
   <input onclick="loadData()" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
@@ -82,6 +82,17 @@ var svg = d3.select("#my_dataviz")
       .style("text-anchor", "middle")
       .text("Survival rate (%)");
 	  
+	  
+/*	  
+	// text label for BELOW the x axis
+  svg.append("text")             
+      .attr("transform",
+            "translate(" + (0) + " ," + 
+                           (height + margin.top + 40) + ")")
+      .style("text-anchor", "left")
+      .text("Please highlight a chart bar for more information.");
+		  */
+	  
   // text label for the y axis -- vary this by selected factor(s)
   svg.append("text")
       .attr("transform", "rotate(-90)")
@@ -90,7 +101,8 @@ var svg = d3.select("#my_dataviz")
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Value");  
-	  
+
+    
    svg.on("click", clickChartEvent);
 
 
