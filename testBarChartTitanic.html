@@ -12,10 +12,17 @@
 }
 </style>
 
+<span>Please select a feature to explore: </span>
+  <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="0" /><label>Age</label>
+  <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="1" /><label>Gender</label>
+  <input onclick="loadData()" name="myRadios" type="radio" class="radio"  value="2" /><label>Ticket Class</label>
+  
 <div>
+<!--
   <input onclick="loadData()" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
   <input onclick="loadData()" type="checkbox" class="checkbox" value="Gender" unchecked><label>Gender</label>
   <input onclick="loadData()" type="checkbox" class="checkbox" value="Class" unchecked><label>Ticket Class</label>
+-->
 <div id="my_dataviz"></div>
 
 <script>
@@ -86,8 +93,7 @@ var yAxis = svg.append("g")
 renderData(0,0,0, dataDefault);
 
 // colors: http://bl.ocks.org/mbostock/5577023
-var color = d3.scale.ordinal()
-    .range(["#d73027","#f46d43","#fdae61","#fee090","#e0f3f8","#abd9e9","#74add1","#4575b4"]);
+//var color = d3.scale.ordinal().range(["#d73027","#f46d43","#fdae61","#fee090","#e0f3f8","#abd9e9","#74add1","#4575b4"]);
 	
 	
 // A function that create / update the plot for a given variable:
@@ -366,12 +372,27 @@ Promise.all([
 });
 */
 
+/*
+var rad = document.myForm.myRadios;
+var prev = null;
+for (var i = 0; i < rad.length; i++) {
+    rad[i].addEventListener('change', function() {
+        (prev) ? console.log(prev.value): null;
+        if (this !== prev) {
+            prev = this;
+        }
+        console.log(this.value)
+    });
+}
+*/
+
 function callback(data) {
 	console.log("callback OK");
 	console.log(data);
 
 	var states = [0,0,0];
 //	console.log(states)
+/*
 	// survey all checkboxes for current state parameters
 	d3.selectAll(".checkbox").each(function(d, i){
         cb = d3.select(this);
@@ -384,10 +405,11 @@ function callback(data) {
         }else{
           console.log("unchecked " + grp);
         }
-      })	
+      })
+*/
+
+	states[d3.select('input[name="myRadios"]:checked').property("value")] = 1;
 	console.log(states)
-	
-	
 	
 	renderData(states[0], states[1], states[2], data);
 }
