@@ -11,7 +11,7 @@
 The Titanic dataset is part of a <a href="https://www.kaggle.com/c/titanic">classic machine learning challenge on Kaggle</a>.  Here, we extended that dataset by labeling the test data, bringing the full passenger manifest into the analysis.  
 <p>
 We also included data about the crew, possibly for the first time ever.  This crew data has not been included in any of the Titanic data science challenges we could find, making this an interesting update to the popular challenge.
-<h3>Please click the "survivors" wedge in the pie chart below to drill-down into the survival data.</h3>
+<h3>Please click the pie chart below to drill-down into the survival data.</h3>
 <div>
 <!--  
   <input onclick="checkEvent('age')" type="checkbox" class="checkbox" value="Age" unchecked><label>Age</label>
@@ -21,6 +21,20 @@ We also included data about the crew, possibly for the first time ever.  This cr
 </div>
 <div id="dataviz"  style="text-align: center"></div>
 <svg width=600 height=600></svg>
+<style>
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+}
+</style>
+
 <script> 
 function checkEvent(t) { 
 	console.log(t); 
@@ -83,6 +97,10 @@ const data_gender = d3.nest().key(function (d){return d.Gender;}).rollup(functio
 		.attr("transform", "translate(" + width / 2 + "," + height / 4 + ")")
 		.on("click", clickEvent)
 		;
+		
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);		
 
 function update() {
 	console.log("update()");
@@ -139,7 +157,13 @@ function update() {
 		.attr("stroke", "white")
 		.style("stroke-width", "2px")
 		.style("opacity", 1)
-		.on("mouseover", function(d) { d3.select(this).style("fill", 'purple'); } )
+		.on("mouseover", function(d) { 
+			d3.select(this).style("fill", 'purple');
+			div.transition().duration(200).style("opacity", 0.9);
+			div.html(d.value + " of 2169")     
+			 .style("left", (d3.event.pageX) + "px")             
+			 .style("top", (d3.event.pageY - margin) + "px");
+		} )
 		.on("mouseout", function(d, i) { d3.select(this).style("fill", color[i]); });
 //		.on("mouseout", function(d) { d3.select(this).style("fill", function(d, i) { return color[i]; }); } )
 //		.on("mouseout", function(d) { .attr("fill", function(d, i) { return color[i]; })
@@ -163,6 +187,8 @@ svg
   .attr("transform", function(d) { return "translate(" + arcGenerator.centroid(d) + ")";  })
   .style("text-anchor", "middle")
   .style("font-size", 15)
+
+  
 
 
 /*
