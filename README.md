@@ -7,8 +7,8 @@ All of the Titanic datasets vary slightly.  In this dataset, our working numbers
 We include the musicians as "crew".  Passengers younger than one year are labeled as age 1.  We don't include passengers/crew who disembarked at Cherbourg.  Passengers who died shortly after rescue are still considered to be "survivors" because they were alive at the time of rescue.  
 
 ### Primary
-passengers: https://titanicfacts.net/titanic-passengers/
-crew: https://titanicfacts.net/titanic-crew/
+- passengers: https://titanicfacts.net/titanic-passengers/
+- crew: https://titanicfacts.net/titanic-crew/
 
 ### Validation
 - https://titanicdatabase.fandom.com/wiki/Titanic_Database_Wiki
