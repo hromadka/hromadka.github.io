@@ -8,7 +8,6 @@ We include the musicians as "crew".  Passengers younger than one year are labele
 
 ### Primary
 passengers: https://titanicfacts.net/titanic-passengers/
-
 crew: https://titanicfacts.net/titanic-crew/
 
 ### Validation
@@ -16,7 +15,5 @@ https://titanicdatabase.fandom.com/wiki/Titanic_Database_Wiki
 https://titanicdatabase.fandom.com/wiki/Passengers_of_the_RMS_Titanic
 https://titanicdatabase.fandom.com/wiki/Crew_of_the_RMS_Titanic
 https://titanicdatabase.fandom.com/wiki/Musicians_of_the_RMS_Titanic
-
 https://www.encyclopedia-titanica.org/titanic-passenger-list/
-
 https://datarepository.wolframcloud.com/resources/Sample-Data-Titanic-Survival
